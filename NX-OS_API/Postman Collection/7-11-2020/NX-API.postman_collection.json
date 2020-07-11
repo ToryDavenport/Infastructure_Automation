@@ -1,0 +1,331 @@
+{
+	"info": {
+		"_postman_id": "3283df77-2607-48c0-a71c-d361bb919e90",
+		"name": "NX-API",
+		"description": "NX-API Collection by Tory Davenport",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "show cdp neighbors (json-cli_show)",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"ins_api\": {\n    \"version\": \"1.2\",\n    \"type\": \"cli_show\",\n    \"chunk\": \"0\",\n    \"sid\": \"1\",\n    \"input\": \"show cdp nei \",\n    \"output_format\": \"json\"\n  }\n}"
+				},
+				"url": {
+					"raw": "http://{{ip}}:{{port}}/ins",
+					"protocol": "http",
+					"host": [
+						"{{ip}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"ins"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "show cdp neighbors (json-cli_show)",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"ins_api\": {\n    \"version\": \"1.2\",\n    \"type\": \"cli_show\",\n    \"chunk\": \"0\",\n    \"sid\": \"1\",\n    \"input\": \"show cdp nei \",\n    \"output_format\": \"json\"\n  }\n}"
+						},
+						"url": {
+							"raw": "http://{{ip}}:{{port}}/ins",
+							"protocol": "http",
+							"host": [
+								"{{ip}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"ins"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.4.5"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 11 Jul 2020 16:38:07 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"ins_api\": {\n        \"type\": \"cli_show\",\n        \"version\": \"1.2\",\n        \"sid\": \"eoc\",\n        \"outputs\": {\n            \"output\": {\n                \"input\": \"show cdp nei \",\n                \"msg\": \"Success\",\n                \"code\": \"200\",\n                \"body\": {\n                    \"neigh_count\": 1,\n                    \"TABLE_cdp_neighbor_brief_info\": {\n                        \"ROW_cdp_neighbor_brief_info\": {\n                            \"ifindex\": 436731904,\n                            \"device_id\": \"Dev-Access-SW01.davenport.lab\",\n                            \"intf_id\": \"Ethernet2/1\",\n                            \"ttl\": 151,\n                            \"capability\": [\n                                \"router\",\n                                \"switch\",\n                                \"IGMP_cnd_filtering\"\n                            ],\n                            \"platform_id\": \"Cisco \",\n                            \"port_id\": \"GigabitEthernet1/0\"\n                        }\n                    }\n                }\n            }\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "show ip int bri (json-cli_show)",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"ins_api\": {\n    \"version\": \"1.2\",\n    \"type\": \"cli_show\",\n    \"chunk\": \"0\",\n    \"sid\": \"1\",\n    \"input\": \"show ip int bri\"\n    \"output_format\": \"json\"\n  }\n}"
+				},
+				"url": {
+					"raw": "http://{{ip}}:{{port}}/ins",
+					"protocol": "http",
+					"host": [
+						"{{ip}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"ins"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "shutdown interface e2/1 (json-cli_conf)",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"ins_api\": {\n    \"version\": \"1.2\",\n    \"type\": \"cli_conf\",\n    \"chunk\": \"0\",\n    \"sid\": \"1\",\n    \"input\": \"interface ethernet2/1\",\"shutdown\"\n    \"output_format\": \"json\"\n  }\n}"
+				},
+				"url": {
+					"raw": "http://{{ip}}:{{port}}/ins",
+					"protocol": "http",
+					"host": [
+						"{{ip}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"ins"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "no shutdown interface e2/1 (json-cli_conf)",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"ins_api\": {\n    \"version\": \"1.2\",\n    \"type\": \"cli_conf\",\n    \"chunk\": \"0\",\n    \"sid\": \"1\",\n    \"input\": \"interface ethernet2/1\",\"no shutdown\"\n    \"output_format\": \"json\"\n  }\n}"
+				},
+				"url": {
+					"raw": "http://{{ip}}:{{port}}/ins",
+					"protocol": "http",
+					"host": [
+						"{{ip}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"ins"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "show cdp neighbors (json cli-show_ascii)",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"ins_api\": {\n    \"version\": \"1.2\",\n    \"type\": \"cli_ascii\",\n    \"chunk\": \"0\",\n    \"sid\": \"1\",\n    \"input\": \"show cdp nei \",\n    \"output_format\": \"json\"\n  }\n}"
+				},
+				"url": {
+					"raw": "http://{{ip}}:{{port}}/ins",
+					"protocol": "http",
+					"host": [
+						"{{ip}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"ins"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ls (json-bash)",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"ins_api\": {\n    \"version\": \"1.2\",\n    \"type\": \"bash\",\n    \"chunk\": \"0\",\n    \"sid\": \"1\",\n    \"input\": \"ls\",\n    \"output_format\": \"json\"\n  }\n}"
+				},
+				"url": {
+					"raw": "http://{{ip}}:{{port}}/ins",
+					"protocol": "http",
+					"host": [
+						"{{ip}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"ins"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
