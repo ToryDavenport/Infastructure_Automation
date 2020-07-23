@@ -1,0 +1,724 @@
+<INFO> 15-Jul-2020::14:59:48.554 ubuntu ncs[11441]: ncs embedded apps in early_phase0:
+	[]
+<INFO> 15-Jul-2020::14:59:49.386 ubuntu ncs[11441]: ncs mmap_schema, started
+<INFO> 15-Jul-2020::14:59:49.472 ubuntu ncs[11441]: ncs mmap_schema completed
+<INFO> 15-Jul-2020::14:59:49.541 ubuntu ncs[11441]: ncs embedded apps in phase0:
+	[]
+<DEBUG> 15-Jul-2020::14:59:49.669 ubuntu ncs[11441]: devel-cdb Using delayed CDB journal compaction (automatic mode)
+<INFO> 15-Jul-2020::14:59:50.003 ubuntu ncs[11441]: devel-cdb init files found in /home/eve/nso-5.3/var/ncs/cdb: aaa_init.xml, ncs_defaults.xml, sls_defaults.xml, tailf-ncs-alarms_init.xml
+<INFO> 15-Jul-2020::14:59:50.004 ubuntu ncs[11441]: devel-cdb init files found in ./ncs-cdb: 
+<INFO> 15-Jul-2020::14:59:50.161 ubuntu ncs[11441]: ncs encryptedStrings keys provided from config
+<DEBUG> 15-Jul-2020::14:59:50.206 ubuntu ncs[11441]: ncs commit progress db=running usid=5 thandle=-2: applying transaction...
+<DEBUG> 15-Jul-2020::14:59:50.206 ubuntu ncs[11441]: ncs commit progress db=running usid=5 thandle=-2: entering validate phase for running...
+<DEBUG> 15-Jul-2020::14:59:50.207 ubuntu ncs[11441]: ncs commit progress db=running usid=5 thandle=-2: grabbing transaction lock...
+<DEBUG> 15-Jul-2020::14:59:50.207 ubuntu ncs[11441]: ncs commit progress db=running usid=5 thandle=-2: grabbing transaction lock ok
+<DEBUG> 15-Jul-2020::14:59:50.207 ubuntu ncs[11441]: ncs commit progress db=running usid=5 thandle=-2: mark inactive...
+<DEBUG> 15-Jul-2020::14:59:50.225 ubuntu ncs[11441]: ncs commit progress db=running usid=5 thandle=-2: mark inactive done
+<DEBUG> 15-Jul-2020::14:59:50.239 ubuntu ncs[11441]: ncs commit progress db=running usid=5 thandle=-2: pre validate...
+<DEBUG> 15-Jul-2020::14:59:50.243 ubuntu ncs[11441]: ncs commit progress db=running usid=5 thandle=-2: pre validate done
+<DEBUG> 15-Jul-2020::14:59:50.253 ubuntu ncs[11441]: ncs commit progress db=running usid=5 thandle=-2: run validation over the changeset...
+<DEBUG> 15-Jul-2020::14:59:50.346 ubuntu ncs[11441]: ncs commit progress db=running usid=5 thandle=-2: run validation over the changeset done
+<DEBUG> 15-Jul-2020::14:59:50.348 ubuntu ncs[11441]: ncs commit progress db=running usid=5 thandle=-2: run dependency-triggered validation...
+<DEBUG> 15-Jul-2020::14:59:50.366 ubuntu ncs[11441]: ncs commit progress db=running usid=5 thandle=-2: run dependency-triggered validation done
+<DEBUG> 15-Jul-2020::14:59:50.366 ubuntu ncs[11441]: ncs commit progress db=running usid=5 thandle=-2: check configuration policies...
+<DEBUG> 15-Jul-2020::14:59:50.366 ubuntu ncs[11441]: ncs commit progress db=running usid=5 thandle=-2: check configuration policies done
+<DEBUG> 15-Jul-2020::14:59:50.366 ubuntu ncs[11441]: ncs commit progress db=running usid=5 thandle=-2: leaving validate phase for running
+<DEBUG> 15-Jul-2020::14:59:50.367 ubuntu ncs[11441]: ncs commit progress db=running usid=5 thandle=-2: entering write-start phase for running...
+<DEBUG> 15-Jul-2020::14:59:50.367 ubuntu ncs[11441]: ncs commit progress db=running usid=5 thandle=-2: cdb: write-start
+<DEBUG> 15-Jul-2020::14:59:50.389 ubuntu ncs[11441]: ncs commit progress db=running usid=5 thandle=-2: leaving write-start phase for running
+<DEBUG> 15-Jul-2020::14:59:50.390 ubuntu ncs[11441]: ncs commit progress db=running usid=5 thandle=-2: entering prepare phase for running...
+<DEBUG> 15-Jul-2020::14:59:50.390 ubuntu ncs[11441]: ncs commit progress db=running usid=5 thandle=-2: cdb: prepare
+<DEBUG> 15-Jul-2020::14:59:50.390 ubuntu ncs[11441]: ncs commit progress db=running usid=5 thandle=-2: leaving prepare phase for running
+<DEBUG> 15-Jul-2020::14:59:50.390 ubuntu ncs[11441]: ncs commit progress db=running usid=5 thandle=-2: entering commit phase for running...
+<DEBUG> 15-Jul-2020::14:59:50.391 ubuntu ncs[11441]: ncs commit progress db=running usid=5 thandle=-2: cdb: commit
+<DEBUG> 15-Jul-2020::14:59:50.397 ubuntu ncs[11441]: ncs commit progress db=running usid=5 thandle=-2: releasing transaction lock
+<DEBUG> 15-Jul-2020::14:59:50.399 ubuntu ncs[11441]: ncs commit progress db=running usid=5 thandle=-2: leaving commit phase for running
+<DEBUG> 15-Jul-2020::14:59:50.399 ubuntu ncs[11441]: ncs commit progress db=running usid=5 thandle=-2: applying transaction done
+<DEBUG> 15-Jul-2020::14:59:50.401 ubuntu ncs[11441]: devel-cdb Delaying CDB journal compaction
+<INFO> 15-Jul-2020::14:59:50.410 ubuntu ncs[11441]: ncs embedded apps in phase1:
+	[]
+<DEBUG> 15-Jul-2020::14:59:50.790 ubuntu ncs[11441]: devel-c New daemon connected (name: ncs-internal-device-mgr, daemon id: 0)
+<DEBUG> 15-Jul-2020::14:59:50.791 ubuntu ncs[11441]: devel-c New worker connected (daemon id: 0 worker id: 1)
+<DEBUG> 15-Jul-2020::14:59:50.869 ubuntu ncs[11441]: devel-c New daemon connected (name: snmp-config-transform, daemon id: 1)
+<DEBUG> 15-Jul-2020::14:59:50.870 ubuntu ncs[11441]: devel-c New worker connected (daemon id: 1 worker id: 4)
+<DEBUG> 15-Jul-2020::14:59:50.872 ubuntu ncs[11441]: devel-cdb connect from snmp-config-transform
+<DEBUG> 15-Jul-2020::14:59:50.872 ubuntu ncs[11441]: devel-cdb client snmp-config-transform has pid 11477/6
+<DEBUG> 15-Jul-2020::14:59:50.872 ubuntu ncs[11441]: devel-cdb inactive client snmp-config-transform closed
+<DEBUG> 15-Jul-2020::14:59:50.873 ubuntu ncs[11441]: devel-c New daemon connected (name: snmp-config-hook, daemon id: 2)
+<DEBUG> 15-Jul-2020::14:59:50.874 ubuntu ncs[11441]: devel-c New worker connected (daemon id: 2 worker id: 7)
+<DEBUG> 15-Jul-2020::14:59:50.943 ubuntu ncs[11441]: devel-c New daemon connected (name: ncs-internal-template-variable, daemon id: 3)
+<DEBUG> 15-Jul-2020::14:59:50.943 ubuntu ncs[11441]: devel-c New worker connected (daemon id: 3 worker id: 1)
+<DEBUG> 15-Jul-2020::14:59:50.967 ubuntu ncs[11441]: devel-c New daemon connected (name: ncs-internal-service-mux, daemon id: 4)
+<DEBUG> 15-Jul-2020::14:59:50.967 ubuntu ncs[11441]: devel-c New worker connected (daemon id: 4 worker id: 1)
+<DEBUG> 15-Jul-2020::14:59:50.968 ubuntu ncs[11441]: devel-c New daemon connected (name: ncs-internal-service-mux-completion, daemon id: 5)
+<DEBUG> 15-Jul-2020::14:59:50.968 ubuntu ncs[11441]: devel-c New worker connected (daemon id: 5 worker id: 1)
+<DEBUG> 15-Jul-2020::14:59:51.168 ubuntu ncs[11441]: devel-cdb Loaded AAA data from CDB
+<INFO> 15-Jul-2020::14:59:51.199 ubuntu ncs[11441]: ncs initializing kickers...
+<INFO> 15-Jul-2020::14:59:51.199 ubuntu ncs[11441]: ncs initializing kickers done (0.000s)
+<INFO> 15-Jul-2020::14:59:51.310 ubuntu ncs[11441]: ncs embedded apps in phase1_delayed:
+	[]
+<DEBUG> 15-Jul-2020::14:59:51.349 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: applying transaction...
+<DEBUG> 15-Jul-2020::14:59:51.349 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: entering validate phase for running...
+<DEBUG> 15-Jul-2020::14:59:51.349 ubuntu ncs[11441]: devel-c new_usess db request daemon id: 4
+<DEBUG> 15-Jul-2020::14:59:51.350 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: run pre-trans-lock service callbacks...
+<DEBUG> 15-Jul-2020::14:59:51.350 ubuntu ncs[11441]: devel-c db reply daemon id: 4
+<DEBUG> 15-Jul-2020::14:59:51.350 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: run transforms and transaction hooks...
+<DEBUG> 15-Jul-2020::14:59:51.350 ubuntu ncs[11441]: devel-c new_trans request daemon id: 4 thandle: 13
+<DEBUG> 15-Jul-2020::14:59:51.350 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: run transforms and transaction hooks done
+<DEBUG> 15-Jul-2020::14:59:51.351 ubuntu ncs[11441]: devel-c new_trans succeeded daemon id: 4 session id: 13 worker id: 1
+<DEBUG> 15-Jul-2020::14:59:51.351 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: run pre-trans-lock service callbacks done
+<DEBUG> 15-Jul-2020::14:59:51.351 ubuntu ncs[11441]: devel-c new_usess db request daemon id: 0
+<DEBUG> 15-Jul-2020::14:59:51.351 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: grabbing transaction lock...
+<DEBUG> 15-Jul-2020::14:59:51.352 ubuntu ncs[11441]: devel-c db reply daemon id: 0
+<DEBUG> 15-Jul-2020::14:59:51.355 ubuntu ncs[11441]: devel-c new_trans request daemon id: 0 thandle: 13
+<DEBUG> 15-Jul-2020::14:59:51.355 ubuntu ncs[11441]: devel-c new_trans succeeded daemon id: 0 session id: 13 worker id: 1
+<DEBUG> 15-Jul-2020::14:59:51.355 ubuntu ncs[11441]: devel-c trans_lock request daemon id: 4 session id: 13
+<DEBUG> 15-Jul-2020::14:59:51.356 ubuntu ncs[11441]: devel-c trans_lock succeeded daemon id: 4 session id: 13
+<DEBUG> 15-Jul-2020::14:59:51.356 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: grabbing transaction lock ok
+<DEBUG> 15-Jul-2020::14:59:51.356 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: creating rollback file...
+<DEBUG> 15-Jul-2020::14:59:51.362 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: creating rollback file ok
+<DEBUG> 15-Jul-2020::14:59:51.362 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: run transforms and transaction hooks...
+<DEBUG> 15-Jul-2020::14:59:51.364 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: run transforms and transaction hooks done
+<DEBUG> 15-Jul-2020::14:59:51.365 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: mark inactive...
+<DEBUG> 15-Jul-2020::14:59:51.365 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: mark inactive done
+<DEBUG> 15-Jul-2020::14:59:51.367 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: pre validate...
+<DEBUG> 15-Jul-2020::14:59:51.367 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: pre validate done
+<DEBUG> 15-Jul-2020::14:59:51.367 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: run validation over the changeset...
+<DEBUG> 15-Jul-2020::14:59:51.368 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: run validation over the changeset done
+<DEBUG> 15-Jul-2020::14:59:51.368 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: run dependency-triggered validation...
+<DEBUG> 15-Jul-2020::14:59:51.369 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: run dependency-triggered validation done
+<DEBUG> 15-Jul-2020::14:59:51.369 ubuntu ncs[11441]: devel-c prepare request daemon id: 0 session id: 13
+<DEBUG> 15-Jul-2020::14:59:51.369 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: check configuration policies...
+<DEBUG> 15-Jul-2020::14:59:51.369 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: check configuration policies done
+<DEBUG> 15-Jul-2020::14:59:51.369 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: leaving validate phase for running
+<DEBUG> 15-Jul-2020::14:59:51.369 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: entering write-start phase for running...
+<DEBUG> 15-Jul-2020::14:59:51.370 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: cdb: write-start
+<DEBUG> 15-Jul-2020::14:59:51.370 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: check data kickers...
+<DEBUG> 15-Jul-2020::14:59:51.373 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: check data kickers done
+<DEBUG> 15-Jul-2020::14:59:51.373 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: leaving write-start phase for running
+<DEBUG> 15-Jul-2020::14:59:51.373 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: entering prepare phase for running...
+<DEBUG> 15-Jul-2020::14:59:51.374 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: cdb: prepare
+<DEBUG> 15-Jul-2020::14:59:51.374 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: ncs-internal-device-mgr: prepare
+<DEBUG> 15-Jul-2020::14:59:51.411 ubuntu ncs[11441]: devel-c prepare succeeded daemon id: 0 session id: 13
+<DEBUG> 15-Jul-2020::14:59:51.411 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: leaving prepare phase for running
+<DEBUG> 15-Jul-2020::14:59:51.411 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: entering commit phase for running...
+<DEBUG> 15-Jul-2020::14:59:51.412 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: cdb: commit
+<DEBUG> 15-Jul-2020::14:59:51.428 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: ncs-internal-service-mux: commit
+<DEBUG> 15-Jul-2020::14:59:51.429 ubuntu ncs[11441]: devel-c commit request daemon id: 4 session id: 13
+<DEBUG> 15-Jul-2020::14:59:51.430 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: ncs-internal-device-mgr: commit
+<DEBUG> 15-Jul-2020::14:59:51.430 ubuntu ncs[11441]: devel-c commit succeeded daemon id: 4 session id: 13
+<DEBUG> 15-Jul-2020::14:59:51.431 ubuntu ncs[11441]: devel-c commit request daemon id: 0 session id: 13
+<DEBUG> 15-Jul-2020::14:59:51.457 ubuntu ncs[11441]: devel-c commit succeeded daemon id: 0 session id: 13
+<DEBUG> 15-Jul-2020::14:59:51.458 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: releasing transaction lock
+<DEBUG> 15-Jul-2020::14:59:51.458 ubuntu ncs[11441]: devel-c close_trans request daemon id: 4 session id: 13
+<DEBUG> 15-Jul-2020::14:59:51.458 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: leaving commit phase for running
+<DEBUG> 15-Jul-2020::14:59:51.458 ubuntu ncs[11441]: ncs commit progress db=running usid=22 thandle=13: applying transaction done
+<DEBUG> 15-Jul-2020::14:59:51.458 ubuntu ncs[11441]: devel-c close_trans succeeded daemon id: 4 session id: 13
+<DEBUG> 15-Jul-2020::14:59:51.459 ubuntu ncs[11441]: devel-c close_trans request daemon id: 0 session id: 13
+<DEBUG> 15-Jul-2020::14:59:51.459 ubuntu ncs[11441]: devel-c close_trans succeeded daemon id: 0 session id: 13
+<DEBUG> 15-Jul-2020::14:59:51.459 ubuntu ncs[11441]: devel-c close_usess db request daemon id: 4
+<DEBUG> 15-Jul-2020::14:59:51.460 ubuntu ncs[11441]: devel-c db reply daemon id: 4
+<DEBUG> 15-Jul-2020::14:59:51.460 ubuntu ncs[11441]: devel-c close_usess db request daemon id: 0
+<DEBUG> 15-Jul-2020::14:59:51.460 ubuntu ncs[11441]: devel-c db reply daemon id: 0
+<DEBUG> 15-Jul-2020::14:59:51.467 ubuntu ncs[11441]: devel-c new_usess db request daemon id: 1
+<DEBUG> 15-Jul-2020::14:59:51.468 ubuntu ncs[11441]: devel-c db reply daemon id: 1
+<DEBUG> 15-Jul-2020::14:59:51.468 ubuntu ncs[11441]: devel-c new_trans request daemon id: 1 thandle: 16
+<DEBUG> 15-Jul-2020::14:59:51.468 ubuntu ncs[11441]: devel-c new_trans succeeded daemon id: 1 session id: 16 worker id: 4
+<DEBUG> 15-Jul-2020::14:59:51.469 ubuntu ncs[11441]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 15-Jul-2020::14:59:51.469 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 15-Jul-2020::14:59:51.469 ubuntu ncs[11441]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 15-Jul-2020::14:59:51.470 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 15-Jul-2020::14:59:51.470 ubuntu ncs[11441]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/ip
+<DEBUG> 15-Jul-2020::14:59:51.471 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/ip
+<DEBUG> 15-Jul-2020::14:59:51.471 ubuntu ncs[11441]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/ip
+<DEBUG> 15-Jul-2020::14:59:51.471 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/ip
+<DEBUG> 15-Jul-2020::14:59:51.472 ubuntu ncs[11441]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/udp-port
+<DEBUG> 15-Jul-2020::14:59:51.472 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/udp-port
+<DEBUG> 15-Jul-2020::14:59:51.472 ubuntu ncs[11441]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/udp-port
+<DEBUG> 15-Jul-2020::14:59:51.473 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/udp-port
+<DEBUG> 15-Jul-2020::14:59:51.473 ubuntu ncs[11441]: devel-c exists request for callpoint agent path /snmp:snmp/agent/version/v1
+<DEBUG> 15-Jul-2020::14:59:51.473 ubuntu ncs[11441]: devel-c exists succeeded for callpoint agent path /snmp:snmp/agent/version/v1
+<DEBUG> 15-Jul-2020::14:59:51.474 ubuntu ncs[11441]: devel-c exists request for callpoint agent path /snmp:snmp/agent/version/v2c
+<DEBUG> 15-Jul-2020::14:59:51.475 ubuntu ncs[11441]: devel-c exists succeeded for callpoint agent path /snmp:snmp/agent/version/v2c
+<DEBUG> 15-Jul-2020::14:59:51.475 ubuntu ncs[11441]: devel-c exists request for callpoint agent path /snmp:snmp/agent/version/v3
+<DEBUG> 15-Jul-2020::14:59:51.476 ubuntu ncs[11441]: devel-c exists succeeded for callpoint agent path /snmp:snmp/agent/version/v3
+<DEBUG> 15-Jul-2020::14:59:51.482 ubuntu ncs[11441]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/max-message-size
+<DEBUG> 15-Jul-2020::14:59:51.487 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/max-message-size
+<DEBUG> 15-Jul-2020::14:59:51.488 ubuntu ncs[11441]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/max-message-size
+<DEBUG> 15-Jul-2020::14:59:51.488 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/max-message-size
+<DEBUG> 15-Jul-2020::14:59:51.489 ubuntu ncs[11441]: devel-c get_elem request for callpoint agent path /snmp:snmp/system/contact
+<DEBUG> 15-Jul-2020::14:59:51.489 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/system/contact
+<DEBUG> 15-Jul-2020::14:59:51.490 ubuntu ncs[11441]: devel-c get_elem request for callpoint agent path /snmp:snmp/system/contact
+<DEBUG> 15-Jul-2020::14:59:51.491 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/system/contact
+<DEBUG> 15-Jul-2020::14:59:51.491 ubuntu ncs[11441]: devel-c get_elem request for callpoint agent path /snmp:snmp/system/name
+<DEBUG> 15-Jul-2020::14:59:51.491 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/system/name
+<DEBUG> 15-Jul-2020::14:59:51.492 ubuntu ncs[11441]: devel-c get_elem request for callpoint agent path /snmp:snmp/system/name
+<DEBUG> 15-Jul-2020::14:59:51.492 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/system/name
+<DEBUG> 15-Jul-2020::14:59:51.493 ubuntu ncs[11441]: devel-c get_elem request for callpoint agent path /snmp:snmp/system/location
+<DEBUG> 15-Jul-2020::14:59:51.493 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/system/location
+<DEBUG> 15-Jul-2020::14:59:51.493 ubuntu ncs[11441]: devel-c get_elem request for callpoint agent path /snmp:snmp/system/location
+<DEBUG> 15-Jul-2020::14:59:51.494 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/system/location
+<DEBUG> 15-Jul-2020::14:59:51.496 ubuntu ncs[11441]: devel-c get_elem request for callpoint usm path /snmp:snmp/usm/local/user{initial}/name
+<DEBUG> 15-Jul-2020::14:59:51.507 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/name
+<DEBUG> 15-Jul-2020::14:59:51.508 ubuntu ncs[11441]: devel-c get_case request for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth
+<DEBUG> 15-Jul-2020::14:59:51.511 ubuntu ncs[11441]: devel-c get_case succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth
+<DEBUG> 15-Jul-2020::14:59:51.512 ubuntu ncs[11441]: devel-c get_case request for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv
+<DEBUG> 15-Jul-2020::14:59:51.516 ubuntu ncs[11441]: devel-c get_case succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv
+<DEBUG> 15-Jul-2020::14:59:51.516 ubuntu ncs[11441]: devel-c get_elem request for callpoint target path /snmp:snmp/target{monitor}/name
+<DEBUG> 15-Jul-2020::14:59:51.517 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/name
+<DEBUG> 15-Jul-2020::14:59:51.518 ubuntu ncs[11441]: devel-c get_elem request for callpoint target path /snmp:snmp/target{monitor}/udp-port
+<DEBUG> 15-Jul-2020::14:59:51.519 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/udp-port
+<DEBUG> 15-Jul-2020::14:59:51.519 ubuntu ncs[11441]: devel-c get_elem request for callpoint target path /snmp:snmp/target{monitor}/name
+<DEBUG> 15-Jul-2020::14:59:51.520 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/name
+<DEBUG> 15-Jul-2020::14:59:51.521 ubuntu ncs[11441]: devel-c get_elem request for callpoint target path /snmp:snmp/target{monitor}/timeout
+<DEBUG> 15-Jul-2020::14:59:51.521 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/timeout
+<DEBUG> 15-Jul-2020::14:59:51.521 ubuntu ncs[11441]: devel-c get_elem request for callpoint target path /snmp:snmp/target{monitor}/name
+<DEBUG> 15-Jul-2020::14:59:51.523 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/name
+<DEBUG> 15-Jul-2020::14:59:51.523 ubuntu ncs[11441]: devel-c get_elem request for callpoint target path /snmp:snmp/target{monitor}/retries
+<DEBUG> 15-Jul-2020::14:59:51.525 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/retries
+<DEBUG> 15-Jul-2020::14:59:51.526 ubuntu ncs[11441]: devel-c get_elem request for callpoint target path /snmp:snmp/target{monitor}/name
+<DEBUG> 15-Jul-2020::14:59:51.526 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/name
+<DEBUG> 15-Jul-2020::14:59:51.527 ubuntu ncs[11441]: devel-c get_case request for callpoint target path /snmp:snmp/target{monitor}
+<DEBUG> 15-Jul-2020::14:59:51.529 ubuntu ncs[11441]: devel-c get_case succeeded for callpoint target path /snmp:snmp/target{monitor}
+<DEBUG> 15-Jul-2020::14:59:51.529 ubuntu ncs[11441]: devel-c get_elem request for callpoint community path /snmp:snmp/community{public}/index
+<DEBUG> 15-Jul-2020::14:59:51.532 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint community path /snmp:snmp/community{public}/index
+<DEBUG> 15-Jul-2020::14:59:51.532 ubuntu ncs[11441]: devel-c new_usess db request daemon id: 2
+<DEBUG> 15-Jul-2020::14:59:51.533 ubuntu ncs[11441]: devel-c db reply daemon id: 2
+<DEBUG> 15-Jul-2020::14:59:51.533 ubuntu ncs[11441]: devel-c new_trans request daemon id: 2 thandle: 16
+<DEBUG> 15-Jul-2020::14:59:51.534 ubuntu ncs[11441]: devel-c new_trans succeeded daemon id: 2 session id: 16 worker id: 7
+<DEBUG> 15-Jul-2020::14:59:51.534 ubuntu ncs[11441]: devel-c create request for callpoint 'community-hook' path /snmp:snmp/community{public}
+<DEBUG> 15-Jul-2020::14:59:51.536 ubuntu ncs[11441]: devel-c create succeeded for callpoint 'community-hook' path /snmp:snmp/community{public}
+<DEBUG> 15-Jul-2020::14:59:51.537 ubuntu ncs[11441]: devel-c get_elem request for callpoint notify path /snmp:snmp/notify{foo}/name
+<DEBUG> 15-Jul-2020::14:59:51.546 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint notify path /snmp:snmp/notify{foo}/name
+<DEBUG> 15-Jul-2020::14:59:51.547 ubuntu ncs[11441]: devel-c get_elem request for callpoint notify path /snmp:snmp/notify{foo}/type
+<DEBUG> 15-Jul-2020::14:59:51.550 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint notify path /snmp:snmp/notify{foo}/type
+<DEBUG> 15-Jul-2020::14:59:51.550 ubuntu ncs[11441]: devel-c get_elem request for callpoint notify path /snmp:snmp/notify{foo}/name
+<DEBUG> 15-Jul-2020::14:59:51.551 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint notify path /snmp:snmp/notify{foo}/name
+<DEBUG> 15-Jul-2020::14:59:51.552 ubuntu ncs[11441]: devel-c get_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/name
+<DEBUG> 15-Jul-2020::14:59:51.553 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/name
+<DEBUG> 15-Jul-2020::14:59:51.558 ubuntu ncs[11441]: devel-c get_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{public}/name
+<DEBUG> 15-Jul-2020::14:59:51.563 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{public}/name
+<DEBUG> 15-Jul-2020::14:59:51.565 ubuntu ncs[11441]: devel-c get_elem request for callpoint vacm_view path /snmp:snmp/vacm/view{internet}/name
+<DEBUG> 15-Jul-2020::14:59:51.566 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{internet}/name
+<DEBUG> 15-Jul-2020::14:59:51.567 ubuntu ncs[11441]: devel-c get_case request for callpoint vacm_view path /snmp:snmp/vacm/view{internet}/subtree{1.3.6.1}
+<DEBUG> 15-Jul-2020::14:59:51.568 ubuntu ncs[11441]: devel-c get_case succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{internet}/subtree{1.3.6.1}
+<DEBUG> 15-Jul-2020::14:59:51.568 ubuntu ncs[11441]: devel-c get_elem request for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/name
+<DEBUG> 15-Jul-2020::14:59:51.571 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/name
+<DEBUG> 15-Jul-2020::14:59:51.572 ubuntu ncs[11441]: devel-c get_case request for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.11.2.1}
+<DEBUG> 15-Jul-2020::14:59:51.572 ubuntu ncs[11441]: devel-c get_case succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.11.2.1}
+<DEBUG> 15-Jul-2020::14:59:51.573 ubuntu ncs[11441]: devel-c get_case request for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.15.1.1}
+<DEBUG> 15-Jul-2020::14:59:51.574 ubuntu ncs[11441]: devel-c get_case succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.15.1.1}
+<DEBUG> 15-Jul-2020::14:59:51.574 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: applying transaction...
+<DEBUG> 15-Jul-2020::14:59:51.575 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: entering validate phase for running...
+<DEBUG> 15-Jul-2020::14:59:51.577 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: run pre-trans-lock service callbacks...
+<DEBUG> 15-Jul-2020::14:59:51.578 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: run transforms and transaction hooks...
+<DEBUG> 15-Jul-2020::14:59:51.583 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: run transforms and transaction hooks done
+<DEBUG> 15-Jul-2020::14:59:51.583 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: run pre-trans-lock service callbacks done
+<DEBUG> 15-Jul-2020::14:59:51.585 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: grabbing transaction lock...
+<DEBUG> 15-Jul-2020::14:59:51.586 ubuntu ncs[11441]: devel-c new_usess db request daemon id: 4
+<DEBUG> 15-Jul-2020::14:59:51.586 ubuntu ncs[11441]: devel-c db reply daemon id: 4
+<DEBUG> 15-Jul-2020::14:59:51.587 ubuntu ncs[11441]: devel-c new_trans request daemon id: 4 thandle: 16
+<DEBUG> 15-Jul-2020::14:59:51.587 ubuntu ncs[11441]: devel-c new_trans succeeded daemon id: 4 session id: 16 worker id: 1
+<DEBUG> 15-Jul-2020::14:59:51.587 ubuntu ncs[11441]: devel-c new_usess db request daemon id: 0
+<DEBUG> 15-Jul-2020::14:59:51.588 ubuntu ncs[11441]: devel-c db reply daemon id: 0
+<DEBUG> 15-Jul-2020::14:59:51.588 ubuntu ncs[11441]: devel-c new_trans request daemon id: 0 thandle: 16
+<DEBUG> 15-Jul-2020::14:59:51.589 ubuntu ncs[11441]: devel-c new_trans succeeded daemon id: 0 session id: 16 worker id: 1
+<DEBUG> 15-Jul-2020::14:59:51.589 ubuntu ncs[11441]: devel-c trans_lock request daemon id: 4 session id: 16
+<DEBUG> 15-Jul-2020::14:59:51.589 ubuntu ncs[11441]: devel-c trans_lock succeeded daemon id: 4 session id: 16
+<DEBUG> 15-Jul-2020::14:59:51.590 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: grabbing transaction lock ok
+<DEBUG> 15-Jul-2020::14:59:51.590 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: creating rollback file...
+<DEBUG> 15-Jul-2020::14:59:51.600 ubuntu ncs[11441]: devel-c new_trans request daemon id: 1 thandle: 17
+<DEBUG> 15-Jul-2020::14:59:51.601 ubuntu ncs[11441]: devel-c new_trans succeeded daemon id: 1 session id: 17 worker id: 4
+<DEBUG> 15-Jul-2020::14:59:51.602 ubuntu ncs[11441]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 15-Jul-2020::14:59:51.603 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 15-Jul-2020::14:59:51.603 ubuntu ncs[11441]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 15-Jul-2020::14:59:51.604 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 15-Jul-2020::14:59:51.604 ubuntu ncs[11441]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 15-Jul-2020::14:59:51.604 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 15-Jul-2020::14:59:51.611 ubuntu ncs[11441]: devel-c close_trans request daemon id: 1 session id: 17
+<DEBUG> 15-Jul-2020::14:59:51.611 ubuntu ncs[11441]: devel-c close_trans succeeded daemon id: 1 session id: 17
+<DEBUG> 15-Jul-2020::14:59:51.612 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: creating rollback file ok
+<DEBUG> 15-Jul-2020::14:59:51.613 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: run transforms and transaction hooks...
+<DEBUG> 15-Jul-2020::14:59:51.616 ubuntu ncs[11441]: devel-c create request for callpoint agent path /snmp:snmp/agent/engine-id
+<DEBUG> 15-Jul-2020::14:59:51.617 ubuntu ncs[11441]: devel-c create succeeded for callpoint agent path /snmp:snmp/agent/engine-id
+<DEBUG> 15-Jul-2020::14:59:51.617 ubuntu ncs[11441]: devel-c set_elem request for callpoint agent path /snmp:snmp/agent/engine-id/enterprise-number
+<DEBUG> 15-Jul-2020::14:59:51.620 ubuntu ncs[11441]: devel-c set_elem succeeded for callpoint agent path /snmp:snmp/agent/engine-id/enterprise-number
+<DEBUG> 15-Jul-2020::14:59:51.621 ubuntu ncs[11441]: devel-c set_elem request for callpoint agent path /snmp:snmp/agent/engine-id/from-text
+<DEBUG> 15-Jul-2020::14:59:51.623 ubuntu ncs[11441]: devel-c set_elem succeeded for callpoint agent path /snmp:snmp/agent/engine-id/from-text
+<DEBUG> 15-Jul-2020::14:59:51.623 ubuntu ncs[11441]: devel-c set_elem request for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 15-Jul-2020::14:59:51.624 ubuntu ncs[11441]: devel-c set_elem succeeded for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 15-Jul-2020::14:59:51.624 ubuntu ncs[11441]: devel-c create request for callpoint agent path /snmp:snmp/agent/version/v1
+<DEBUG> 15-Jul-2020::14:59:51.626 ubuntu ncs[11441]: devel-c create succeeded for callpoint agent path /snmp:snmp/agent/version/v1
+<DEBUG> 15-Jul-2020::14:59:51.626 ubuntu ncs[11441]: devel-c create request for callpoint agent path /snmp:snmp/agent/version/v2c
+<DEBUG> 15-Jul-2020::14:59:51.627 ubuntu ncs[11441]: devel-c create succeeded for callpoint agent path /snmp:snmp/agent/version/v2c
+<DEBUG> 15-Jul-2020::14:59:51.633 ubuntu ncs[11441]: devel-c create request for callpoint agent path /snmp:snmp/agent/version/v3
+<DEBUG> 15-Jul-2020::14:59:51.634 ubuntu ncs[11441]: devel-c create succeeded for callpoint agent path /snmp:snmp/agent/version/v3
+<DEBUG> 15-Jul-2020::14:59:51.635 ubuntu ncs[11441]: devel-c create request for callpoint usm path /snmp:snmp/usm/local/user{initial}
+<DEBUG> 15-Jul-2020::14:59:51.639 ubuntu ncs[11441]: devel-c create succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}
+<DEBUG> 15-Jul-2020::14:59:51.639 ubuntu ncs[11441]: devel-c create request for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth
+<DEBUG> 15-Jul-2020::14:59:51.640 ubuntu ncs[11441]: devel-c create succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth
+<DEBUG> 15-Jul-2020::14:59:51.640 ubuntu ncs[11441]: devel-c set_case request for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth
+<DEBUG> 15-Jul-2020::14:59:51.641 ubuntu ncs[11441]: devel-c set_case succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth
+<DEBUG> 15-Jul-2020::14:59:51.641 ubuntu ncs[11441]: devel-c create request for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth/sha
+<DEBUG> 15-Jul-2020::14:59:51.642 ubuntu ncs[11441]: devel-c create succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth/sha
+<DEBUG> 15-Jul-2020::14:59:51.642 ubuntu ncs[11441]: devel-c set_case request for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth/sha
+<DEBUG> 15-Jul-2020::14:59:51.643 ubuntu ncs[11441]: devel-c set_case succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth/sha
+<DEBUG> 15-Jul-2020::14:59:51.643 ubuntu ncs[11441]: devel-c set_elem request for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth/sha/password
+<DEBUG> 15-Jul-2020::14:59:51.696 ubuntu ncs[11441]: devel-c set_elem succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth/sha/password
+<DEBUG> 15-Jul-2020::14:59:51.699 ubuntu ncs[11441]: devel-c create request for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv
+<DEBUG> 15-Jul-2020::14:59:51.699 ubuntu ncs[11441]: devel-c create succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv
+<DEBUG> 15-Jul-2020::14:59:51.700 ubuntu ncs[11441]: devel-c set_case request for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv
+<DEBUG> 15-Jul-2020::14:59:51.701 ubuntu ncs[11441]: devel-c set_case succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv
+<DEBUG> 15-Jul-2020::14:59:51.701 ubuntu ncs[11441]: devel-c create request for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv/aes
+<DEBUG> 15-Jul-2020::14:59:51.707 ubuntu ncs[11441]: devel-c create succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv/aes
+<DEBUG> 15-Jul-2020::14:59:51.707 ubuntu ncs[11441]: devel-c set_case request for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv/aes
+<DEBUG> 15-Jul-2020::14:59:51.708 ubuntu ncs[11441]: devel-c set_case succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv/aes
+<DEBUG> 15-Jul-2020::14:59:51.708 ubuntu ncs[11441]: devel-c set_elem request for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv/aes/password
+<DEBUG> 15-Jul-2020::14:59:51.757 ubuntu ncs[11441]: devel-c set_elem succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv/aes/password
+<DEBUG> 15-Jul-2020::14:59:51.757 ubuntu ncs[11441]: devel-c create request for callpoint target path /snmp:snmp/target{monitor}
+<DEBUG> 15-Jul-2020::14:59:51.759 ubuntu ncs[11441]: devel-c create succeeded for callpoint target path /snmp:snmp/target{monitor}
+<DEBUG> 15-Jul-2020::14:59:51.759 ubuntu ncs[11441]: devel-c set_case request for callpoint target path /snmp:snmp/target{monitor}
+<DEBUG> 15-Jul-2020::14:59:51.770 ubuntu ncs[11441]: devel-c set_case succeeded for callpoint target path /snmp:snmp/target{monitor}
+<DEBUG> 15-Jul-2020::14:59:51.770 ubuntu ncs[11441]: devel-c set_elem request for callpoint target path /snmp:snmp/target{monitor}/ip
+<DEBUG> 15-Jul-2020::14:59:51.772 ubuntu ncs[11441]: devel-c set_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/ip
+<DEBUG> 15-Jul-2020::14:59:51.772 ubuntu ncs[11441]: devel-c set_elem request for callpoint target path /snmp:snmp/target{monitor}/udp-port
+<DEBUG> 15-Jul-2020::14:59:51.773 ubuntu ncs[11441]: devel-c set_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/udp-port
+<DEBUG> 15-Jul-2020::14:59:51.773 ubuntu ncs[11441]: devel-c get_elem request for callpoint target path /snmp:snmp/target{monitor}/tag
+<DEBUG> 15-Jul-2020::14:59:51.777 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/tag
+<DEBUG> 15-Jul-2020::14:59:51.777 ubuntu ncs[11441]: devel-c set_elem request for callpoint target path /snmp:snmp/target{monitor}/timeout
+<DEBUG> 15-Jul-2020::14:59:51.778 ubuntu ncs[11441]: devel-c set_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/timeout
+<DEBUG> 15-Jul-2020::14:59:51.778 ubuntu ncs[11441]: devel-c set_elem request for callpoint target path /snmp:snmp/target{monitor}/retries
+<DEBUG> 15-Jul-2020::14:59:51.779 ubuntu ncs[11441]: devel-c set_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/retries
+<DEBUG> 15-Jul-2020::14:59:51.780 ubuntu ncs[11441]: devel-c set_elem request for callpoint target path /snmp:snmp/target{monitor}/v2c/sec-name
+<DEBUG> 15-Jul-2020::14:59:51.783 ubuntu ncs[11441]: devel-c set_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/v2c/sec-name
+<DEBUG> 15-Jul-2020::14:59:51.784 ubuntu ncs[11441]: devel-c create request for callpoint community path /snmp:snmp/community{public}
+<DEBUG> 15-Jul-2020::14:59:51.799 ubuntu ncs[11441]: devel-c create succeeded for callpoint community path /snmp:snmp/community{public}
+<DEBUG> 15-Jul-2020::14:59:51.799 ubuntu ncs[11441]: devel-c set_elem request for callpoint community path /snmp:snmp/community{public}/sec-name
+<DEBUG> 15-Jul-2020::14:59:51.800 ubuntu ncs[11441]: devel-c set_elem succeeded for callpoint community path /snmp:snmp/community{public}/sec-name
+<DEBUG> 15-Jul-2020::14:59:51.800 ubuntu ncs[11441]: devel-c create request for callpoint notify path /snmp:snmp/notify{foo}
+<DEBUG> 15-Jul-2020::14:59:51.801 ubuntu ncs[11441]: devel-c create succeeded for callpoint notify path /snmp:snmp/notify{foo}
+<DEBUG> 15-Jul-2020::14:59:51.801 ubuntu ncs[11441]: devel-c set_elem request for callpoint notify path /snmp:snmp/notify{foo}/tag
+<DEBUG> 15-Jul-2020::14:59:51.802 ubuntu ncs[11441]: devel-c set_elem succeeded for callpoint notify path /snmp:snmp/notify{foo}/tag
+<DEBUG> 15-Jul-2020::14:59:51.802 ubuntu ncs[11441]: devel-c set_elem request for callpoint notify path /snmp:snmp/notify{foo}/type
+<DEBUG> 15-Jul-2020::14:59:51.802 ubuntu ncs[11441]: devel-c set_elem succeeded for callpoint notify path /snmp:snmp/notify{foo}/type
+<DEBUG> 15-Jul-2020::14:59:51.803 ubuntu ncs[11441]: devel-c create request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}
+<DEBUG> 15-Jul-2020::14:59:51.811 ubuntu ncs[11441]: devel-c create succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}
+<DEBUG> 15-Jul-2020::14:59:51.811 ubuntu ncs[11441]: devel-c create request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/member{initial}
+<DEBUG> 15-Jul-2020::14:59:51.811 ubuntu ncs[11441]: devel-c create succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/member{initial}
+<DEBUG> 15-Jul-2020::14:59:51.812 ubuntu ncs[11441]: devel-c get_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/member{initial}/sec-model
+<DEBUG> 15-Jul-2020::14:59:51.813 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/member{initial}/sec-model
+<DEBUG> 15-Jul-2020::14:59:51.814 ubuntu ncs[11441]: devel-c create request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm no-auth-no-priv}
+<DEBUG> 15-Jul-2020::14:59:51.815 ubuntu ncs[11441]: devel-c create succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm no-auth-no-priv}
+<DEBUG> 15-Jul-2020::14:59:51.816 ubuntu ncs[11441]: devel-c set_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm no-auth-no-priv}/read-view
+<DEBUG> 15-Jul-2020::14:59:51.827 ubuntu ncs[11441]: devel-c set_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm no-auth-no-priv}/read-view
+<DEBUG> 15-Jul-2020::14:59:51.828 ubuntu ncs[11441]: devel-c set_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm no-auth-no-priv}/notify-view
+<DEBUG> 15-Jul-2020::14:59:51.831 ubuntu ncs[11441]: devel-c set_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm no-auth-no-priv}/notify-view
+<DEBUG> 15-Jul-2020::14:59:51.831 ubuntu ncs[11441]: devel-c create request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-no-priv}
+<DEBUG> 15-Jul-2020::14:59:51.832 ubuntu ncs[11441]: devel-c create succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-no-priv}
+<DEBUG> 15-Jul-2020::14:59:51.832 ubuntu ncs[11441]: devel-c set_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-no-priv}/read-view
+<DEBUG> 15-Jul-2020::14:59:51.833 ubuntu ncs[11441]: devel-c set_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-no-priv}/read-view
+<DEBUG> 15-Jul-2020::14:59:51.833 ubuntu ncs[11441]: devel-c set_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-no-priv}/notify-view
+<DEBUG> 15-Jul-2020::14:59:51.834 ubuntu ncs[11441]: devel-c set_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-no-priv}/notify-view
+<DEBUG> 15-Jul-2020::14:59:51.834 ubuntu ncs[11441]: devel-c create request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-priv}
+<DEBUG> 15-Jul-2020::14:59:51.835 ubuntu ncs[11441]: devel-c create succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-priv}
+<DEBUG> 15-Jul-2020::14:59:51.835 ubuntu ncs[11441]: devel-c set_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-priv}/read-view
+<DEBUG> 15-Jul-2020::14:59:51.836 ubuntu ncs[11441]: devel-c set_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-priv}/read-view
+<DEBUG> 15-Jul-2020::14:59:51.836 ubuntu ncs[11441]: devel-c set_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-priv}/notify-view
+<DEBUG> 15-Jul-2020::14:59:51.837 ubuntu ncs[11441]: devel-c set_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-priv}/notify-view
+<DEBUG> 15-Jul-2020::14:59:51.837 ubuntu ncs[11441]: devel-c create request for callpoint vacm_group path /snmp:snmp/vacm/group{public}
+<DEBUG> 15-Jul-2020::14:59:51.838 ubuntu ncs[11441]: devel-c create succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{public}
+<DEBUG> 15-Jul-2020::14:59:51.838 ubuntu ncs[11441]: devel-c create request for callpoint vacm_group path /snmp:snmp/vacm/group{public}/member{public}
+<DEBUG> 15-Jul-2020::14:59:51.838 ubuntu ncs[11441]: devel-c create succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{public}/member{public}
+<DEBUG> 15-Jul-2020::14:59:51.838 ubuntu ncs[11441]: devel-c get_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{public}/member{public}/sec-model
+<DEBUG> 15-Jul-2020::14:59:51.839 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{public}/member{public}/sec-model
+<DEBUG> 15-Jul-2020::14:59:51.839 ubuntu ncs[11441]: devel-c create request for callpoint vacm_group path /snmp:snmp/vacm/group{public}/access{any no-auth-no-priv}
+<DEBUG> 15-Jul-2020::14:59:51.840 ubuntu ncs[11441]: devel-c create succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{public}/access{any no-auth-no-priv}
+<DEBUG> 15-Jul-2020::14:59:51.840 ubuntu ncs[11441]: devel-c set_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{public}/access{any no-auth-no-priv}/read-view
+<DEBUG> 15-Jul-2020::14:59:51.841 ubuntu ncs[11441]: devel-c set_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{public}/access{any no-auth-no-priv}/read-view
+<DEBUG> 15-Jul-2020::14:59:51.841 ubuntu ncs[11441]: devel-c set_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{public}/access{any no-auth-no-priv}/notify-view
+<DEBUG> 15-Jul-2020::14:59:51.842 ubuntu ncs[11441]: devel-c set_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{public}/access{any no-auth-no-priv}/notify-view
+<DEBUG> 15-Jul-2020::14:59:51.842 ubuntu ncs[11441]: devel-c create request for callpoint vacm_view path /snmp:snmp/vacm/view{internet}
+<DEBUG> 15-Jul-2020::14:59:51.842 ubuntu ncs[11441]: devel-c create succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{internet}
+<DEBUG> 15-Jul-2020::14:59:51.843 ubuntu ncs[11441]: devel-c create request for callpoint vacm_view path /snmp:snmp/vacm/view{internet}/subtree{1.3.6.1}
+<DEBUG> 15-Jul-2020::14:59:51.844 ubuntu ncs[11441]: devel-c create succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{internet}/subtree{1.3.6.1}
+<DEBUG> 15-Jul-2020::14:59:51.844 ubuntu ncs[11441]: devel-c set_case request for callpoint vacm_view path /snmp:snmp/vacm/view{internet}/subtree{1.3.6.1}
+<DEBUG> 15-Jul-2020::14:59:51.845 ubuntu ncs[11441]: devel-c set_case succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{internet}/subtree{1.3.6.1}
+<DEBUG> 15-Jul-2020::14:59:51.845 ubuntu ncs[11441]: devel-c create request for callpoint vacm_view path /snmp:snmp/vacm/view{internet}/subtree{1.3.6.1}/included
+<DEBUG> 15-Jul-2020::14:59:51.845 ubuntu ncs[11441]: devel-c create succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{internet}/subtree{1.3.6.1}/included
+<DEBUG> 15-Jul-2020::14:59:51.846 ubuntu ncs[11441]: devel-c create request for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}
+<DEBUG> 15-Jul-2020::14:59:51.847 ubuntu ncs[11441]: devel-c create succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}
+<DEBUG> 15-Jul-2020::14:59:51.847 ubuntu ncs[11441]: devel-c create request for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.11.2.1}
+<DEBUG> 15-Jul-2020::14:59:51.848 ubuntu ncs[11441]: devel-c create succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.11.2.1}
+<DEBUG> 15-Jul-2020::14:59:51.849 ubuntu ncs[11441]: devel-c set_case request for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.11.2.1}
+<DEBUG> 15-Jul-2020::14:59:51.849 ubuntu ncs[11441]: devel-c set_case succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.11.2.1}
+<DEBUG> 15-Jul-2020::14:59:51.849 ubuntu ncs[11441]: devel-c create request for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.11.2.1}/included
+<DEBUG> 15-Jul-2020::14:59:51.850 ubuntu ncs[11441]: devel-c create succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.11.2.1}/included
+<DEBUG> 15-Jul-2020::14:59:51.850 ubuntu ncs[11441]: devel-c create request for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.15.1.1}
+<DEBUG> 15-Jul-2020::14:59:51.851 ubuntu ncs[11441]: devel-c create succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.15.1.1}
+<DEBUG> 15-Jul-2020::14:59:51.851 ubuntu ncs[11441]: devel-c set_case request for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.15.1.1}
+<DEBUG> 15-Jul-2020::14:59:51.852 ubuntu ncs[11441]: devel-c set_case succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.15.1.1}
+<DEBUG> 15-Jul-2020::14:59:51.852 ubuntu ncs[11441]: devel-c create request for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.15.1.1}/included
+<DEBUG> 15-Jul-2020::14:59:51.852 ubuntu ncs[11441]: devel-c create succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.15.1.1}/included
+<DEBUG> 15-Jul-2020::14:59:51.853 ubuntu ncs[11441]: devel-c set_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/member{initial}/sec-model
+<DEBUG> 15-Jul-2020::14:59:51.855 ubuntu ncs[11441]: devel-c set_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/member{initial}/sec-model
+<DEBUG> 15-Jul-2020::14:59:51.855 ubuntu ncs[11441]: devel-c set_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{public}/member{public}/sec-model
+<DEBUG> 15-Jul-2020::14:59:51.856 ubuntu ncs[11441]: devel-c set_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{public}/member{public}/sec-model
+<DEBUG> 15-Jul-2020::14:59:51.857 ubuntu ncs[11441]: devel-c set_elem request for callpoint target path /snmp:snmp/target{monitor}/tag
+<DEBUG> 15-Jul-2020::14:59:51.857 ubuntu ncs[11441]: devel-c set_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/tag
+<DEBUG> 15-Jul-2020::14:59:51.858 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: run transforms and transaction hooks done
+<DEBUG> 15-Jul-2020::14:59:51.858 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: mark inactive...
+<DEBUG> 15-Jul-2020::14:59:51.860 ubuntu ncs[11441]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 15-Jul-2020::14:59:51.862 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 15-Jul-2020::14:59:51.864 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: mark inactive done
+<DEBUG> 15-Jul-2020::14:59:51.865 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: pre validate...
+<DEBUG> 15-Jul-2020::14:59:51.869 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: pre validate done
+<DEBUG> 15-Jul-2020::14:59:51.870 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: run validation over the changeset...
+<DEBUG> 15-Jul-2020::14:59:51.876 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: snmp-config-transform: validate
+<DEBUG> 15-Jul-2020::14:59:51.876 ubuntu ncs[11441]: devel-c new_validate request daemon id: 1 thandle: 16
+<DEBUG> 15-Jul-2020::14:59:51.877 ubuntu ncs[11441]: devel-c new_validate succeeded daemon id: 1 session id: 16 worker id: 4
+<DEBUG> 15-Jul-2020::14:59:51.877 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: snmp-config-transform: vacm-group
+<DEBUG> 15-Jul-2020::14:59:51.878 ubuntu ncs[11441]: devel-c validate request for path /snmp:snmp/vacm/group
+<DEBUG> 15-Jul-2020::14:59:51.879 ubuntu ncs[11441]: devel-c validate succeeded for path /snmp:snmp/vacm/group
+<DEBUG> 15-Jul-2020::14:59:51.901 ubuntu ncs[11441]: devel-c get_next request for callpoint community path /snmp:snmp/community
+<DEBUG> 15-Jul-2020::14:59:51.903 ubuntu ncs[11441]: devel-c get_next succeeded for callpoint community path /snmp:snmp/community
+<DEBUG> 15-Jul-2020::14:59:51.904 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: run validation over the changeset done
+<DEBUG> 15-Jul-2020::14:59:51.905 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: run dependency-triggered validation...
+<DEBUG> 15-Jul-2020::14:59:51.906 ubuntu ncs[11441]: devel-c get_next request for callpoint community path /snmp:snmp/community
+<DEBUG> 15-Jul-2020::14:59:51.907 ubuntu ncs[11441]: devel-c get_next succeeded for callpoint community path /snmp:snmp/community
+<DEBUG> 15-Jul-2020::14:59:51.908 ubuntu ncs[11441]: devel-c get_next request for callpoint community path /snmp:snmp/community
+<DEBUG> 15-Jul-2020::14:59:51.910 ubuntu ncs[11441]: devel-c get_next succeeded for callpoint community path /snmp:snmp/community
+<DEBUG> 15-Jul-2020::14:59:51.910 ubuntu ncs[11441]: devel-c get_next request for callpoint notify path /snmp:snmp/notify
+<DEBUG> 15-Jul-2020::14:59:51.911 ubuntu ncs[11441]: devel-c get_next succeeded for callpoint notify path /snmp:snmp/notify
+<DEBUG> 15-Jul-2020::14:59:51.912 ubuntu ncs[11441]: devel-c get_elem request for callpoint notify path /snmp:snmp/notify{foo}/type
+<DEBUG> 15-Jul-2020::14:59:51.914 ubuntu ncs[11441]: devel-c get_elem succeeded for callpoint notify path /snmp:snmp/notify{foo}/type
+<DEBUG> 15-Jul-2020::14:59:51.914 ubuntu ncs[11441]: devel-c get_next request for callpoint notify path /snmp:snmp/notify
+<DEBUG> 15-Jul-2020::14:59:51.916 ubuntu ncs[11441]: devel-c get_next succeeded for callpoint notify path /snmp:snmp/notify
+<DEBUG> 15-Jul-2020::14:59:51.916 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: run dependency-triggered validation done
+<DEBUG> 15-Jul-2020::14:59:51.916 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: check configuration policies...
+<DEBUG> 15-Jul-2020::14:59:51.917 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: check configuration policies done
+<DEBUG> 15-Jul-2020::14:59:51.917 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: leaving validate phase for running
+<DEBUG> 15-Jul-2020::14:59:51.917 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: entering write-start phase for running...
+<DEBUG> 15-Jul-2020::14:59:51.917 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: cdb: write-start
+<DEBUG> 15-Jul-2020::14:59:51.918 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: check data kickers...
+<DEBUG> 15-Jul-2020::14:59:51.918 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: check data kickers done
+<DEBUG> 15-Jul-2020::14:59:51.924 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: leaving write-start phase for running
+<DEBUG> 15-Jul-2020::14:59:51.924 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: entering prepare phase for running...
+<DEBUG> 15-Jul-2020::14:59:51.925 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: cdb: prepare
+<DEBUG> 15-Jul-2020::14:59:51.925 ubuntu ncs[11441]: devel-c prepare request daemon id: 0 session id: 16
+<DEBUG> 15-Jul-2020::14:59:51.925 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: ncs-internal-device-mgr: prepare
+<DEBUG> 15-Jul-2020::14:59:51.928 ubuntu ncs[11441]: devel-c prepare succeeded daemon id: 0 session id: 16
+<DEBUG> 15-Jul-2020::14:59:51.928 ubuntu ncs[11441]: devel-c close_validate request daemon id: 1 session id: 16
+<DEBUG> 15-Jul-2020::14:59:51.931 ubuntu ncs[11441]: devel-c close_validate succeeded daemon id: 1 session id: 16
+<DEBUG> 15-Jul-2020::14:59:51.931 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: leaving prepare phase for running
+<DEBUG> 15-Jul-2020::14:59:51.931 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: entering commit phase for running...
+<DEBUG> 15-Jul-2020::14:59:51.932 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: cdb: commit
+<DEBUG> 15-Jul-2020::14:59:51.956 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: ncs-internal-service-mux: commit
+<DEBUG> 15-Jul-2020::14:59:51.956 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: ncs-internal-device-mgr: commit
+<DEBUG> 15-Jul-2020::14:59:51.956 ubuntu ncs[11441]: devel-c commit request daemon id: 4 session id: 16
+<DEBUG> 15-Jul-2020::14:59:51.957 ubuntu ncs[11441]: devel-c commit succeeded daemon id: 4 session id: 16
+<DEBUG> 15-Jul-2020::14:59:51.958 ubuntu ncs[11441]: devel-c commit request daemon id: 0 session id: 16
+<DEBUG> 15-Jul-2020::14:59:51.958 ubuntu ncs[11441]: devel-c commit succeeded daemon id: 0 session id: 16
+<DEBUG> 15-Jul-2020::14:59:51.959 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: releasing transaction lock
+<DEBUG> 15-Jul-2020::14:59:51.959 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: leaving commit phase for running
+<DEBUG> 15-Jul-2020::14:59:51.959 ubuntu ncs[11441]: ncs commit progress db=running usid=23 thandle=16: applying transaction done
+<DEBUG> 15-Jul-2020::14:59:51.960 ubuntu ncs[11441]: devel-c close_trans request daemon id: 4 session id: 16
+<DEBUG> 15-Jul-2020::14:59:51.960 ubuntu ncs[11441]: devel-c close_trans succeeded daemon id: 4 session id: 16
+<DEBUG> 15-Jul-2020::14:59:51.961 ubuntu ncs[11441]: devel-c close_trans request daemon id: 0 session id: 16
+<DEBUG> 15-Jul-2020::14:59:51.961 ubuntu ncs[11441]: devel-c close_trans succeeded daemon id: 0 session id: 16
+<DEBUG> 15-Jul-2020::14:59:51.961 ubuntu ncs[11441]: devel-c close_trans request daemon id: 2 session id: 16
+<DEBUG> 15-Jul-2020::14:59:51.964 ubuntu ncs[11441]: devel-c close_trans succeeded daemon id: 2 session id: 16
+<DEBUG> 15-Jul-2020::14:59:51.964 ubuntu ncs[11441]: devel-c close_trans request daemon id: 1 session id: 16
+<DEBUG> 15-Jul-2020::14:59:51.965 ubuntu ncs[11441]: devel-c close_trans succeeded daemon id: 1 session id: 16
+<DEBUG> 15-Jul-2020::14:59:51.966 ubuntu ncs[11441]: devel-c close_usess db request daemon id: 4
+<DEBUG> 15-Jul-2020::14:59:51.966 ubuntu ncs[11441]: devel-c db reply daemon id: 4
+<DEBUG> 15-Jul-2020::14:59:51.966 ubuntu ncs[11441]: devel-c close_usess db request daemon id: 2
+<DEBUG> 15-Jul-2020::14:59:51.966 ubuntu ncs[11441]: devel-c db reply daemon id: 2
+<DEBUG> 15-Jul-2020::14:59:51.967 ubuntu ncs[11441]: devel-c close_usess db request daemon id: 1
+<DEBUG> 15-Jul-2020::14:59:51.967 ubuntu ncs[11441]: devel-c db reply daemon id: 1
+<DEBUG> 15-Jul-2020::14:59:51.967 ubuntu ncs[11441]: devel-c close_usess db request daemon id: 0
+<DEBUG> 15-Jul-2020::14:59:51.967 ubuntu ncs[11441]: devel-c db reply daemon id: 0
+<DEBUG> 15-Jul-2020::14:59:51.977 ubuntu ncs[11441]: devel-cdb connect from econfd <0.172.0>
+<DEBUG> 15-Jul-2020::14:59:51.977 ubuntu ncs[11441]: devel-cdb new session on running for econfd <0.172.0>
+<DEBUG> 15-Jul-2020::14:59:52.018 ubuntu ncs[11441]: devel-cdb client econfd <0.172.0> closed
+<DEBUG> 15-Jul-2020::14:59:52.018 ubuntu ncs[11441]: devel-cdb connect from econfd <0.172.0>
+<DEBUG> 15-Jul-2020::14:59:52.018 ubuntu ncs[11441]: devel-cdb new session on operational for econfd <0.172.0>
+<DEBUG> 15-Jul-2020::14:59:52.018 ubuntu ncs[11441]: devel-cdb client econfd <0.172.0> closed
+<DEBUG> 15-Jul-2020::14:59:52.019 ubuntu ncs[11441]: devel-cdb connect from econfd <0.400.0>
+<DEBUG> 15-Jul-2020::14:59:52.019 ubuntu ncs[11441]: devel-cdb new subscriber session for econfd <0.400.0>
+<INFO> 15-Jul-2020::14:59:52.027 ubuntu ncs[11441]: ncs embedded apps in phase2:
+	[]
+<INFO> 15-Jul-2020::14:59:52.511 ubuntu ncs[11441]: devel-snmpa loaded snmp mib: /home/eve/nso-5.3/lib/ncs/lib/snmp/snmp/priv/mibs/SNMPv2-MIB
+<INFO> 15-Jul-2020::14:59:52.511 ubuntu ncs[11441]: devel-snmpa loaded snmp mib: /home/eve/nso-5.3/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-FRAMEWORK-MIB
+<INFO> 15-Jul-2020::14:59:52.511 ubuntu ncs[11441]: devel-snmpa loaded snmp mib: /home/eve/nso-5.3/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-MPD-MIB
+<INFO> 15-Jul-2020::14:59:52.633 ubuntu ncs[11441]: devel-snmpa setting snmpEngineID: 80:00:7E:D9:04:74:65:73:74:69:6E:67
+<DEBUG> 15-Jul-2020::14:59:52.713 ubuntu ncs[11441]: devel-snmpa no view for view type: write
+<DEBUG> 15-Jul-2020::14:59:52.714 ubuntu ncs[11441]: devel-snmpa no access entry and view name found: view type: write, group name: public, context name: , sec model: SNMPv1(1), sec level: noAuthNoPriv(1)
+<DEBUG> 15-Jul-2020::14:59:52.714 ubuntu ncs[11441]: devel-snmpa no view for view type: write
+<DEBUG> 15-Jul-2020::14:59:52.714 ubuntu ncs[11441]: devel-snmpa no access entry and view name found: view type: write, group name: public, context name: , sec model: SNMPv2c(2), sec level: noAuthNoPriv(1)
+<INFO> 15-Jul-2020::14:59:52.800 ubuntu ncs[11441]: devel-snmpa loaded snmp mib: /home/eve/nso-5.3/etc/ncs/snmp/IANA-ITU-ALARM-TC-MIB.bin
+<INFO> 15-Jul-2020::14:59:52.800 ubuntu ncs[11441]: devel-snmpa loaded snmp mib: /home/eve/nso-5.3/etc/ncs/snmp/ITU-ALARM-TC-MIB.bin
+<INFO> 15-Jul-2020::14:59:52.811 ubuntu ncs[11441]: devel-snmpa loaded snmp mib: /home/eve/nso-5.3/etc/ncs/snmp/TAILF-ALARM-MIB.bin
+<INFO> 15-Jul-2020::14:59:52.812 ubuntu ncs[11441]: devel-snmpa loaded snmp mib: /home/eve/nso-5.3/etc/ncs/snmp/TAILF-ALARM-TC-MIB.bin
+<INFO> 15-Jul-2020::14:59:52.814 ubuntu ncs[11441]: devel-snmpa loaded snmp mib: /home/eve/nso-5.3/etc/ncs/snmp/TAILF-TOP-MIB.bin
+<INFO> 15-Jul-2020::14:59:52.816 ubuntu ncs[11441]: devel-snmpa loaded snmp mib: /home/eve/nso-5.3/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-COMMUNITY-MIB.bin
+<INFO> 15-Jul-2020::14:59:52.818 ubuntu ncs[11441]: devel-snmpa loaded snmp mib: /home/eve/nso-5.3/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-TARGET-MIB.bin
+<INFO> 15-Jul-2020::14:59:52.830 ubuntu ncs[11441]: devel-snmpa loaded snmp mib: /home/eve/nso-5.3/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-NOTIFICATION-MIB.bin
+<INFO> 15-Jul-2020::14:59:52.832 ubuntu ncs[11441]: devel-snmpa loaded snmp mib: /home/eve/nso-5.3/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-USER-BASED-SM-MIB.bin
+<INFO> 15-Jul-2020::14:59:52.839 ubuntu ncs[11441]: devel-snmpa loaded snmp mib: /home/eve/nso-5.3/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-VIEW-BASED-ACM-MIB.bin
+<INFO> 15-Jul-2020::14:59:52.839 ubuntu ncs[11441]: devel-snmpa snmp agent started
+<DEBUG> 15-Jul-2020::14:59:53.898 ubuntu ncs[11441]: devel-cdb connect from NCSLOGGER-subscr
+<DEBUG> 15-Jul-2020::14:59:53.919 ubuntu ncs[11441]: devel-cdb new subscriber session for NCSLOGGER-subscr
+<DEBUG> 15-Jul-2020::14:59:53.945 ubuntu ncs[11441]: devel-cdb connect from ncsMain-alCdb
+<DEBUG> 15-Jul-2020::14:59:54.445 ubuntu ncs[11441]: devel-cdb connect from econfd <0.512.0>
+<DEBUG> 15-Jul-2020::14:59:54.446 ubuntu ncs[11441]: devel-cdb new subscriber session for econfd <0.512.0>
+<DEBUG> 15-Jul-2020::14:59:54.510 ubuntu ncs[11441]: devel-c New daemon connected (name: ncs-ned-builder-internal-dir-path, daemon id: 6)
+<DEBUG> 15-Jul-2020::14:59:54.510 ubuntu ncs[11441]: devel-c New worker connected (daemon id: 6 worker id: 1)
+<DEBUG> 15-Jul-2020::14:59:54.636 ubuntu ncs[11441]: devel-sls starting SLS server
+<DEBUG> 15-Jul-2020::14:59:55.402 ubuntu ncs[11441]: devel-cdb Delaying CDB journal compaction
+<INFO> 15-Jul-2020::15:00:00.404 ubuntu ncs[11441]: devel-cdb Initiating CDB journal compaction
+<INFO> 15-Jul-2020::15:00:00.414 ubuntu ncs[11441]: devel-cdb Compacted CDB journal file: 10 ms (339 nodes in memory, disk size 4 bytes -> 4.86 KiB)
+<DEBUG> 15-Jul-2020::15:00:10.631 ubuntu ncs[11441]: devel-cdb connect from econfd <0.579.0>
+<DEBUG> 15-Jul-2020::15:00:10.635 ubuntu ncs[11441]: devel-cdb new subscriber session for econfd <0.579.0>
+<DEBUG> 15-Jul-2020::15:00:10.637 ubuntu ncs[11441]: devel-cdb connect from econfd <0.581.0>
+<DEBUG> 15-Jul-2020::15:00:10.638 ubuntu ncs[11441]: devel-cdb new subscriber session for econfd <0.581.0>
+<DEBUG> 15-Jul-2020::15:00:10.639 ubuntu ncs[11441]: devel-sls request entitlement tag:<<"regid.2015-10.com.cisco.NSO-platform-production,1.0_d1445dab-9d96-4593-99f2-6f633b8a759c">> version:<<"1.0">> count:1
+<DEBUG> 15-Jul-2020::15:00:12.655 ubuntu ncs[11441]: devel-c new_usess db request daemon id: 6
+<DEBUG> 15-Jul-2020::15:00:12.655 ubuntu ncs[11441]: devel-c db reply daemon id: 6
+<DEBUG> 15-Jul-2020::15:00:12.656 ubuntu ncs[11441]: devel-c close_usess db request daemon id: 6
+<DEBUG> 15-Jul-2020::15:00:12.656 ubuntu ncs[11441]: devel-c db reply daemon id: 6
+<DEBUG> 15-Jul-2020::15:00:12.927 ubuntu ncs[11441]: devel-sls request entitlement tag:<<"regid.2015-10.com.cisco.NSO-network-element,1.0_5d641fa0-757d-43b0-a926-166cb6e3cfdd">> version:<<"1.0">> count:0
+<DEBUG> 15-Jul-2020::15:00:12.934 ubuntu ncs[11441]: devel-sls request entitlement tag:<<"regid.2015-10.com.cisco.NSO-platform-production-standby,1.0_c1a6183d-336a-4f35-af72-49a0d99b02b8">> version:<<"1.0">> count:0
+<DEBUG> 15-Jul-2020::15:00:12.938 ubuntu ncs[11441]: devel-sls received global notification: notification_type = notify_enabled, enforce_mode = not_applicable
+<DEBUG> 15-Jul-2020::15:00:15.629 ubuntu ncs[11441]: devel-sls received global notification: notification_type = notify_ready, enforce_mode = not_applicable
+<DEBUG> 15-Jul-2020::15:00:15.702 ubuntu ncs[11441]: devel-sls received global notification: notification_type = notify_enforcement_mode, enforce_mode = eval
+<ERR> 15-Jul-2020::15:07:34.585 ubuntu ncs[11441]: ncs osCommand error: /home/eve/nso-5.3/lib/ncs/lib/core/confd/priv/cmdptywrapper -I 127.0.0.1 -p 4569 -i 0 -H L2hvbWUvZXZlL0RvY3VtZW50cy9JbmZhc3RydWN0dXJlX0F1dG9tYXRpb24vTlNPL25zby1pbnN0YW5jZQ== -N YWRtaW4= -G 4,24,27,30,46,108,113,114,1000 -n YWRtaW4sYWRtLGNkcm9tLHN1ZG8sZGlwLHBsdWdkZXYsbHhkLGxwYWRtaW4sc2FtYmFzaGFyZSxldmU= -m 35 -t eHRlcm0= -U 38 -w 80 -h 41 -c L2hvbWUvZXZlL0RvY3VtZW50cy9JbmZhc3RydWN0dXJlX0F1dG9tYXRpb24vTlNPL25zby1pbnN0YW5jZQ== -g 1000 -u 1000 ping IjE5Mi4xNjguMC4xMiI=: warning: group not found admin
+warning: failed to set secondary groups
+
+<DEBUG> 15-Jul-2020::19:24:21.681 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: applying transaction...
+<DEBUG> 15-Jul-2020::19:24:21.683 ubuntu ncs[11441]: devel-c new_usess db request daemon id: 4
+<DEBUG> 15-Jul-2020::19:24:21.683 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: entering validate phase for running...
+<DEBUG> 15-Jul-2020::19:24:21.683 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: run pre-trans-lock service callbacks...
+<DEBUG> 15-Jul-2020::19:24:21.683 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: run transforms and transaction hooks...
+<DEBUG> 15-Jul-2020::19:24:21.683 ubuntu ncs[11441]: devel-c db reply daemon id: 4
+<DEBUG> 15-Jul-2020::19:24:21.684 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: run transforms and transaction hooks done
+<DEBUG> 15-Jul-2020::19:24:21.684 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: run pre-trans-lock service callbacks done
+<DEBUG> 15-Jul-2020::19:24:21.684 ubuntu ncs[11441]: devel-c new_trans request daemon id: 4 thandle: 97
+<DEBUG> 15-Jul-2020::19:24:21.684 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: grabbing transaction lock...
+<DEBUG> 15-Jul-2020::19:24:21.684 ubuntu ncs[11441]: devel-c new_trans succeeded daemon id: 4 session id: 97 worker id: 1
+<DEBUG> 15-Jul-2020::19:24:21.684 ubuntu ncs[11441]: devel-c new_usess db request daemon id: 0
+<DEBUG> 15-Jul-2020::19:24:21.685 ubuntu ncs[11441]: devel-c db reply daemon id: 0
+<DEBUG> 15-Jul-2020::19:24:21.685 ubuntu ncs[11441]: devel-c new_trans request daemon id: 0 thandle: 97
+<DEBUG> 15-Jul-2020::19:24:21.685 ubuntu ncs[11441]: devel-c new_trans succeeded daemon id: 0 session id: 97 worker id: 1
+<DEBUG> 15-Jul-2020::19:24:21.685 ubuntu ncs[11441]: devel-c trans_lock request daemon id: 4 session id: 97
+<DEBUG> 15-Jul-2020::19:24:21.685 ubuntu ncs[11441]: devel-c trans_lock succeeded daemon id: 4 session id: 97
+<DEBUG> 15-Jul-2020::19:24:21.685 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: grabbing transaction lock ok
+<DEBUG> 15-Jul-2020::19:24:21.686 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: creating rollback file...
+<DEBUG> 15-Jul-2020::19:24:21.701 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: creating rollback file ok
+<DEBUG> 15-Jul-2020::19:24:21.701 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: run transforms and transaction hooks...
+<DEBUG> 15-Jul-2020::19:24:21.702 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: run transforms and transaction hooks done
+<DEBUG> 15-Jul-2020::19:24:21.702 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: mark inactive...
+<DEBUG> 15-Jul-2020::19:24:21.703 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: mark inactive done
+<DEBUG> 15-Jul-2020::19:24:21.704 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: pre validate...
+<DEBUG> 15-Jul-2020::19:24:21.704 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: pre validate done
+<DEBUG> 15-Jul-2020::19:24:21.704 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: run validation over the changeset...
+<DEBUG> 15-Jul-2020::19:24:21.704 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: run validation over the changeset done
+<DEBUG> 15-Jul-2020::19:24:21.705 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: run dependency-triggered validation...
+<DEBUG> 15-Jul-2020::19:24:21.705 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: run dependency-triggered validation done
+<DEBUG> 15-Jul-2020::19:24:21.705 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: check configuration policies...
+<DEBUG> 15-Jul-2020::19:24:21.705 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: check configuration policies done
+<DEBUG> 15-Jul-2020::19:24:21.705 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: leaving validate phase for running
+<DEBUG> 15-Jul-2020::19:24:21.705 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: entering write-start phase for running...
+<DEBUG> 15-Jul-2020::19:24:21.705 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: cdb: write-start
+<DEBUG> 15-Jul-2020::19:24:21.710 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: check data kickers...
+<DEBUG> 15-Jul-2020::19:24:21.710 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: check data kickers done
+<DEBUG> 15-Jul-2020::19:24:21.711 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: leaving write-start phase for running
+<DEBUG> 15-Jul-2020::19:24:21.711 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: entering prepare phase for running...
+<DEBUG> 15-Jul-2020::19:24:21.712 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: cdb: prepare
+<DEBUG> 15-Jul-2020::19:24:21.712 ubuntu ncs[11441]: devel-c prepare request daemon id: 0 session id: 97
+<DEBUG> 15-Jul-2020::19:24:21.712 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: ncs-internal-device-mgr: prepare
+<DEBUG> 15-Jul-2020::19:24:21.724 ubuntu ncs[11441]: devel-c prepare succeeded daemon id: 0 session id: 97
+<DEBUG> 15-Jul-2020::19:24:21.725 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: leaving prepare phase for running
+<DEBUG> 15-Jul-2020::19:24:21.725 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: entering commit phase for running...
+<DEBUG> 15-Jul-2020::19:24:21.725 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: cdb: commit
+<DEBUG> 15-Jul-2020::19:24:21.736 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: cdb: delivering commit subscription notifications at prio 12
+<DEBUG> 15-Jul-2020::19:24:21.736 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: cdb: all commit subscription notifications acknowledged
+<DEBUG> 15-Jul-2020::19:24:21.737 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: ncs-internal-service-mux: commit
+<DEBUG> 15-Jul-2020::19:24:21.737 ubuntu ncs[11441]: devel-c commit request daemon id: 4 session id: 97
+<DEBUG> 15-Jul-2020::19:24:21.737 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: ncs-internal-device-mgr: commit
+<DEBUG> 15-Jul-2020::19:24:21.738 ubuntu ncs[11441]: devel-c commit succeeded daemon id: 4 session id: 97
+<DEBUG> 15-Jul-2020::19:24:21.744 ubuntu ncs[11441]: devel-c commit request daemon id: 0 session id: 97
+<DEBUG> 15-Jul-2020::19:24:21.745 ubuntu ncs[11441]: devel-c commit succeeded daemon id: 0 session id: 97
+<DEBUG> 15-Jul-2020::19:24:21.748 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: releasing transaction lock
+<DEBUG> 15-Jul-2020::19:24:21.748 ubuntu ncs[11441]: devel-c close_trans request daemon id: 4 session id: 97
+<DEBUG> 15-Jul-2020::19:24:21.749 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: leaving commit phase for running
+<DEBUG> 15-Jul-2020::19:24:21.749 ubuntu ncs[11441]: devel-c close_trans succeeded daemon id: 4 session id: 97
+<DEBUG> 15-Jul-2020::19:24:21.750 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=97: applying transaction done
+<DEBUG> 15-Jul-2020::19:24:21.750 ubuntu ncs[11441]: devel-c close_trans request daemon id: 0 session id: 97
+<DEBUG> 15-Jul-2020::19:24:21.751 ubuntu ncs[11441]: devel-c close_trans succeeded daemon id: 0 session id: 97
+<DEBUG> 15-Jul-2020::19:28:03.811 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: applying transaction...
+<DEBUG> 15-Jul-2020::19:28:03.812 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: entering validate phase for running...
+<DEBUG> 15-Jul-2020::19:28:03.813 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: run pre-trans-lock service callbacks...
+<DEBUG> 15-Jul-2020::19:28:03.813 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: run transforms and transaction hooks...
+<DEBUG> 15-Jul-2020::19:28:03.817 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: run transforms and transaction hooks done
+<DEBUG> 15-Jul-2020::19:28:03.819 ubuntu ncs[11441]: devel-c new_trans request daemon id: 4 thandle: 121
+<DEBUG> 15-Jul-2020::19:28:03.819 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: run pre-trans-lock service callbacks done
+<DEBUG> 15-Jul-2020::19:28:03.819 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: grabbing transaction lock...
+<DEBUG> 15-Jul-2020::19:28:03.820 ubuntu ncs[11441]: devel-c new_trans succeeded daemon id: 4 session id: 121 worker id: 1
+<DEBUG> 15-Jul-2020::19:28:03.820 ubuntu ncs[11441]: devel-c new_trans request daemon id: 0 thandle: 121
+<DEBUG> 15-Jul-2020::19:28:03.821 ubuntu ncs[11441]: devel-c new_trans succeeded daemon id: 0 session id: 121 worker id: 1
+<DEBUG> 15-Jul-2020::19:28:03.821 ubuntu ncs[11441]: devel-c trans_lock request daemon id: 4 session id: 121
+<DEBUG> 15-Jul-2020::19:28:03.822 ubuntu ncs[11441]: devel-c trans_lock succeeded daemon id: 4 session id: 121
+<DEBUG> 15-Jul-2020::19:28:03.822 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: grabbing transaction lock ok
+<DEBUG> 15-Jul-2020::19:28:03.822 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: creating rollback file...
+<DEBUG> 15-Jul-2020::19:28:03.835 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: creating rollback file ok
+<DEBUG> 15-Jul-2020::19:28:03.839 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: run transforms and transaction hooks...
+<DEBUG> 15-Jul-2020::19:28:03.839 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: run transforms and transaction hooks done
+<DEBUG> 15-Jul-2020::19:28:03.839 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: mark inactive...
+<DEBUG> 15-Jul-2020::19:28:03.839 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: mark inactive done
+<DEBUG> 15-Jul-2020::19:28:03.839 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: pre validate...
+<DEBUG> 15-Jul-2020::19:28:03.839 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: pre validate done
+<DEBUG> 15-Jul-2020::19:28:03.840 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: run validation over the changeset...
+<DEBUG> 15-Jul-2020::19:28:03.856 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: run validation over the changeset done
+<DEBUG> 15-Jul-2020::19:28:03.861 ubuntu ncs[11441]: devel-c prepare request daemon id: 0 session id: 121
+<DEBUG> 15-Jul-2020::19:28:03.861 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: run dependency-triggered validation...
+<DEBUG> 15-Jul-2020::19:28:03.861 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: run dependency-triggered validation done
+<DEBUG> 15-Jul-2020::19:28:03.861 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: check configuration policies...
+<DEBUG> 15-Jul-2020::19:28:03.861 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: check configuration policies done
+<DEBUG> 15-Jul-2020::19:28:03.862 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: leaving validate phase for running
+<DEBUG> 15-Jul-2020::19:28:03.862 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: entering write-start phase for running...
+<DEBUG> 15-Jul-2020::19:28:03.862 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: cdb: write-start
+<DEBUG> 15-Jul-2020::19:28:03.862 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: check data kickers...
+<DEBUG> 15-Jul-2020::19:28:03.863 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: check data kickers done
+<DEBUG> 15-Jul-2020::19:28:03.863 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: leaving write-start phase for running
+<DEBUG> 15-Jul-2020::19:28:03.863 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: entering prepare phase for running...
+<DEBUG> 15-Jul-2020::19:28:03.864 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: cdb: prepare
+<DEBUG> 15-Jul-2020::19:28:03.864 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: ncs-internal-device-mgr: prepare
+<DEBUG> 15-Jul-2020::19:28:03.865 ubuntu ncs[11441]: devel-c prepare succeeded daemon id: 0 session id: 121
+<DEBUG> 15-Jul-2020::19:28:03.866 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: leaving prepare phase for running
+<DEBUG> 15-Jul-2020::19:28:03.866 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: entering commit phase for running...
+<DEBUG> 15-Jul-2020::19:28:03.866 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: cdb: commit
+<DEBUG> 15-Jul-2020::19:28:03.872 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: cdb: delivering commit subscription notifications at prio 1
+<DEBUG> 15-Jul-2020::19:28:03.880 ubuntu ncs[11441]: devel-sls request entitlement tag:<<"regid.2015-10.com.cisco.NSO-platform-production,1.0_d1445dab-9d96-4593-99f2-6f633b8a759c">> version:<<"1.0">> count:1
+<DEBUG> 15-Jul-2020::19:28:03.917 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: cdb: delivering commit subscription notifications at prio 11
+<DEBUG> 15-Jul-2020::19:28:03.918 ubuntu ncs[11441]: devel-c commit request daemon id: 4 session id: 121
+<DEBUG> 15-Jul-2020::19:28:03.918 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: cdb: all commit subscription notifications acknowledged
+<DEBUG> 15-Jul-2020::19:28:03.918 ubuntu ncs[11441]: devel-c commit succeeded daemon id: 4 session id: 121
+<DEBUG> 15-Jul-2020::19:28:03.918 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: ncs-internal-service-mux: commit
+<DEBUG> 15-Jul-2020::19:28:03.919 ubuntu ncs[11441]: devel-c commit request daemon id: 0 session id: 121
+<DEBUG> 15-Jul-2020::19:28:03.919 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: ncs-internal-device-mgr: commit
+<DEBUG> 15-Jul-2020::19:28:03.920 ubuntu ncs[11441]: devel-c commit succeeded daemon id: 0 session id: 121
+<DEBUG> 15-Jul-2020::19:28:03.924 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: releasing transaction lock
+<DEBUG> 15-Jul-2020::19:28:03.927 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: leaving commit phase for running
+<DEBUG> 15-Jul-2020::19:28:03.931 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=121: applying transaction done
+<DEBUG> 15-Jul-2020::19:28:03.940 ubuntu ncs[11441]: devel-c close_trans request daemon id: 4 session id: 121
+<DEBUG> 15-Jul-2020::19:28:03.941 ubuntu ncs[11441]: devel-c close_trans succeeded daemon id: 4 session id: 121
+<DEBUG> 15-Jul-2020::19:28:03.941 ubuntu ncs[11441]: devel-c close_trans request daemon id: 0 session id: 121
+<DEBUG> 15-Jul-2020::19:28:03.942 ubuntu ncs[11441]: devel-c close_trans succeeded daemon id: 0 session id: 121
+<DEBUG> 15-Jul-2020::19:28:06.080 ubuntu ncs[11441]: devel-sls request entitlement tag:<<"regid.2015-10.com.cisco.NSO-network-element,1.0_5d641fa0-757d-43b0-a926-166cb6e3cfdd">> version:<<"1.0">> count:1
+<DEBUG> 15-Jul-2020::19:28:08.256 ubuntu ncs[11441]: devel-sls request entitlement tag:<<"regid.2015-10.com.cisco.NSO-platform-production-standby,1.0_c1a6183d-336a-4f35-af72-49a0d99b02b8">> version:<<"1.0">> count:0
+<DEBUG> 15-Jul-2020::19:28:08.267 ubuntu ncs[11441]: devel-sls received global notification: notification_type = notify_enforcement_mode, enforce_mode = eval
+<DEBUG> 15-Jul-2020::19:28:11.125 ubuntu ncs[11441]: devel-sls received global notification: notification_type = notify_enforcement_mode, enforce_mode = eval
+<DEBUG> 15-Jul-2020::19:28:56.000 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: applying transaction...
+<DEBUG> 15-Jul-2020::19:28:56.001 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: entering validate phase for running...
+<DEBUG> 15-Jul-2020::19:28:56.001 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: run pre-trans-lock service callbacks...
+<DEBUG> 15-Jul-2020::19:28:56.001 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: run transforms and transaction hooks...
+<DEBUG> 15-Jul-2020::19:28:56.007 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: run transforms and transaction hooks done
+<DEBUG> 15-Jul-2020::19:28:56.007 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: run pre-trans-lock service callbacks done
+<DEBUG> 15-Jul-2020::19:28:56.007 ubuntu ncs[11441]: devel-c new_trans request daemon id: 4 thandle: 167
+<DEBUG> 15-Jul-2020::19:28:56.008 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: grabbing transaction lock...
+<DEBUG> 15-Jul-2020::19:28:56.008 ubuntu ncs[11441]: devel-c new_trans succeeded daemon id: 4 session id: 167 worker id: 1
+<DEBUG> 15-Jul-2020::19:28:56.008 ubuntu ncs[11441]: devel-c new_trans request daemon id: 0 thandle: 167
+<DEBUG> 15-Jul-2020::19:28:56.009 ubuntu ncs[11441]: devel-c new_trans succeeded daemon id: 0 session id: 167 worker id: 1
+<DEBUG> 15-Jul-2020::19:28:56.009 ubuntu ncs[11441]: devel-c trans_lock request daemon id: 4 session id: 167
+<DEBUG> 15-Jul-2020::19:28:56.009 ubuntu ncs[11441]: devel-c trans_lock succeeded daemon id: 4 session id: 167
+<DEBUG> 15-Jul-2020::19:28:56.009 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: grabbing transaction lock ok
+<DEBUG> 15-Jul-2020::19:28:56.010 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: creating rollback file...
+<DEBUG> 15-Jul-2020::19:28:56.022 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: creating rollback file ok
+<DEBUG> 15-Jul-2020::19:28:56.022 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: run transforms and transaction hooks...
+<DEBUG> 15-Jul-2020::19:28:56.023 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: run transforms and transaction hooks done
+<DEBUG> 15-Jul-2020::19:28:56.023 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: mark inactive...
+<DEBUG> 15-Jul-2020::19:28:56.023 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: mark inactive done
+<DEBUG> 15-Jul-2020::19:28:56.024 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: pre validate...
+<DEBUG> 15-Jul-2020::19:28:56.025 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: pre validate done
+<DEBUG> 15-Jul-2020::19:28:56.025 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: run validation over the changeset...
+<DEBUG> 15-Jul-2020::19:28:56.031 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: run validation over the changeset done
+<DEBUG> 15-Jul-2020::19:28:56.032 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: run dependency-triggered validation...
+<DEBUG> 15-Jul-2020::19:28:56.032 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: run dependency-triggered validation done
+<DEBUG> 15-Jul-2020::19:28:56.032 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: check configuration policies...
+<DEBUG> 15-Jul-2020::19:28:56.032 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: check configuration policies done
+<DEBUG> 15-Jul-2020::19:28:56.032 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: leaving validate phase for running
+<DEBUG> 15-Jul-2020::19:28:56.032 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: entering write-start phase for running...
+<DEBUG> 15-Jul-2020::19:28:56.032 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: cdb: write-start
+<DEBUG> 15-Jul-2020::19:28:56.033 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: check data kickers...
+<DEBUG> 15-Jul-2020::19:28:56.033 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: check data kickers done
+<DEBUG> 15-Jul-2020::19:28:56.040 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: leaving write-start phase for running
+<DEBUG> 15-Jul-2020::19:28:56.040 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: entering prepare phase for running...
+<DEBUG> 15-Jul-2020::19:28:56.040 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: cdb: prepare
+<DEBUG> 15-Jul-2020::19:28:56.040 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: ncs-internal-device-mgr: prepare
+<DEBUG> 15-Jul-2020::19:28:56.040 ubuntu ncs[11441]: devel-c prepare request daemon id: 0 session id: 167
+<DEBUG> 15-Jul-2020::19:28:56.054 ubuntu ncs[11441]: devel-c prepare succeeded daemon id: 0 session id: 167
+<DEBUG> 15-Jul-2020::19:28:56.054 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: leaving prepare phase for running
+<DEBUG> 15-Jul-2020::19:28:56.054 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: entering commit phase for running...
+<DEBUG> 15-Jul-2020::19:28:56.055 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: cdb: commit
+<DEBUG> 15-Jul-2020::19:28:56.060 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: cdb: delivering commit subscription notifications at prio 1
+<DEBUG> 15-Jul-2020::19:28:56.063 ubuntu ncs[11441]: devel-c commit request daemon id: 4 session id: 167
+<DEBUG> 15-Jul-2020::19:28:56.064 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: cdb: all commit subscription notifications acknowledged
+<DEBUG> 15-Jul-2020::19:28:56.064 ubuntu ncs[11441]: devel-c commit succeeded daemon id: 4 session id: 167
+<DEBUG> 15-Jul-2020::19:28:56.064 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: ncs-internal-service-mux: commit
+<DEBUG> 15-Jul-2020::19:28:56.064 ubuntu ncs[11441]: devel-c commit request daemon id: 0 session id: 167
+<DEBUG> 15-Jul-2020::19:28:56.065 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: ncs-internal-device-mgr: commit
+<DEBUG> 15-Jul-2020::19:28:56.065 ubuntu ncs[11441]: devel-c commit succeeded daemon id: 0 session id: 167
+<DEBUG> 15-Jul-2020::19:28:56.068 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: releasing transaction lock
+<DEBUG> 15-Jul-2020::19:28:56.068 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: leaving commit phase for running
+<DEBUG> 15-Jul-2020::19:28:56.068 ubuntu ncs[11441]: ncs commit progress db=running usid=42 thandle=167: applying transaction done
+<DEBUG> 15-Jul-2020::19:28:56.069 ubuntu ncs[11441]: devel-c close_trans request daemon id: 4 session id: 167
+<DEBUG> 15-Jul-2020::19:28:56.069 ubuntu ncs[11441]: devel-c close_trans succeeded daemon id: 4 session id: 167
+<DEBUG> 15-Jul-2020::19:28:56.069 ubuntu ncs[11441]: devel-c close_trans request daemon id: 0 session id: 167
+<DEBUG> 15-Jul-2020::19:28:56.069 ubuntu ncs[11441]: devel-c close_trans succeeded daemon id: 0 session id: 167
+<DEBUG> 15-Jul-2020::19:29:08.348 ubuntu ncs[11441]: ncs progress db=undefined usid=42 thandle=181: ncs: device Dev-Access-SW01: connect: device connect...
+<ERR> 15-Jul-2020::19:29:08.368 ubuntu ncs[11441]: ncs cli ned-id 'ned:snmp' not registered by user code. The following ned-ids are registered: []
+<DEBUG> 15-Jul-2020::19:29:08.394 ubuntu ncs[11441]: ncs progress db=undefined usid=42 thandle=181: ncs: device Dev-Access-SW01: connect: device connect error
+<DEBUG> 15-Jul-2020::19:29:08.442 ubuntu ncs[11441]: devel-snmpa notif dbg:Processing tfAlarmMajor in context "" for all snmpNotifyEntries
+<DEBUG> 15-Jul-2020::19:29:08.462 ubuntu ncs[11441]: devel-snmpa notif dbg:Found snmpTargetAddrName "monitor" (vsn: v2c, address: 127.0.0.1:162, sec-name: "public" type: trap) for tfAlarmMajor
+<DEBUG> 15-Jul-2020::19:29:08.491 ubuntu ncs[11441]: devel-snmpa notif dbg:Sending packet to 127.0.0.1:162
+<DEBUG> 15-Jul-2020::19:31:55.343 ubuntu ncs[11441]: devel-c close_usess db request daemon id: 4
+<DEBUG> 15-Jul-2020::19:31:55.344 ubuntu ncs[11441]: devel-c db reply daemon id: 4
+<DEBUG> 15-Jul-2020::19:31:55.345 ubuntu ncs[11441]: devel-c close_usess db request daemon id: 0
+<DEBUG> 15-Jul-2020::19:31:55.346 ubuntu ncs[11441]: devel-c db reply daemon id: 0
+<ERR> 15-Jul-2020::19:45:32.778 ubuntu ncs[11441]: ncs osCommand error: /home/eve/nso-5.3/lib/ncs/lib/core/confd/priv/cmdptywrapper -I 127.0.0.1 -p 4569 -i 1 -H L2hvbWUvZXZlL25zby01LjMvYmlu -N ZXZl -G 4,24,27,30,46,108,113,114,1000 -n YWRtLGNkcm9tLHN1ZG8sZGlwLHBsdWdkZXYsbHhkLGxwYWRtaW4sc2FtYmFzaGFyZSxldmU= -m 192 -t eHRlcm0= -U 45 -w 64 -h 17 -c L2hvbWUvZXZlL25zby01LjMvYmlu /usr/sbin/traceroute IjE5Mi4xNjguMC4yIg==: warning: failed to set secondary groups
+
+<ERR> 15-Jul-2020::19:45:37.693 ubuntu ncs[11441]: ncs osCommand error: /home/eve/nso-5.3/lib/ncs/lib/core/confd/priv/cmdptywrapper -I 127.0.0.1 -p 4569 -i 2 -H L2hvbWUvZXZlL25zby01LjMvYmlu -N ZXZl -G 4,24,27,30,46,108,113,114,1000 -n YWRtLGNkcm9tLHN1ZG8sZGlwLHBsdWdkZXYsbHhkLGxwYWRtaW4sc2FtYmFzaGFyZSxldmU= -m 192 -t eHRlcm0= -U 45 -w 64 -h 17 -c L2hvbWUvZXZlL25zby01LjMvYmlu -g 1000 -u 1000 ping IjE5Mi4xNjguMC4yIg==: warning: failed to set secondary groups
+
+<DEBUG> 15-Jul-2020::19:46:12.516 ubuntu ncs[11441]: ncs progress db=undefined usid=45 thandle=192: ncs: device Dev-Access-SW01: connect: device connect...
+<ERR> 15-Jul-2020::19:46:12.517 ubuntu ncs[11441]: ncs cli ned-id 'ned:snmp' not registered by user code. The following ned-ids are registered: []
+<DEBUG> 15-Jul-2020::19:46:12.525 ubuntu ncs[11441]: ncs progress db=undefined usid=45 thandle=192: ncs: device Dev-Access-SW01: connect: device connect error
+<DEBUG> 15-Jul-2020::19:47:25.446 ubuntu ncs[11441]: devel-aaa User: eve[adm,cdrom,sudo,dip,plugdev,lxd,lpadmin,sambashare,eve] rejected data access path /tls:tls op read due to no rule matched and node has nacm:default-deny-all
+<DEBUG> 15-Jul-2020::19:47:25.446 ubuntu ncs[11441]: devel-aaa User: eve[adm,cdrom,sudo,dip,plugdev,lxd,lpadmin,sambashare,eve] rejected data access path /nacm:nacm op read due to no rule matched and node has nacm:default-deny-all
+<DEBUG> 15-Jul-2020::19:47:28.298 ubuntu ncs[11441]: devel-aaa User: eve[adm,cdrom,sudo,dip,plugdev,lxd,lpadmin,sambashare,eve] rejected data access path /aaa:aaa/authentication op read due to no rule matched and node has nacm:default-deny-all
+<DEBUG> 15-Jul-2020::19:47:28.299 ubuntu ncs[11441]: devel-aaa User: eve[adm,cdrom,sudo,dip,plugdev,lxd,lpadmin,sambashare,eve] rejected data access path /aaa:aaa/authentication/users op read due to no rule matched and node has nacm:default-deny-all
+<DEBUG> 15-Jul-2020::19:47:28.299 ubuntu ncs[11441]: devel-aaa User: eve[adm,cdrom,sudo,dip,plugdev,lxd,lpadmin,sambashare,eve] rejected data access path /aaa:aaa/authentication/users/user{admin} op read due to no rule matched and node has nacm:default-deny-all
+<DEBUG> 15-Jul-2020::19:47:28.300 ubuntu ncs[11441]: devel-aaa User: eve[adm,cdrom,sudo,dip,plugdev,lxd,lpadmin,sambashare,eve] rejected data access path /aaa:aaa/authentication/users/user{oper} op read due to no rule matched and node has nacm:default-deny-all
+<DEBUG> 15-Jul-2020::19:47:28.300 ubuntu ncs[11441]: devel-aaa User: eve[adm,cdrom,sudo,dip,plugdev,lxd,lpadmin,sambashare,eve] rejected data access path /aaa:aaa/authentication/users/user{private} op read due to no rule matched and node has nacm:default-deny-all
+<DEBUG> 15-Jul-2020::19:47:28.300 ubuntu ncs[11441]: devel-aaa User: eve[adm,cdrom,sudo,dip,plugdev,lxd,lpadmin,sambashare,eve] rejected data access path /aaa:aaa/authentication/users/user{public} op read due to no rule matched and node has nacm:default-deny-all
+<DEBUG> 15-Jul-2020::19:47:28.300 ubuntu ncs[11441]: devel-aaa User: eve[adm,cdrom,sudo,dip,plugdev,lxd,lpadmin,sambashare,eve] rejected data access path /aaa:aaa/ios op read due to no rule matched and node has nacm:default-deny-all
+<DEBUG> 15-Jul-2020::19:47:28.301 ubuntu ncs[11441]: devel-aaa User: eve[adm,cdrom,sudo,dip,plugdev,lxd,lpadmin,sambashare,eve] rejected data access path /aaa:aaa/ios op read due to no rule matched and node has nacm:default-deny-all
+<DEBUG> 15-Jul-2020::19:47:28.301 ubuntu ncs[11441]: devel-aaa User: eve[adm,cdrom,sudo,dip,plugdev,lxd,lpadmin,sambashare,eve] rejected data access path /aaa:aaa/ios op read due to no rule matched and node has nacm:default-deny-all
+<DEBUG> 15-Jul-2020::19:47:44.068 ubuntu ncs[11441]: devel-aaa User: eve[adm,cdrom,sudo,dip,plugdev,lxd,lpadmin,sambashare,eve] rejected data access path /aaa:aaa op write due to no rule matched and node has nacm:default-deny-all
+<DEBUG> 15-Jul-2020::19:47:44.068 ubuntu ncs[11441]: devel-aaa User: eve[adm,cdrom,sudo,dip,plugdev,lxd,lpadmin,sambashare,eve] rejected data access path /aaa:alias op write due to no rule matched and node has nacm:default-deny-write
+<DEBUG> 15-Jul-2020::19:47:44.069 ubuntu ncs[11441]: devel-aaa User: eve[adm,cdrom,sudo,dip,plugdev,lxd,lpadmin,sambashare,eve] rejected data access path /aaa:session op write due to no rule matched and node has nacm:default-deny-write
+<DEBUG> 15-Jul-2020::19:47:44.069 ubuntu ncs[11441]: devel-aaa User: eve[adm,cdrom,sudo,dip,plugdev,lxd,lpadmin,sambashare,eve] rejected data access path /tls:tls op read due to no rule matched and node has nacm:default-deny-all
+<DEBUG> 15-Jul-2020::19:47:44.069 ubuntu ncs[11441]: devel-aaa User: eve[adm,cdrom,sudo,dip,plugdev,lxd,lpadmin,sambashare,eve] rejected data access path /tls:tls op write due to no rule matched and node has nacm:default-deny-all
+<DEBUG> 15-Jul-2020::19:47:44.070 ubuntu ncs[11441]: devel-aaa User: eve[adm,cdrom,sudo,dip,plugdev,lxd,lpadmin,sambashare,eve] rejected data access path /nacm:nacm op read due to no rule matched and node has nacm:default-deny-all
+<DEBUG> 15-Jul-2020::19:47:44.070 ubuntu ncs[11441]: devel-aaa User: eve[adm,cdrom,sudo,dip,plugdev,lxd,lpadmin,sambashare,eve] rejected data access path /nacm:nacm op write due to no rule matched and node has nacm:default-deny-all
+<DEBUG> 15-Jul-2020::19:59:08.766 ubuntu ncs[11441]: devel-c new_usess db request daemon id: 4
+<DEBUG> 15-Jul-2020::19:59:08.767 ubuntu ncs[11441]: devel-c db reply daemon id: 4
+<DEBUG> 15-Jul-2020::19:59:08.768 ubuntu ncs[11441]: devel-c close_usess db request daemon id: 4
+<DEBUG> 15-Jul-2020::19:59:08.768 ubuntu ncs[11441]: devel-c db reply daemon id: 4
+<DEBUG> 15-Jul-2020::19:59:08.769 ubuntu ncs[11441]: devel-c new_usess db request daemon id: 0
+<DEBUG> 15-Jul-2020::19:59:08.769 ubuntu ncs[11441]: devel-c db reply daemon id: 0
+<DEBUG> 15-Jul-2020::19:59:08.770 ubuntu ncs[11441]: devel-c close_usess db request daemon id: 0
+<DEBUG> 15-Jul-2020::19:59:08.770 ubuntu ncs[11441]: devel-c db reply daemon id: 0
+<DEBUG> 15-Jul-2020::20:17:54.331 ubuntu ncs[11441]: devel-c close_usess db request daemon id: 4
+<DEBUG> 15-Jul-2020::20:17:54.333 ubuntu ncs[11441]: devel-c db reply daemon id: 4
+<DEBUG> 15-Jul-2020::20:17:54.333 ubuntu ncs[11441]: devel-c close_usess db request daemon id: 0
+<DEBUG> 15-Jul-2020::20:17:54.334 ubuntu ncs[11441]: devel-c db reply daemon id: 0

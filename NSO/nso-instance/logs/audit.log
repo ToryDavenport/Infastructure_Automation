@@ -1,0 +1,97 @@
+<INFO> 15-Jul-2020::14:59:52.648 ubuntu ncs[11441]: audit user: sys/27 created new session via system from 0.0.0.0:0 with system
+<INFO> 15-Jul-2020::15:00:12.654 ubuntu ncs[11441]: audit user: sys/27 terminated session (reason: normal)
+<INFO> 15-Jul-2020::15:07:20.750 ubuntu ncs[11441]: audit user: admin/38 assigned to groups: admin,adm,cdrom,sudo,dip,plugdev,lxd,lpadmin,sambashare,eve
+<INFO> 15-Jul-2020::15:07:20.750 ubuntu ncs[11441]: audit user: admin/38 created new session via cli from 127.0.0.1:0 with console
+<INFO> 15-Jul-2020::15:07:34.568 ubuntu ncs[11441]: audit user: admin/38 CLI 'ping 192.168.0.12'
+<INFO> 15-Jul-2020::15:07:44.498 ubuntu ncs[11441]: audit user: admin/38 CLI done
+<INFO> 15-Jul-2020::15:08:33.083 ubuntu ncs[11441]: audit user: admin/38 CLI 'show status'
+<INFO> 15-Jul-2020::15:08:35.759 ubuntu ncs[11441]: audit user: admin/38 CLI aborted
+<INFO> 15-Jul-2020::15:08:44.964 ubuntu ncs[11441]: audit user: admin/38 CLI 'switch cli'
+<INFO> 15-Jul-2020::15:08:44.965 ubuntu ncs[11441]: audit user: admin/38 CLI done
+<INFO> 15-Jul-2020::15:38:57.253 ubuntu ncs[11441]: audit user: admin/38 terminated session (reason: timeout)
+<INFO> 15-Jul-2020::18:53:25.422 ubuntu ncs[11441]: audit user: admin/0 local authentication succeeded via webui from 127.0.0.1:41770 with http, member of groups: admin
+<INFO> 15-Jul-2020::18:53:25.423 ubuntu ncs[11441]: audit user: admin/0 logged in via webui from 127.0.0.1:41770 with http using local authentication
+<INFO> 15-Jul-2020::18:53:25.423 ubuntu ncs[11441]: audit user: admin/40 assigned to groups: admin
+<INFO> 15-Jul-2020::18:53:25.423 ubuntu ncs[11441]: audit user: admin/40 created new session via webui from 127.0.0.1:41770 with http
+<INFO> 15-Jul-2020::19:18:22.544 ubuntu ncs[11441]: audit user: eve/41 assigned to groups: adm,cdrom,sudo,dip,plugdev,lxd,lpadmin,sambashare,eve
+<INFO> 15-Jul-2020::19:18:22.545 ubuntu ncs[11441]: audit user: eve/41 created new session via cli from 127.0.0.1:0 with console
+<INFO> 15-Jul-2020::19:20:27.352 ubuntu ncs[11441]: audit user: eve/41 CLI 'exit'
+<INFO> 15-Jul-2020::19:20:27.580 ubuntu ncs[11441]: audit user: eve/41 terminated session (reason: normal)
+<INFO> 15-Jul-2020::19:20:34.174 ubuntu ncs[11441]: audit user: admin/42 assigned to groups: admin,adm,cdrom,sudo,dip,plugdev,lxd,lpadmin,sambashare,eve
+<INFO> 15-Jul-2020::19:20:34.175 ubuntu ncs[11441]: audit user: admin/42 created new session via cli from 127.0.0.1:0 with console
+<INFO> 15-Jul-2020::19:23:05.666 ubuntu ncs[11441]: audit user: admin/42 CLI 'config terminal'
+<INFO> 15-Jul-2020::19:23:05.709 ubuntu ncs[11441]: audit user: admin/42 CLI done
+<INFO> 15-Jul-2020::19:23:25.177 ubuntu ncs[11441]: audit user: admin/42 CLI 'devices authgroups group labadmin'
+<INFO> 15-Jul-2020::19:23:25.201 ubuntu ncs[11441]: audit user: admin/42 CLI done
+<INFO> 15-Jul-2020::19:23:34.047 ubuntu ncs[11441]: audit user: admin/42 CLI 'default-map remote-name cisco'
+<INFO> 15-Jul-2020::19:23:34.054 ubuntu ncs[11441]: audit user: admin/42 CLI done
+<INFO> 15-Jul-2020::19:23:50.482 ubuntu ncs[11441]: audit user: admin/42 CLI 'default-map remote-password ****'
+<INFO> 15-Jul-2020::19:23:50.485 ubuntu ncs[11441]: audit user: admin/42 CLI done
+<INFO> 15-Jul-2020::19:24:01.361 ubuntu ncs[11441]: audit user: admin/42 CLI 'default-map remote-secondary-password ****'
+<INFO> 15-Jul-2020::19:24:01.364 ubuntu ncs[11441]: audit user: admin/42 CLI done
+<INFO> 15-Jul-2020::19:24:07.307 ubuntu ncs[11441]: audit user: admin/42 CLI 'top'
+<INFO> 15-Jul-2020::19:24:07.309 ubuntu ncs[11441]: audit user: admin/42 CLI done
+<INFO> 15-Jul-2020::19:24:09.650 ubuntu ncs[11441]: audit user: admin/42 CLI 'top'
+<INFO> 15-Jul-2020::19:24:09.652 ubuntu ncs[11441]: audit user: admin/42 CLI done
+<INFO> 15-Jul-2020::19:24:13.211 ubuntu ncs[11441]: audit user: admin/42 CLI 'show configuration'
+<INFO> 15-Jul-2020::19:24:13.296 ubuntu ncs[11441]: audit user: admin/42 CLI done
+<INFO> 15-Jul-2020::19:24:21.661 ubuntu ncs[11441]: audit user: admin/42 CLI 'commit'
+<INFO> 15-Jul-2020::19:24:21.753 ubuntu ncs[11441]: audit user: admin/42 CLI done
+<INFO> 15-Jul-2020::19:25:23.502 ubuntu ncs[11441]: audit user: admin/42 CLI 'devices device Dev-Access-SW01'
+<INFO> 15-Jul-2020::19:25:23.516 ubuntu ncs[11441]: audit user: admin/42 CLI done
+<INFO> 15-Jul-2020::19:25:50.275 ubuntu ncs[11441]: audit user: admin/42 CLI 'address 192.168.0.2'
+<INFO> 15-Jul-2020::19:25:50.286 ubuntu ncs[11441]: audit user: admin/42 CLI done
+<INFO> 15-Jul-2020::19:25:54.380 ubuntu ncs[11441]: audit user: admin/42 CLI 'authgroup labadmin'
+<INFO> 15-Jul-2020::19:25:54.382 ubuntu ncs[11441]: audit user: admin/42 CLI done
+<INFO> 15-Jul-2020::19:27:21.893 ubuntu ncs[11441]: audit user: admin/42 CLI 'device-type cli ned-id snmp'
+<INFO> 15-Jul-2020::19:27:21.898 ubuntu ncs[11441]: audit user: admin/42 CLI done
+<INFO> 15-Jul-2020::19:27:50.100 ubuntu ncs[11441]: audit user: admin/42 CLI 'device-type cli protocol ssh ned-id snmp'
+<INFO> 15-Jul-2020::19:27:50.103 ubuntu ncs[11441]: audit user: admin/42 CLI done
+<INFO> 15-Jul-2020::19:28:01.550 ubuntu ncs[11441]: audit user: admin/42 CLI 'ssh host-key-verification none'
+<INFO> 15-Jul-2020::19:28:01.553 ubuntu ncs[11441]: audit user: admin/42 CLI done
+<INFO> 15-Jul-2020::19:28:03.807 ubuntu ncs[11441]: audit user: admin/42 CLI 'commit'
+<INFO> 15-Jul-2020::19:28:03.944 ubuntu ncs[11441]: audit user: admin/42 CLI done
+<INFO> 15-Jul-2020::19:28:22.443 ubuntu ncs[11441]: audit user: admin/42 CLI 'pwd'
+<INFO> 15-Jul-2020::19:28:22.445 ubuntu ncs[11441]: audit user: admin/42 CLI done
+<INFO> 15-Jul-2020::19:28:33.541 ubuntu ncs[11441]: audit user: admin/42 CLI 'connect'
+<INFO> 15-Jul-2020::19:28:33.600 ubuntu ncs[11441]: audit user: admin/42 CLI done
+<INFO> 15-Jul-2020::19:28:51.209 ubuntu ncs[11441]: audit user: admin/42 CLI 'state admin-state unlocked'
+<INFO> 15-Jul-2020::19:28:51.212 ubuntu ncs[11441]: audit user: admin/42 CLI done
+<INFO> 15-Jul-2020::19:28:55.998 ubuntu ncs[11441]: audit user: admin/42 CLI 'commit'
+<INFO> 15-Jul-2020::19:28:56.080 ubuntu ncs[11441]: audit user: admin/42 CLI done
+<INFO> 15-Jul-2020::19:29:08.304 ubuntu ncs[11441]: audit user: admin/42 CLI 'connect'
+<INFO> 15-Jul-2020::19:29:08.396 ubuntu ncs[11441]: audit user: admin/42 CLI done
+<INFO> 15-Jul-2020::19:29:08.447 ubuntu ncs[11441]: audit user: sys/43 created new session via system from 0.0.0.0:0 with system
+<INFO> 15-Jul-2020::19:29:18.463 ubuntu ncs[11441]: audit user: sys/43 terminated session (reason: normal)
+<INFO> 15-Jul-2020::19:31:51.590 ubuntu ncs[11441]: audit user: admin/42 CLI 'exit'
+<INFO> 15-Jul-2020::19:31:51.591 ubuntu ncs[11441]: audit user: admin/42 CLI done
+<INFO> 15-Jul-2020::19:31:53.411 ubuntu ncs[11441]: audit user: admin/42 CLI 'exit'
+<INFO> 15-Jul-2020::19:31:53.412 ubuntu ncs[11441]: audit user: admin/42 CLI done
+<INFO> 15-Jul-2020::19:31:55.138 ubuntu ncs[11441]: audit user: admin/42 CLI 'exit'
+<INFO> 15-Jul-2020::19:31:55.341 ubuntu ncs[11441]: audit user: admin/42 terminated session (reason: normal)
+<INFO> 15-Jul-2020::19:43:01.917 ubuntu ncs[11441]: audit user: eve/45 assigned to groups: adm,cdrom,sudo,dip,plugdev,lxd,lpadmin,sambashare,eve
+<INFO> 15-Jul-2020::19:43:01.921 ubuntu ncs[11441]: audit user: eve/45 created new session via cli from 127.0.0.1:0 with console
+<INFO> 15-Jul-2020::19:43:18.841 ubuntu ncs[11441]: audit user: eve/45 CLI 'show devices brief'
+<INFO> 15-Jul-2020::19:43:18.847 ubuntu ncs[11441]: audit user: eve/45 CLI done
+<INFO> 15-Jul-2020::19:44:59.877 ubuntu ncs[11441]: audit user: eve/45 CLI 'show devices ned-ids'
+<INFO> 15-Jul-2020::19:44:59.931 ubuntu ncs[11441]: audit user: eve/45 CLI done
+<INFO> 15-Jul-2020::19:45:32.761 ubuntu ncs[11441]: audit user: eve/45 CLI 'traceroute 192.168.0.2'
+<INFO> 15-Jul-2020::19:45:32.885 ubuntu ncs[11441]: audit user: eve/45 CLI done
+<INFO> 15-Jul-2020::19:45:37.685 ubuntu ncs[11441]: audit user: eve/45 CLI 'ping 192.168.0.2'
+<INFO> 15-Jul-2020::19:46:02.508 ubuntu ncs[11441]: audit user: eve/45 CLI done
+<INFO> 15-Jul-2020::19:46:12.448 ubuntu ncs[11441]: audit user: eve/45 CLI 'show devices'
+<INFO> 15-Jul-2020::19:46:14.847 ubuntu ncs[11441]: audit user: eve/45 CLI aborted
+<INFO> 15-Jul-2020::19:46:35.930 ubuntu ncs[11441]: audit user: eve/45 CLI 'show devices device'
+<INFO> 15-Jul-2020::19:46:37.708 ubuntu ncs[11441]: audit user: eve/45 CLI aborted
+<INFO> 15-Jul-2020::19:46:42.106 ubuntu ncs[11441]: audit user: eve/45 CLI 'configure'
+<INFO> 15-Jul-2020::19:46:42.111 ubuntu ncs[11441]: audit user: eve/45 CLI done
+<INFO> 15-Jul-2020::19:47:02.422 ubuntu ncs[11441]: audit user: eve/45 CLI 'exit'
+<INFO> 15-Jul-2020::19:47:02.425 ubuntu ncs[11441]: audit user: eve/45 CLI done
+<INFO> 15-Jul-2020::19:47:05.820 ubuntu ncs[11441]: audit user: eve/45 CLI 'configure'
+<INFO> 15-Jul-2020::19:47:05.827 ubuntu ncs[11441]: audit user: eve/45 CLI done
+<INFO> 15-Jul-2020::19:47:28.296 ubuntu ncs[11441]: audit user: eve/45 CLI 'show aaa'
+<INFO> 15-Jul-2020::19:47:28.302 ubuntu ncs[11441]: audit user: eve/45 CLI done
+<INFO> 15-Jul-2020::19:47:42.698 ubuntu ncs[11441]: audit user: eve/45 CLI 'switch cli'
+<INFO> 15-Jul-2020::19:47:42.698 ubuntu ncs[11441]: audit user: eve/45 CLI done
+<INFO> 15-Jul-2020::19:59:08.661 ubuntu ncs[11441]: audit user: admin/40 terminated session (reason: normal)
+<INFO> 15-Jul-2020::20:17:54.225 ubuntu ncs[11441]: audit user: eve/45 terminated session (reason: timeout)

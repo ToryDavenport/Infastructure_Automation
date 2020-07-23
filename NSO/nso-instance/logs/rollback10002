@@ -1,0 +1,16 @@
+# Created by: admin
+# Date: 2020-07-15 19:24:21
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10002
+# TransactionId: 97
+# Hostname: ubuntu
+
+ncs:devices {
+    ncs:authgroups {
+        delete:
+        ncs:group labadmin;
+    }
+ }

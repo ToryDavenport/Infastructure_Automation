@@ -1,0 +1,165 @@
+<INFO> 15-Jul-2020::14:59:48.410 ubuntu ncs[11441]: - Writing daemon log to /home/eve/Documents/Infastructure_Automation/NSO/nso-instance/logs/ncs.log
+<INFO> 15-Jul-2020::14:59:47.816 ubuntu ncs[11441]: - Enabling daemon log
+<INFO> 15-Jul-2020::14:59:47.826 ubuntu ncs[11441]: - Starting NCS vsn: 5.3
+<DEBUG> 15-Jul-2020::14:59:47.940 ubuntu ncs[11441]: - Loading file confd.fxs
+<DEBUG> 15-Jul-2020::14:59:47.997 ubuntu ncs[11441]: - Loading file ietf-yang-types.fxs
+<DEBUG> 15-Jul-2020::14:59:47.999 ubuntu ncs[11441]: - Loading file ietf-inet-types.fxs
+<DEBUG> 15-Jul-2020::14:59:48.001 ubuntu ncs[11441]: - Loading file ietf-datastores.fxs
+<DEBUG> 15-Jul-2020::14:59:48.027 ubuntu ncs[11441]: - Loading file ietf-yang-library.fxs
+<DEBUG> 15-Jul-2020::14:59:48.052 ubuntu ncs[11441]: - Loading file ietf-netconf.fxs
+<DEBUG> 15-Jul-2020::14:59:48.056 ubuntu ncs[11441]: - Loading file ietf-netconf-with-defaults.fxs
+<DEBUG> 15-Jul-2020::14:59:48.058 ubuntu ncs[11441]: - Loading file netconf_netmod.fxs
+<DEBUG> 15-Jul-2020::14:59:48.059 ubuntu ncs[11441]: - Loading file ietf-restconf.fxs
+<DEBUG> 15-Jul-2020::14:59:48.060 ubuntu ncs[11441]: - Loading file ietf-yang-patch.fxs
+<DEBUG> 15-Jul-2020::14:59:48.074 ubuntu ncs[11441]: - Loading file tailf-rest-error.fxs
+<DEBUG> 15-Jul-2020::14:59:48.076 ubuntu ncs[11441]: - Loading file tailf-rest-query.fxs
+<DEBUG> 15-Jul-2020::14:59:48.077 ubuntu ncs[11441]: - Loading file confd_cfg.fxs
+<DEBUG> 15-Jul-2020::14:59:48.136 ubuntu ncs[11441]: - Loading file config.fxs
+<DEBUG> 15-Jul-2020::14:59:48.137 ubuntu ncs[11441]: - Loading file netconf_notification.fxs
+<DEBUG> 15-Jul-2020::14:59:48.138 ubuntu ncs[11441]: - Loading file netconf_actions.fxs
+<DEBUG> 15-Jul-2020::14:59:48.139 ubuntu ncs[11441]: - Loading file yang.fxs
+<DEBUG> 15-Jul-2020::14:59:48.140 ubuntu ncs[11441]: - Loading file tailf_netconf.fxs
+<DEBUG> 15-Jul-2020::14:59:48.141 ubuntu ncs[11441]: - Loading file cli-builtin.fxs
+<DEBUG> 15-Jul-2020::14:59:48.142 ubuntu ncs[11441]: - Loading file tailf-ncs-config.fxs
+<DEBUG> 15-Jul-2020::14:59:48.165 ubuntu ncs[11441]: - Loading file /home/eve/Documents/Infastructure_Automation/NSO/nso-instance/ncs.conf
+<INFO> 15-Jul-2020::14:59:48.191 ubuntu ncs[11441]: - Consulting daemon configuration file /home/eve/Documents/Infastructure_Automation/NSO/nso-instance/ncs.conf
+<INFO> 15-Jul-2020::14:59:48.358 ubuntu ncs[11441]: - Writing audit log to /home/eve/Documents/Infastructure_Automation/NSO/nso-instance/logs/audit.log
+<INFO> 15-Jul-2020::14:59:48.359 ubuntu ncs[11441]: - Enabling audit log
+<INFO> 15-Jul-2020::14:59:48.369 ubuntu ncs[11441]: - Writing NETCONF log to /home/eve/Documents/Infastructure_Automation/NSO/nso-instance/logs/netconf.log
+<INFO> 15-Jul-2020::14:59:48.369 ubuntu ncs[11441]: - Enabling NETCONF log
+<INFO> 15-Jul-2020::14:59:48.378 ubuntu ncs[11441]: - Writing SNMP log to /home/eve/Documents/Infastructure_Automation/NSO/nso-instance/logs/snmp.log
+<INFO> 15-Jul-2020::14:59:48.378 ubuntu ncs[11441]: - Enabling SNMP log
+<INFO> 15-Jul-2020::14:59:48.395 ubuntu ncs[11441]: - Writing developer log to /home/eve/Documents/Infastructure_Automation/NSO/nso-instance/logs/devel.log
+<INFO> 15-Jul-2020::14:59:48.395 ubuntu ncs[11441]: - Enabling developer log
+<INFO> 15-Jul-2020::14:59:48.396 ubuntu ncs[11441]: - Writing XPath trace log to /home/eve/Documents/Infastructure_Automation/NSO/nso-instance/logs/xpath.trace
+<INFO> 15-Jul-2020::14:59:48.396 ubuntu ncs[11441]: - Enabling XPath trace log
+<INFO> 15-Jul-2020::14:59:48.409 ubuntu ncs[11441]: - Enabling JSONRPC log
+<INFO> 15-Jul-2020::14:59:48.468 ubuntu ncs[11441]: - Enabling error log
+<INFO> 15-Jul-2020::14:59:48.469 ubuntu ncs[11441]: - Writing error log to ./logs/ncserr.log
+<INFO> 15-Jul-2020::14:59:48.487 ubuntu ncs[11441]: - Daemon logging started
+<DEBUG> 15-Jul-2020::14:59:48.580 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/ietf-origin.fxs
+<DEBUG> 15-Jul-2020::14:59:48.584 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/lib/ncs/lib/core/confd/priv/ietf-interfaces.fxs
+<DEBUG> 15-Jul-2020::14:59:48.585 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/ietf-netconf-monitoring.fxs
+<DEBUG> 15-Jul-2020::14:59:48.588 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/tailf-common-monitoring.fxs
+<DEBUG> 15-Jul-2020::14:59:48.589 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/ietf-netconf-acm.fxs
+<DEBUG> 15-Jul-2020::14:59:48.591 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/ietf-x509-cert-to-name.fxs
+<DEBUG> 15-Jul-2020::14:59:48.592 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/tailf-common-query.fxs
+<DEBUG> 15-Jul-2020::14:59:48.593 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/tailf-netconf-transactions.fxs
+<DEBUG> 15-Jul-2020::14:59:48.594 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/tailf-webui.fxs
+<DEBUG> 15-Jul-2020::14:59:48.596 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/tailf-progress.fxs
+<DEBUG> 15-Jul-2020::14:59:48.598 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/snmp/IANA-ITU-ALARM-TC-MIB.fxs
+<DEBUG> 15-Jul-2020::14:59:48.605 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/snmp/ITU-ALARM-TC-MIB.fxs
+<DEBUG> 15-Jul-2020::14:59:48.607 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/snmp/TAILF-ALARM-TC-MIB.fxs
+<DEBUG> 15-Jul-2020::14:59:48.609 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/snmp/SNMP-FRAMEWORK-MIB.fxs
+<DEBUG> 15-Jul-2020::14:59:48.611 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/snmp/SNMPv2-TC.fxs
+<DEBUG> 15-Jul-2020::14:59:48.615 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/tailf-common.fxs
+<DEBUG> 15-Jul-2020::14:59:48.616 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/iana-crypt-hash.fxs
+<DEBUG> 15-Jul-2020::14:59:48.617 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/tailf-ncs-ned.fxs
+<DEBUG> 15-Jul-2020::14:59:48.618 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/lib/ncs/lib/core/confd/priv/ietf-ip.fxs
+<DEBUG> 15-Jul-2020::14:59:48.619 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/snmp/SNMP-USER-BASED-SM-MIB.fxs
+<DEBUG> 15-Jul-2020::14:59:48.621 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/tailf-kicker.fxs
+<DEBUG> 15-Jul-2020::14:59:48.624 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/snmp/SNMP-TARGET-MIB.fxs
+<DEBUG> 15-Jul-2020::14:59:48.627 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/tailf-ncs.fxs
+<DEBUG> 15-Jul-2020::14:59:48.684 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/snmp/ietf-yang-smiv2.fxs
+<DEBUG> 15-Jul-2020::14:59:48.685 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/ietf-yang-schema-mount.fxs
+<DEBUG> 15-Jul-2020::14:59:48.686 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/ietf-subscribed-notifications.fxs
+<DEBUG> 15-Jul-2020::14:59:48.689 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/ietf-restconf-monitoring.fxs
+<DEBUG> 15-Jul-2020::14:59:48.691 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/lib/ncs/lib/core/confd/priv/ietf-network-instance.fxs
+<DEBUG> 15-Jul-2020::14:59:48.692 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/ietf-netconf-notifications.fxs
+<DEBUG> 15-Jul-2020::14:59:48.694 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/ietf-netconf-nmda.fxs
+<DEBUG> 15-Jul-2020::14:59:48.695 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/ietf-netconf-partial-lock.fxs
+<DEBUG> 15-Jul-2020::14:59:48.699 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/snmp/snmp.fxs
+<DEBUG> 15-Jul-2020::14:59:48.705 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/snmp/encryption-usm.fxs
+<DEBUG> 15-Jul-2020::14:59:48.707 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/tailf-xsd-types.fxs
+<DEBUG> 15-Jul-2020::14:59:48.708 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/tailf-netconf-monitoring.fxs
+<DEBUG> 15-Jul-2020::14:59:48.711 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/tailf-ncs-monitoring.fxs
+<DEBUG> 15-Jul-2020::14:59:48.720 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/tailf-ncs-acm.fxs
+<DEBUG> 15-Jul-2020::14:59:48.721 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/tailf-configuration-policy.fxs
+<DEBUG> 15-Jul-2020::14:59:48.723 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/tailf-acm.fxs
+<DEBUG> 15-Jul-2020::14:59:48.726 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/tailf-webui-one.fxs
+<DEBUG> 15-Jul-2020::14:59:48.728 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/tailf-tls.fxs
+<DEBUG> 15-Jul-2020::14:59:48.739 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/tailf-rollback.fxs
+<DEBUG> 15-Jul-2020::14:59:48.742 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/tailf-netconf-with-transaction-id.fxs
+<DEBUG> 15-Jul-2020::14:59:48.744 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/tailf-netconf-rollback.fxs
+<DEBUG> 15-Jul-2020::14:59:48.747 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/tailf-netconf-query.fxs
+<DEBUG> 15-Jul-2020::14:59:48.749 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/tailf-netconf-ncs.fxs
+<DEBUG> 15-Jul-2020::14:59:48.757 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/tailf-netconf-inactive.fxs
+<DEBUG> 15-Jul-2020::14:59:48.759 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/tailf-netconf-extensions.fxs
+<DEBUG> 15-Jul-2020::14:59:48.760 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/tailf-ncs-netconf-ned-builder.fxs
+<DEBUG> 15-Jul-2020::14:59:48.765 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/tailf-ncs-devices-yang-library.fxs
+<DEBUG> 15-Jul-2020::14:59:48.768 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/tailf-ncs-webui.fxs
+<DEBUG> 15-Jul-2020::14:59:48.774 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/snmp/tailf-ncs-snmp.fxs
+<DEBUG> 15-Jul-2020::14:59:48.778 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/tailf-ncs-scheduler.fxs
+<DEBUG> 15-Jul-2020::14:59:48.783 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/tailf-ncs-progress.fxs
+<DEBUG> 15-Jul-2020::14:59:48.786 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/tailf-ncs-kicker-extension.fxs
+<DEBUG> 15-Jul-2020::14:59:48.788 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/tailf-ncs-event-forwarding.fxs
+<DEBUG> 15-Jul-2020::14:59:48.789 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/tailf-ncs-alarms.fxs
+<DEBUG> 15-Jul-2020::14:59:48.794 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/snmp/TRANSPORT-ADDRESS-MIB.fxs
+<DEBUG> 15-Jul-2020::14:59:48.798 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/snmp/TAILF-TOP-MIB.fxs
+<DEBUG> 15-Jul-2020::14:59:48.800 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/snmp/TAILF-ALARM-MIB.fxs
+<DEBUG> 15-Jul-2020::14:59:48.802 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/snmp/SNMPv2-SMI.fxs
+<DEBUG> 15-Jul-2020::14:59:48.803 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/snmp/SNMPv2-MIB.fxs
+<DEBUG> 15-Jul-2020::14:59:48.805 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/snmp/SNMP-VIEW-BASED-ACM-MIB.fxs
+<DEBUG> 15-Jul-2020::14:59:48.808 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/snmp/SNMP-NOTIFICATION-MIB.fxs
+<DEBUG> 15-Jul-2020::14:59:48.810 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/snmp/SNMP-MPD-MIB.fxs
+<DEBUG> 15-Jul-2020::14:59:48.812 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/snmp/SNMP-COMMUNITY-MIB.fxs
+<DEBUG> 15-Jul-2020::14:59:48.816 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/snmp/IPV6-TC.fxs
+<DEBUG> 15-Jul-2020::14:59:48.817 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/tailf-aaa.fxs
+<DEBUG> 15-Jul-2020::14:59:48.820 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/tailf-ncs-rfc5277-device.fxs
+<DEBUG> 15-Jul-2020::14:59:49.003 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/ncs.ccl
+<DEBUG> 15-Jul-2020::14:59:49.024 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/smart-license.ccl
+<DEBUG> 15-Jul-2020::14:59:49.047 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/scripts/command/device_save.sh
+<INFO> 15-Jul-2020::14:59:49.267 ubuntu ncs[11441]: - Starting to listen for Internal IPC on 127.0.0.1:4569
+<INFO> 15-Jul-2020::14:59:50.004 ubuntu ncs[11441]: - CDB load: processing file: /home/eve/nso-5.3/var/ncs/cdb/aaa_init.xml
+<INFO> 15-Jul-2020::14:59:50.158 ubuntu ncs[11441]: - CDB load: processing file: /home/eve/nso-5.3/var/ncs/cdb/ncs_defaults.xml
+<INFO> 15-Jul-2020::14:59:50.177 ubuntu ncs[11441]: - CDB load: processing file: /home/eve/nso-5.3/var/ncs/cdb/sls_defaults.xml
+<INFO> 15-Jul-2020::14:59:50.179 ubuntu ncs[11441]: - CDB load: processing file: /home/eve/nso-5.3/var/ncs/cdb/tailf-ncs-alarms_init.xml
+<INFO> 15-Jul-2020::14:59:50.888 ubuntu ncs[11441]: - Starting the NCS Java VM
+<DEBUG> 15-Jul-2020::14:59:51.461 ubuntu ncs[11441]: - Loading file /home/eve/nso-5.3/etc/ncs/snmp/snmp_init.xml
+<INFO> 15-Jul-2020::14:59:52.075 ubuntu ncs[11441]: - Starting to listen for NETCONF SSH on 0.0.0.0:2022
+<INFO> 15-Jul-2020::14:59:52.324 ubuntu ncs[11441]: - Starting to listen for WebUI TCP on 0.0.0.0:8080
+<DEBUG> 15-Jul-2020::14:59:52.510 ubuntu ncs[11441]: - Loading MIB: /home/eve/nso-5.3/lib/ncs/lib/snmp/snmp/priv/mibs/SNMPv2-MIB
+<DEBUG> 15-Jul-2020::14:59:52.511 ubuntu ncs[11441]: - Loading MIB: /home/eve/nso-5.3/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-FRAMEWORK-MIB
+<DEBUG> 15-Jul-2020::14:59:52.511 ubuntu ncs[11441]: - Loading MIB: /home/eve/nso-5.3/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-MPD-MIB
+<INFO> 15-Jul-2020::14:59:52.746 ubuntu ncs[11441]: - Starting to listen for SNMP UDP on 0.0.0.0:4000
+<DEBUG> 15-Jul-2020::14:59:52.799 ubuntu ncs[11441]: - Loading MIB: /home/eve/nso-5.3/etc/ncs/snmp/IANA-ITU-ALARM-TC-MIB.bin
+<DEBUG> 15-Jul-2020::14:59:52.800 ubuntu ncs[11441]: - Loading MIB: /home/eve/nso-5.3/etc/ncs/snmp/ITU-ALARM-TC-MIB.bin
+<DEBUG> 15-Jul-2020::14:59:52.810 ubuntu ncs[11441]: - Loading MIB: /home/eve/nso-5.3/etc/ncs/snmp/TAILF-ALARM-MIB.bin
+<DEBUG> 15-Jul-2020::14:59:52.811 ubuntu ncs[11441]: - Loading MIB: /home/eve/nso-5.3/etc/ncs/snmp/TAILF-ALARM-TC-MIB.bin
+<DEBUG> 15-Jul-2020::14:59:52.814 ubuntu ncs[11441]: - Loading MIB: /home/eve/nso-5.3/etc/ncs/snmp/TAILF-TOP-MIB.bin
+<DEBUG> 15-Jul-2020::14:59:52.816 ubuntu ncs[11441]: - Loading MIB: /home/eve/nso-5.3/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-COMMUNITY-MIB.bin
+<DEBUG> 15-Jul-2020::14:59:52.817 ubuntu ncs[11441]: - Loading MIB: /home/eve/nso-5.3/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-TARGET-MIB.bin
+<DEBUG> 15-Jul-2020::14:59:52.830 ubuntu ncs[11441]: - Loading MIB: /home/eve/nso-5.3/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-NOTIFICATION-MIB.bin
+<DEBUG> 15-Jul-2020::14:59:52.832 ubuntu ncs[11441]: - Loading MIB: /home/eve/nso-5.3/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-USER-BASED-SM-MIB.bin
+<DEBUG> 15-Jul-2020::14:59:52.833 ubuntu ncs[11441]: - Loading MIB: /home/eve/nso-5.3/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-VIEW-BASED-ACM-MIB.bin
+<INFO> 15-Jul-2020::14:59:52.870 ubuntu ncs[11441]: - Starting to listen for CLI SSH on 0.0.0.0:2024
+<INFO> 15-Jul-2020::14:59:54.765 ubuntu ncs[11441]: - Starting the NCS Smart Licensing Java VM
+<INFO> 15-Jul-2020::14:59:54.862 ubuntu ncs[11441]: - NCS started vsn: 5.3
+<INFO> 15-Jul-2020::15:00:12.939 ubuntu ncs[11441]: - Smart Licensing Global Notification: type = "notifyEnabled", agentID = "sa1", enforceMode = "notApplicable", allowRestricted = false, failReasonCode = "success", failMessage = "Successful."
+<INFO> 15-Jul-2020::15:00:15.630 ubuntu ncs[11441]: - Smart Licensing Global Notification: type = "notifyReady", agentID = "sa1", enforceMode = "notApplicable", allowRestricted = false, failReasonCode = "success", failMessage = "Successful."
+<INFO> 15-Jul-2020::15:00:15.729 ubuntu ncs[11441]: - Smart Licensing Entitlement Notification: type = "notifyEnforcementMode", agentID = "sa1", notificationTime = "Jul 15 15:00:12 2020", version = "1.0", requestedDate = "Jul 15 15:00:10 2020", tag = "regid.2015-10.com.cisco.NSO-platform-production,1.0_d1445dab-9d96-4593-99f2-6f633b8a759c", enforceMode = "eval", daysLeft = 90, expiryDate = "Oct 13 15:00:10 2020", requestedCount = 1
+<INFO> 15-Jul-2020::15:59:54.721 ubuntu ncs[11441]: - Smart Licensing evaluation time remaining: 89d 23h 1m 0s
+<INFO> 15-Jul-2020::16:59:54.649 ubuntu ncs[11441]: - Smart Licensing evaluation time remaining: 89d 22h 1m 0s
+<INFO> 15-Jul-2020::17:59:54.654 ubuntu ncs[11441]: - Smart Licensing evaluation time remaining: 89d 21h 1m 0s
+<INFO> 15-Jul-2020::18:59:54.650 ubuntu ncs[11441]: - Smart Licensing evaluation time remaining: 89d 20h 1m 0s
+<INFO> 15-Jul-2020::19:28:08.268 ubuntu ncs[11441]: - Smart Licensing Entitlement Notification: type = "notifyEnforcementMode", agentID = "sa1", notificationTime = "Jul 15 19:28:06 2020", version = "1.0", requestedDate = "Jul 15 19:28:03 2020", tag = "regid.2015-10.com.cisco.NSO-platform-production,1.0_d1445dab-9d96-4593-99f2-6f633b8a759c", enforceMode = "eval", daysLeft = 90, expiryDate = "Oct 13 15:01:03 2020", requestedCount = 1
+<INFO> 15-Jul-2020::19:28:11.126 ubuntu ncs[11441]: - Smart Licensing Entitlement Notification: type = "notifyEnforcementMode", agentID = "sa1", notificationTime = "Jul 15 19:28:08 2020", version = "1.0", requestedDate = "Jul 15 19:28:06 2020", tag = "regid.2015-10.com.cisco.NSO-network-element,1.0_5d641fa0-757d-43b0-a926-166cb6e3cfdd", enforceMode = "eval", daysLeft = 90, expiryDate = "Oct 13 15:01:06 2020", requestedCount = 1
+<INFO> 15-Jul-2020::19:59:54.647 ubuntu ncs[11441]: - Smart Licensing evaluation time remaining: 89d 19h 2m 0s
+<INFO> 15-Jul-2020::20:59:54.650 ubuntu ncs[11441]: - Smart Licensing evaluation time remaining: 89d 18h 2m 0s
+<INFO> 15-Jul-2020::21:59:54.645 ubuntu ncs[11441]: - Smart Licensing evaluation time remaining: 89d 17h 2m 0s
+<INFO> 15-Jul-2020::22:59:54.646 ubuntu ncs[11441]: - Smart Licensing evaluation time remaining: 89d 16h 2m 0s
+<INFO> 15-Jul-2020::23:59:54.648 ubuntu ncs[11441]: - Smart Licensing evaluation time remaining: 89d 15h 2m 0s
+<INFO> 16-Jul-2020::00:59:54.652 ubuntu ncs[11441]: - Smart Licensing evaluation time remaining: 89d 14h 2m 0s
+<INFO> 16-Jul-2020::01:59:54.650 ubuntu ncs[11441]: - Smart Licensing evaluation time remaining: 89d 13h 2m 0s
+<INFO> 16-Jul-2020::02:59:54.647 ubuntu ncs[11441]: - Smart Licensing evaluation time remaining: 89d 12h 2m 0s
+<INFO> 16-Jul-2020::03:59:54.649 ubuntu ncs[11441]: - Smart Licensing evaluation time remaining: 89d 11h 2m 0s
+<INFO> 16-Jul-2020::04:59:54.648 ubuntu ncs[11441]: - Smart Licensing evaluation time remaining: 89d 10h 2m 0s
+<INFO> 16-Jul-2020::05:59:54.647 ubuntu ncs[11441]: - Smart Licensing evaluation time remaining: 89d 9h 2m 0s
+<INFO> 16-Jul-2020::06:59:54.651 ubuntu ncs[11441]: - Smart Licensing evaluation time remaining: 89d 8h 2m 0s
+<INFO> 16-Jul-2020::07:59:54.648 ubuntu ncs[11441]: - Smart Licensing evaluation time remaining: 89d 7h 2m 0s
+<INFO> 16-Jul-2020::08:59:54.649 ubuntu ncs[11441]: - Smart Licensing evaluation time remaining: 89d 6h 2m 0s
+<INFO> 16-Jul-2020::09:59:54.648 ubuntu ncs[11441]: - Smart Licensing evaluation time remaining: 89d 5h 2m 0s
+<INFO> 16-Jul-2020::10:59:54.648 ubuntu ncs[11441]: - Smart Licensing evaluation time remaining: 89d 4h 2m 0s
+<INFO> 16-Jul-2020::11:59:54.655 ubuntu ncs[11441]: - Smart Licensing evaluation time remaining: 89d 3h 2m 0s
+<INFO> 16-Jul-2020::12:59:54.649 ubuntu ncs[11441]: - Smart Licensing evaluation time remaining: 89d 2h 2m 0s
+<INFO> 16-Jul-2020::13:59:54.643 ubuntu ncs[11441]: - Smart Licensing evaluation time remaining: 89d 1h 2m 0s

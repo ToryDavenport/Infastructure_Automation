@@ -1,0 +1,18 @@
+# Created by: admin
+# Date: 2020-07-15 19:28:56
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10004
+# TransactionId: 167
+# Hostname: ubuntu
+
+ncs:devices {
+    ncs:device Dev-Access-SW01 {
+        ncs:state {
+            delete:
+            ncs:admin-state unlocked;
+        }
+     }
+ }

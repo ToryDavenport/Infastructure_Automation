@@ -1,0 +1,626 @@
+15-Jul-2020::14:59:50.297 evaluating: /cluster/commit-queue/enabled:  . = 'false' or
+not (/cluster/remote-node
+       [not (username)]
+       [deref(authgroup)/../default-map[same-user or same-pass]])
+15-Jul-2020::14:59:50.321 get_elem(/cluster/commit-queue/enabled) = false
+15-Jul-2020::14:59:50.322 result: /cluster/commit-queue/enabled: true
+15-Jul-2020::14:59:50.322 evaluating: /cluster/device-notifications/enabled:  . = 'false' or ../../remote-node
+15-Jul-2020::14:59:50.322 get_elem(/cluster/device-notifications/enabled) = false
+15-Jul-2020::14:59:50.323 result: /cluster/device-notifications/enabled: true
+15-Jul-2020::14:59:50.323 evaluating: /cluster/device-notifications/enabled:  . = 'false' or
+not (/cluster/remote-node
+       [not (username)]
+       [deref(authgroup)/../default-map[same-user or same-pass]])
+15-Jul-2020::14:59:50.324 get_elem(/cluster/device-notifications/enabled) = false
+15-Jul-2020::14:59:50.324 result: /cluster/device-notifications/enabled: true
+15-Jul-2020::14:59:50.324 evaluating: /devices/authgroups/snmp-group[name='default']/umap[local-user='admin']/usm/security-level: (. = 'auth-priv' and ../priv) or (. != 'auth-priv')
+15-Jul-2020::14:59:50.325 get_elem(/devices/authgroups/snmp-group[name='default']/umap[local-user='admin']/usm/security-level) = auth-priv
+15-Jul-2020::14:59:50.325 exists(/devices/authgroups/snmp-group[name='default']/umap[local-user='admin']/usm/priv) = true
+15-Jul-2020::14:59:50.325 result: /devices/authgroups/snmp-group[name='default']/umap[local-user='admin']/usm/security-level: true
+15-Jul-2020::14:59:50.326 evaluating: /devices/authgroups/snmp-group[name='default']/umap[local-user='admin']/usm/security-level: . = 'no-auth-no-priv' or ../auth
+15-Jul-2020::14:59:50.326 get_elem(/devices/authgroups/snmp-group[name='default']/umap[local-user='admin']/usm/security-level) = auth-priv
+15-Jul-2020::14:59:50.326 exists(/devices/authgroups/snmp-group[name='default']/umap[local-user='admin']/usm/auth) = true
+15-Jul-2020::14:59:50.327 result: /devices/authgroups/snmp-group[name='default']/umap[local-user='admin']/usm/security-level: true
+15-Jul-2020::14:59:50.327 evaluating: /devices/authgroups/snmp-group[name='default']/umap[local-user='admin']/usm/priv: ../auth
+15-Jul-2020::14:59:50.327 exists(/devices/authgroups/snmp-group[name='default']/umap[local-user='admin']/usm/auth) = true
+15-Jul-2020::14:59:50.328 result: /devices/authgroups/snmp-group[name='default']/umap[local-user='admin']/usm/priv: true
+15-Jul-2020::14:59:50.360 evaluating: /cluster/commit-queue/enabled:  . = 'false' or ../../remote-node
+15-Jul-2020::14:59:50.360 get_elem(/cluster/commit-queue/enabled) = false
+15-Jul-2020::14:59:50.360 result: /cluster/commit-queue/enabled: true
+15-Jul-2020::14:59:50.361 evaluating: /cluster/commit-queue/enabled:  . = 'false' or
+not (/cluster/remote-node
+       [not (username)]
+       [deref(authgroup)/../default-map[same-user or same-pass]])
+15-Jul-2020::14:59:50.361 get_elem(/cluster/commit-queue/enabled) = false
+15-Jul-2020::14:59:50.361 result: /cluster/commit-queue/enabled: true
+15-Jul-2020::14:59:50.362 evaluating: /cluster/device-notifications/enabled:  . = 'false' or ../../remote-node
+15-Jul-2020::14:59:50.364 get_elem(/cluster/device-notifications/enabled) = false
+15-Jul-2020::14:59:50.365 result: /cluster/device-notifications/enabled: true
+15-Jul-2020::14:59:50.365 evaluating: /cluster/device-notifications/enabled:  . = 'false' or
+not (/cluster/remote-node
+       [not (username)]
+       [deref(authgroup)/../default-map[same-user or same-pass]])
+15-Jul-2020::14:59:50.365 get_elem(/cluster/device-notifications/enabled) = false
+15-Jul-2020::14:59:50.365 result: /cluster/device-notifications/enabled: true
+15-Jul-2020::14:59:51.872 evaluating: /SNMP-USER-BASED-SM-MIB/usmUserTable/usmUserEntry[usmUserEngineID='80:00:7e:d9:04:74:65:73:74:69:6e:67'][usmUserName='initial']: usmUserPrivProtocol != '1.3.6.1.6.3.10.1.2.2'
+15-Jul-2020::14:59:51.872 get_elem(/SNMP-USER-BASED-SM-MIB/usmUserTable/usmUserEntry[usmUserEngineID='80:00:7e:d9:04:74:65:73:74:69:6e:67'][usmUserName='initial']/usmUserPrivProtocol) = 1.3.6.1.6.3.10.1.2.4
+15-Jul-2020::14:59:51.872 result: /SNMP-USER-BASED-SM-MIB/usmUserTable/usmUserEntry[usmUserEngineID='80:00:7e:d9:04:74:65:73:74:69:6e:67'][usmUserName='initial']: true
+15-Jul-2020::14:59:51.873 evaluating: /SNMP-USER-BASED-SM-MIB/usmUserTable/usmUserEntry[usmUserEngineID='80:00:7e:d9:04:74:65:73:74:69:6e:67'][usmUserName='initial']: usmUserAuthProtocol != '1.3.6.1.6.3.10.1.1.2'
+15-Jul-2020::14:59:51.873 get_elem(/SNMP-USER-BASED-SM-MIB/usmUserTable/usmUserEntry[usmUserEngineID='80:00:7e:d9:04:74:65:73:74:69:6e:67'][usmUserName='initial']/usmUserAuthProtocol) = 1.3.6.1.6.3.10.1.1.3
+15-Jul-2020::14:59:51.874 result: /SNMP-USER-BASED-SM-MIB/usmUserTable/usmUserEntry[usmUserEngineID='80:00:7e:d9:04:74:65:73:74:69:6e:67'][usmUserName='initial']: true
+15-Jul-2020::14:59:51.875 evaluating: /snmp/agent/version/v3: ../../engine-id
+15-Jul-2020::14:59:51.875 exists(/snmp/agent/engine-id) = true
+15-Jul-2020::14:59:51.876 result: /snmp/agent/version/v3: true
+15-Jul-2020::14:59:51.880 evaluating: /snmp/vacm/group[name='initial']/access[sec-model='usm'][sec-level='no-auth-no-priv']/notify-view: /snmp/vacm/view/name
+15-Jul-2020::14:59:51.880 get_elem(/snmp/vacm/group[name='initial']/access[sec-model='usm'][sec-level='no-auth-no-priv']/notify-view) = internet
+15-Jul-2020::14:59:51.881 exists(/snmp/vacm/view[name='internet']) = true
+15-Jul-2020::14:59:51.882 get_elem(/snmp/vacm/group[name='initial']/access[sec-model='usm'][sec-level='no-auth-no-priv']/notify-view) = internet
+15-Jul-2020::14:59:51.882 result: /snmp/vacm/group[name='initial']/access[sec-model='usm'][sec-level='no-auth-no-priv']/notify-view: true
+15-Jul-2020::14:59:51.882 evaluating: /snmp/vacm/group[name='initial']/access[sec-model='usm'][sec-level='no-auth-no-priv']/read-view: /snmp/vacm/view/name
+15-Jul-2020::14:59:51.883 get_elem(/snmp/vacm/group[name='initial']/access[sec-model='usm'][sec-level='no-auth-no-priv']/read-view) = internet
+15-Jul-2020::14:59:51.883 exists(/snmp/vacm/view[name='internet']) = true
+15-Jul-2020::14:59:51.884 get_elem(/snmp/vacm/group[name='initial']/access[sec-model='usm'][sec-level='no-auth-no-priv']/read-view) = internet
+15-Jul-2020::14:59:51.884 result: /snmp/vacm/group[name='initial']/access[sec-model='usm'][sec-level='no-auth-no-priv']/read-view: true
+15-Jul-2020::14:59:51.884 evaluating: /snmp/vacm/group[name='initial']/access[sec-model='usm'][sec-level='auth-no-priv']/notify-view: /snmp/vacm/view/name
+15-Jul-2020::14:59:51.885 get_elem(/snmp/vacm/group[name='initial']/access[sec-model='usm'][sec-level='auth-no-priv']/notify-view) = internet
+15-Jul-2020::14:59:51.885 exists(/snmp/vacm/view[name='internet']) = true
+15-Jul-2020::14:59:51.886 get_elem(/snmp/vacm/group[name='initial']/access[sec-model='usm'][sec-level='auth-no-priv']/notify-view) = internet
+15-Jul-2020::14:59:51.886 result: /snmp/vacm/group[name='initial']/access[sec-model='usm'][sec-level='auth-no-priv']/notify-view: true
+15-Jul-2020::14:59:51.886 evaluating: /snmp/vacm/group[name='initial']/access[sec-model='usm'][sec-level='auth-no-priv']/read-view: /snmp/vacm/view/name
+15-Jul-2020::14:59:51.887 get_elem(/snmp/vacm/group[name='initial']/access[sec-model='usm'][sec-level='auth-no-priv']/read-view) = internet
+15-Jul-2020::14:59:51.887 exists(/snmp/vacm/view[name='internet']) = true
+15-Jul-2020::14:59:51.887 get_elem(/snmp/vacm/group[name='initial']/access[sec-model='usm'][sec-level='auth-no-priv']/read-view) = internet
+15-Jul-2020::14:59:51.888 result: /snmp/vacm/group[name='initial']/access[sec-model='usm'][sec-level='auth-no-priv']/read-view: true
+15-Jul-2020::14:59:51.888 evaluating: /snmp/vacm/group[name='initial']/access[sec-model='usm'][sec-level='auth-priv']/notify-view: /snmp/vacm/view/name
+15-Jul-2020::14:59:51.889 get_elem(/snmp/vacm/group[name='initial']/access[sec-model='usm'][sec-level='auth-priv']/notify-view) = internet
+15-Jul-2020::14:59:51.889 exists(/snmp/vacm/view[name='internet']) = true
+15-Jul-2020::14:59:51.889 get_elem(/snmp/vacm/group[name='initial']/access[sec-model='usm'][sec-level='auth-priv']/notify-view) = internet
+15-Jul-2020::14:59:51.890 result: /snmp/vacm/group[name='initial']/access[sec-model='usm'][sec-level='auth-priv']/notify-view: true
+15-Jul-2020::14:59:51.890 evaluating: /snmp/vacm/group[name='initial']/access[sec-model='usm'][sec-level='auth-priv']/read-view: /snmp/vacm/view/name
+15-Jul-2020::14:59:51.891 get_elem(/snmp/vacm/group[name='initial']/access[sec-model='usm'][sec-level='auth-priv']/read-view) = internet
+15-Jul-2020::14:59:51.891 exists(/snmp/vacm/view[name='internet']) = true
+15-Jul-2020::14:59:51.891 get_elem(/snmp/vacm/group[name='initial']/access[sec-model='usm'][sec-level='auth-priv']/read-view) = internet
+15-Jul-2020::14:59:51.891 result: /snmp/vacm/group[name='initial']/access[sec-model='usm'][sec-level='auth-priv']/read-view: true
+15-Jul-2020::14:59:51.892 evaluating: /snmp/vacm/group[name='public']/access[sec-model='any'][sec-level='no-auth-no-priv']/notify-view: /snmp/vacm/view/name
+15-Jul-2020::14:59:51.892 get_elem(/snmp/vacm/group[name='public']/access[sec-model='any'][sec-level='no-auth-no-priv']/notify-view) = internet
+15-Jul-2020::14:59:51.893 exists(/snmp/vacm/view[name='internet']) = true
+15-Jul-2020::14:59:51.893 get_elem(/snmp/vacm/group[name='public']/access[sec-model='any'][sec-level='no-auth-no-priv']/notify-view) = internet
+15-Jul-2020::14:59:51.893 result: /snmp/vacm/group[name='public']/access[sec-model='any'][sec-level='no-auth-no-priv']/notify-view: true
+15-Jul-2020::14:59:51.894 evaluating: /snmp/vacm/group[name='public']/access[sec-model='any'][sec-level='no-auth-no-priv']/read-view: /snmp/vacm/view/name
+15-Jul-2020::14:59:51.894 get_elem(/snmp/vacm/group[name='public']/access[sec-model='any'][sec-level='no-auth-no-priv']/read-view) = internet
+15-Jul-2020::14:59:51.895 exists(/snmp/vacm/view[name='internet']) = true
+15-Jul-2020::14:59:51.896 get_elem(/snmp/vacm/group[name='public']/access[sec-model='any'][sec-level='no-auth-no-priv']/read-view) = internet
+15-Jul-2020::14:59:51.896 result: /snmp/vacm/group[name='public']/access[sec-model='any'][sec-level='no-auth-no-priv']/read-view: true
+15-Jul-2020::14:59:51.897 evaluating: /snmp/notify[name='foo']/type: . != 'inform' or
+count(
+  /snmp/target[tag = current()/../tag]/../usm[../agent/engine-id])
+= count(
+  /snmp/target[tag = current()/../tag]/../usm)
+15-Jul-2020::14:59:51.898 get_elem(/snmp/notify[name='foo']/type) = trap
+15-Jul-2020::14:59:51.898 result: /snmp/notify[name='foo']/type: true
+15-Jul-2020::14:59:51.899 evaluating: /snmp/usm/local/user[name='initial']/priv: ../auth
+15-Jul-2020::14:59:51.900 exists(/snmp/usm/local/user[name='initial']/auth) = true
+15-Jul-2020::14:59:51.900 result: /snmp/usm/local/user[name='initial']/priv: true
+15-Jul-2020::14:59:51.901 evaluating: /snmp/target[name='monitor']/v2c/sec-name: /snmp/community/sec-name
+15-Jul-2020::14:59:51.903 get_next(/snmp/community) = {public}
+15-Jul-2020::14:59:51.904 get_elem(/snmp/community[index='public']/sec-name) = public
+15-Jul-2020::14:59:51.904 get_elem(/snmp/target[name='monitor']/v2c/sec-name) = public
+15-Jul-2020::14:59:51.904 result: /snmp/target[name='monitor']/v2c/sec-name: true
+15-Jul-2020::14:59:54.657 maapi_xpath_eval_expr(): evaluating: string(count(/devices/device))
+15-Jul-2020::14:59:54.658 num_instances(/devices/device) = 0
+15-Jul-2020::14:59:54.658 maapi_xpath_eval_expr(): result: 0
+15-Jul-2020::14:59:54.659 maapi_xpath_eval_expr(): evaluating: string(count(/devices/device/remote-node))
+15-Jul-2020::14:59:54.659 get_next(/devices/device) = false
+15-Jul-2020::14:59:54.659 maapi_xpath_eval_expr(): result: 0
+15-Jul-2020::15:08:34.416 evaluating: /ncs-state/ha/node-id: ../mode != 'none'
+15-Jul-2020::15:08:34.417 get_elem(/ncs-state/ha/mode) = not_found
+15-Jul-2020::15:08:34.417 result: /ncs-state/ha/node-id: false
+15-Jul-2020::15:08:34.419 evaluating: /ncs-state/ha/master-node-id: ../mode = 'slave' or ../mode = 'relay-slave'
+15-Jul-2020::15:08:34.419 get_elem(/ncs-state/ha/mode) = not_found
+15-Jul-2020::15:08:34.420 get_elem(/ncs-state/ha/mode) = not_found
+15-Jul-2020::15:08:34.420 result: /ncs-state/ha/master-node-id: false
+15-Jul-2020::15:08:34.420 evaluating: /ncs-state/ha/connected-slave: ../mode = 'master' or ../mode = 'relay-slave'
+15-Jul-2020::15:08:34.421 get_elem(/ncs-state/ha/mode) = not_found
+15-Jul-2020::15:08:34.421 get_elem(/ncs-state/ha/mode) = not_found
+15-Jul-2020::15:08:34.421 result: /ncs-state/ha/connected-slave: false
+15-Jul-2020::15:08:34.422 evaluating: /ncs-state/ha/pending-slave: ../mode = 'master' or ../mode = 'relay-slave'
+15-Jul-2020::15:08:34.423 get_elem(/ncs-state/ha/mode) = not_found
+15-Jul-2020::15:08:34.423 get_elem(/ncs-state/ha/mode) = not_found
+15-Jul-2020::15:08:34.423 result: /ncs-state/ha/pending-slave: false
+15-Jul-2020::18:53:26.381 query 1: evaluating: /packages/package
+15-Jul-2020::18:53:26.382 query 2: evaluating: /webui/webui-one:applications/application
+15-Jul-2020::18:53:26.382 query 1: selection: name
+15-Jul-2020::18:53:26.382 query 2: selection: id
+15-Jul-2020::18:53:26.382 query 2: selection: category
+15-Jul-2020::18:53:26.382 query 1: selection: description
+15-Jul-2020::18:53:26.383 query 2: selection: href
+15-Jul-2020::18:53:26.383 query 2: selection: title
+15-Jul-2020::18:53:26.383 query 1: selection: package-version
+15-Jul-2020::18:53:26.383 query 2: selection: description
+15-Jul-2020::18:53:26.383 query 2: selection: promo-label
+15-Jul-2020::18:53:26.383 query 2: selection: abbreviation
+15-Jul-2020::18:53:26.383 query 2: selection: shortcut
+15-Jul-2020::18:53:26.383 query 2: selection: hidden
+15-Jul-2020::18:53:26.384 query 1: result: one node
+15-Jul-2020::18:53:26.384 query 2: result: one node
+15-Jul-2020::18:53:34.441 query 3: evaluating: //service-progress-monitoring/trigger-status
+15-Jul-2020::18:53:34.441 query 3: selection: jeopardy-result
+15-Jul-2020::18:53:34.441 query 3: selection: violation-result
+15-Jul-2020::18:53:34.448 query 3: selection: status
+15-Jul-2020::18:53:34.448 query 3: result: one node
+15-Jul-2020::18:53:34.458 query 4: evaluating: /netconf-state/sessions/session
+15-Jul-2020::18:53:34.458 query 4: selection: session-id
+15-Jul-2020::18:53:34.458 query 4: selection: transport
+15-Jul-2020::18:53:34.459 query 4: selection: username
+15-Jul-2020::18:53:34.459 query 4: selection: source-host
+15-Jul-2020::18:53:34.459 query 4: selection: login-time
+15-Jul-2020::18:53:34.461 query 4: result: 2 nodes
+15-Jul-2020::18:53:34.491 evaluating: /devices/device/lsa-remote-node: derived-from-or-self(../device-type/netconf/ned-id, 'ned:lsa-netconf')
+15-Jul-2020::18:53:34.493 result: /devices/device/lsa-remote-node: false
+15-Jul-2020::18:53:34.507 evaluating: /devices/device/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::18:53:34.512 result: /devices/device/load-native-config: false
+15-Jul-2020::18:53:34.516 evaluating: /devices/disconnect/no-remote: /cluster/remote-node/name
+15-Jul-2020::18:53:34.516 get_next(/cluster/remote-node) = false
+15-Jul-2020::18:53:34.516 result: /devices/disconnect/no-remote: false
+15-Jul-2020::18:53:34.535 evaluating: /devices/clear-trace/no-remote: /cluster/remote-node/name
+15-Jul-2020::18:53:34.541 get_next(/cluster/remote-node) = false
+15-Jul-2020::18:53:34.542 result: /devices/clear-trace/no-remote: false
+15-Jul-2020::18:53:34.773 query 5: evaluating: /devices/device
+15-Jul-2020::18:53:34.773 query 5: selection: name
+15-Jul-2020::18:53:34.774 query 5: selection: address
+15-Jul-2020::18:53:34.774 query 5: selection: port
+15-Jul-2020::18:53:34.774 query 5: selection: device-type/*/ned-id
+15-Jul-2020::18:53:34.775 query 5: selection: ./alarm-summary/criticals
+15-Jul-2020::18:53:34.782 query 5: selection: ./alarm-summary/majors
+15-Jul-2020::18:53:34.782 query 5: selection: ./alarm-summary/minors
+15-Jul-2020::18:53:34.782 query 5: selection: ./alarm-summary/warnings
+15-Jul-2020::18:53:34.782 query 5: selection: ./alarm-summary/indeterminates
+15-Jul-2020::18:53:34.783 query 5: result: one node
+15-Jul-2020::18:53:37.599 query 6: evaluating: /packages/package
+15-Jul-2020::18:53:37.599 query 6: selection: name
+15-Jul-2020::18:53:37.600 query 6: selection: description
+15-Jul-2020::18:53:37.600 query 6: selection: package-version
+15-Jul-2020::18:53:37.603 query 6: result: one node
+15-Jul-2020::18:53:40.583 query 7: evaluating: /devices/device-group
+15-Jul-2020::18:53:40.584 query 7: selection: name
+15-Jul-2020::18:53:40.585 query 7: result: one node
+15-Jul-2020::18:53:40.633 evaluating: /devices/device/lsa-remote-node: derived-from-or-self(../device-type/netconf/ned-id, 'ned:lsa-netconf')
+15-Jul-2020::18:53:40.647 result: /devices/device/lsa-remote-node: false
+15-Jul-2020::18:53:40.652 evaluating: /devices/device/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::18:53:40.653 result: /devices/device/load-native-config: false
+15-Jul-2020::18:53:40.657 evaluating: /devices/disconnect/no-remote: /cluster/remote-node/name
+15-Jul-2020::18:53:40.658 get_next(/cluster/remote-node) = false
+15-Jul-2020::18:53:40.658 result: /devices/disconnect/no-remote: false
+15-Jul-2020::18:53:40.660 evaluating: /devices/clear-trace/no-remote: /cluster/remote-node/name
+15-Jul-2020::18:53:40.661 get_next(/cluster/remote-node) = false
+15-Jul-2020::18:53:40.662 result: /devices/clear-trace/no-remote: false
+15-Jul-2020::18:53:40.811 query 8: evaluating: device
+15-Jul-2020::18:53:40.812 query 8: selection: name
+15-Jul-2020::18:53:40.812 query 8: selection: address
+15-Jul-2020::18:53:40.812 query 8: selection: port
+15-Jul-2020::18:53:40.812 query 8: selection: device-type/*/ned-id
+15-Jul-2020::18:53:40.812 query 8: selection: count(./service-list)
+15-Jul-2020::18:53:40.812 query 8: selection: ./alarm-summary/criticals
+15-Jul-2020::18:53:40.812 query 8: selection: ./alarm-summary/majors
+15-Jul-2020::18:53:40.812 query 8: selection: ./alarm-summary/minors
+15-Jul-2020::18:53:40.813 query 8: selection: ./alarm-summary/warnings
+15-Jul-2020::18:53:40.813 query 8: selection: ./alarm-summary/indeterminates
+15-Jul-2020::18:53:40.813 query 8: result: one node
+15-Jul-2020::18:53:43.512 query 9: evaluating: /packages/package
+15-Jul-2020::18:53:43.512 query 9: selection: name
+15-Jul-2020::18:53:43.512 query 9: selection: description
+15-Jul-2020::18:53:43.512 query 9: selection: package-version
+15-Jul-2020::18:53:43.513 query 9: result: one node
+15-Jul-2020::18:53:44.397 query 10: evaluating: /packages/package
+15-Jul-2020::18:53:44.409 query 10: selection: name
+15-Jul-2020::18:53:44.409 query 10: selection: description
+15-Jul-2020::18:53:44.410 query 10: selection: package-version
+15-Jul-2020::18:53:44.411 query 10: result: one node
+15-Jul-2020::18:53:44.677 evaluating: /scheduler/suspend: ../suspended = 'false'
+15-Jul-2020::18:53:44.679 get_elem(/scheduler/suspended) = false
+15-Jul-2020::18:53:44.680 result: /scheduler/suspend: true
+15-Jul-2020::18:53:44.680 evaluating: /scheduler/resume: ../suspended = 'true'
+15-Jul-2020::18:53:44.681 get_elem(/scheduler/suspended) = false
+15-Jul-2020::18:53:44.681 result: /scheduler/resume: false
+15-Jul-2020::18:54:36.143 evaluating: /devices/device/lsa-remote-node: derived-from-or-self(../device-type/netconf/ned-id, 'ned:lsa-netconf')
+15-Jul-2020::18:54:36.144 result: /devices/device/lsa-remote-node: false
+15-Jul-2020::18:54:36.151 evaluating: /devices/device/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::18:54:36.151 result: /devices/device/load-native-config: false
+15-Jul-2020::18:54:36.154 evaluating: /devices/disconnect/no-remote: /cluster/remote-node/name
+15-Jul-2020::18:54:36.156 get_next(/cluster/remote-node) = false
+15-Jul-2020::18:54:36.156 result: /devices/disconnect/no-remote: false
+15-Jul-2020::18:54:36.169 evaluating: /devices/clear-trace/no-remote: /cluster/remote-node/name
+15-Jul-2020::18:54:36.169 get_next(/cluster/remote-node) = false
+15-Jul-2020::18:54:36.170 result: /devices/clear-trace/no-remote: false
+15-Jul-2020::18:54:36.343 query 11: evaluating: device
+15-Jul-2020::18:54:36.344 query 11: selection: name
+15-Jul-2020::18:54:36.353 query 11: selection: address
+15-Jul-2020::18:54:36.354 query 11: selection: port
+15-Jul-2020::18:54:36.354 query 11: selection: device-type/*/ned-id
+15-Jul-2020::18:54:36.354 query 11: selection: count(./service-list)
+15-Jul-2020::18:54:36.354 query 11: selection: ./alarm-summary/criticals
+15-Jul-2020::18:54:36.354 query 11: selection: ./alarm-summary/majors
+15-Jul-2020::18:54:36.354 query 11: selection: ./alarm-summary/minors
+15-Jul-2020::18:54:36.354 query 11: selection: ./alarm-summary/warnings
+15-Jul-2020::18:54:36.354 query 11: selection: ./alarm-summary/indeterminates
+15-Jul-2020::18:54:36.355 query 11: result: one node
+15-Jul-2020::18:55:06.381 evaluating: /devices/device/lsa-remote-node: derived-from-or-self(../device-type/netconf/ned-id, 'ned:lsa-netconf')
+15-Jul-2020::18:55:06.382 result: /devices/device/lsa-remote-node: false
+15-Jul-2020::18:55:06.389 evaluating: /devices/device/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::18:55:06.391 result: /devices/device/load-native-config: false
+15-Jul-2020::18:55:06.401 evaluating: /devices/disconnect/no-remote: /cluster/remote-node/name
+15-Jul-2020::18:55:06.402 get_next(/cluster/remote-node) = false
+15-Jul-2020::18:55:06.402 result: /devices/disconnect/no-remote: false
+15-Jul-2020::18:55:06.415 evaluating: /devices/clear-trace/no-remote: /cluster/remote-node/name
+15-Jul-2020::18:55:06.416 get_next(/cluster/remote-node) = false
+15-Jul-2020::18:55:06.419 result: /devices/clear-trace/no-remote: false
+15-Jul-2020::18:55:06.594 query 12: evaluating: device
+15-Jul-2020::18:55:06.597 query 12: selection: name
+15-Jul-2020::18:55:06.599 query 12: selection: address
+15-Jul-2020::18:55:06.601 query 12: selection: port
+15-Jul-2020::18:55:06.602 query 12: selection: device-type/*/ned-id
+15-Jul-2020::18:55:06.602 query 12: selection: count(./service-list)
+15-Jul-2020::18:55:06.602 query 12: selection: ./alarm-summary/criticals
+15-Jul-2020::18:55:06.602 query 12: selection: ./alarm-summary/majors
+15-Jul-2020::18:55:06.602 query 12: selection: ./alarm-summary/minors
+15-Jul-2020::18:55:06.602 query 12: selection: ./alarm-summary/warnings
+15-Jul-2020::18:55:06.602 query 12: selection: ./alarm-summary/indeterminates
+15-Jul-2020::18:55:06.605 query 12: result: 2 nodes
+15-Jul-2020::18:55:26.486 query 13: evaluating: /devices/device[name='Development_Access-SW01']/module
+15-Jul-2020::18:55:26.488 query 13: selection: name
+15-Jul-2020::18:55:26.493 query 13: result: one node
+15-Jul-2020::18:55:26.515 query 14: evaluating: /devices/device[name='Development_Access-SW01']/module
+15-Jul-2020::18:55:26.517 query 14: selection: name
+15-Jul-2020::18:55:26.519 query 14: result: one node
+15-Jul-2020::18:55:32.515 query 15: evaluating: /packages/package
+15-Jul-2020::18:55:32.515 query 15: selection: name
+15-Jul-2020::18:55:32.516 query 15: selection: description
+15-Jul-2020::18:55:32.516 query 15: selection: package-version
+15-Jul-2020::18:55:32.517 query 15: result: one node
+15-Jul-2020::18:55:32.805 evaluating: /scheduler/suspend: ../suspended = 'false'
+15-Jul-2020::18:55:32.809 get_elem(/scheduler/suspended) = false
+15-Jul-2020::18:55:32.812 result: /scheduler/suspend: true
+15-Jul-2020::18:55:32.820 evaluating: /scheduler/resume: ../suspended = 'true'
+15-Jul-2020::18:55:32.821 get_elem(/scheduler/suspended) = false
+15-Jul-2020::18:55:32.822 result: /scheduler/resume: false
+15-Jul-2020::18:55:34.663 evaluating: /devices/device/lsa-remote-node: derived-from-or-self(../device-type/netconf/ned-id, 'ned:lsa-netconf')
+15-Jul-2020::18:55:34.664 result: /devices/device/lsa-remote-node: false
+15-Jul-2020::18:55:34.668 evaluating: /devices/device/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::18:55:34.669 result: /devices/device/load-native-config: false
+15-Jul-2020::18:55:34.671 evaluating: /devices/disconnect/no-remote: /cluster/remote-node/name
+15-Jul-2020::18:55:34.676 get_next(/cluster/remote-node) = false
+15-Jul-2020::18:55:34.676 result: /devices/disconnect/no-remote: false
+15-Jul-2020::18:55:34.679 evaluating: /devices/clear-trace/no-remote: /cluster/remote-node/name
+15-Jul-2020::18:55:34.690 get_next(/cluster/remote-node) = false
+15-Jul-2020::18:55:34.690 result: /devices/clear-trace/no-remote: false
+15-Jul-2020::18:55:34.868 query 16: evaluating: device
+15-Jul-2020::18:55:34.868 query 16: selection: name
+15-Jul-2020::18:55:34.868 query 16: selection: address
+15-Jul-2020::18:55:34.869 query 16: selection: port
+15-Jul-2020::18:55:34.869 query 16: selection: device-type/*/ned-id
+15-Jul-2020::18:55:34.869 query 16: selection: count(./service-list)
+15-Jul-2020::18:55:34.869 query 16: selection: ./alarm-summary/criticals
+15-Jul-2020::18:55:34.870 query 16: selection: ./alarm-summary/majors
+15-Jul-2020::18:55:34.870 query 16: selection: ./alarm-summary/minors
+15-Jul-2020::18:55:34.870 query 16: selection: ./alarm-summary/warnings
+15-Jul-2020::18:55:34.870 query 16: selection: ./alarm-summary/indeterminates
+15-Jul-2020::18:55:34.880 query 16: result: 2 nodes
+15-Jul-2020::18:55:59.823 query 17: evaluating: /devices/device[name='Development_Access-SW01']/module
+15-Jul-2020::18:55:59.823 query 17: selection: name
+15-Jul-2020::18:55:59.836 query 17: result: one node
+15-Jul-2020::18:55:59.886 evaluating: /devices/device[name='Development_Access-SW01']/lsa-remote-node: derived-from-or-self(../device-type/netconf/ned-id, 'ned:lsa-netconf')
+15-Jul-2020::18:55:59.887 result: /devices/device[name='Development_Access-SW01']/lsa-remote-node: false
+15-Jul-2020::18:55:59.889 evaluating: /devices/device[name='Development_Access-SW01']/device-type/lsa-additional-ned-id: derived-from-or-self(../netconf/ned-id, 'ned:lsa-netconf')
+15-Jul-2020::18:55:59.889 result: /devices/device[name='Development_Access-SW01']/device-type/lsa-additional-ned-id: false
+15-Jul-2020::18:55:59.911 evaluating: /devices/device[name='Development_Access-SW01']/migrate/lsa-additional-ned-id: derived-from-or-self(../../device-type/netconf/ned-id, 'ned:lsa-netconf')
+15-Jul-2020::18:55:59.915 result: /devices/device[name='Development_Access-SW01']/migrate/lsa-additional-ned-id: false
+15-Jul-2020::18:55:59.924 evaluating: /devices/device[name='Development_Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::18:55:59.926 result: /devices/device[name='Development_Access-SW01']/load-native-config: false
+15-Jul-2020::18:56:01.111 get_next(/devices/authgroups/group) = {default}
+15-Jul-2020::18:56:01.127 get_next(/devices/authgroups/group[name='default']) = false
+15-Jul-2020::18:56:01.131 get_next(/cluster/remote-node) = false
+15-Jul-2020::18:56:01.131 get_next(/devices/profiles/profile) = false
+15-Jul-2020::18:56:01.933 query 18: evaluating: /devices/device
+15-Jul-2020::18:56:01.939 query 18: selection: name
+15-Jul-2020::18:56:01.941 query 18: selection: local-user
+15-Jul-2020::18:56:01.941 query 18: selection: description
+15-Jul-2020::18:56:01.942 query 18: selection: authgroup
+15-Jul-2020::18:56:01.942 query 18: selection: device-profile
+15-Jul-2020::18:56:01.942 query 18: selection: connect-timeout
+15-Jul-2020::18:56:01.943 query 18: selection: read-timeout
+15-Jul-2020::18:56:01.943 query 18: selection: write-timeout
+15-Jul-2020::18:56:01.943 query 18: selection: trace
+15-Jul-2020::18:56:01.943 query 18: selection: trace-output
+15-Jul-2020::18:56:01.943 query 18: selection: out-of-sync-commit-behaviour
+15-Jul-2020::18:56:01.944 query 18: selection: snmp-notification-address
+15-Jul-2020::18:56:01.956 query 18: result: 2 nodes
+15-Jul-2020::18:56:02.137 query 19: evaluating: /devices/device
+15-Jul-2020::18:56:02.137 query 19: selection: name
+15-Jul-2020::18:56:02.137 query 19: selection: local-user
+15-Jul-2020::18:56:02.137 query 19: selection: description
+15-Jul-2020::18:56:02.138 query 19: selection: authgroup
+15-Jul-2020::18:56:02.138 query 19: selection: device-profile
+15-Jul-2020::18:56:02.138 query 19: selection: connect-timeout
+15-Jul-2020::18:56:02.138 query 19: selection: read-timeout
+15-Jul-2020::18:56:02.138 query 19: selection: write-timeout
+15-Jul-2020::18:56:02.138 query 19: selection: trace
+15-Jul-2020::18:56:02.138 query 19: selection: trace-output
+15-Jul-2020::18:56:02.138 query 19: selection: out-of-sync-commit-behaviour
+15-Jul-2020::18:56:02.138 query 19: selection: snmp-notification-address
+15-Jul-2020::18:56:02.139 evaluating: /devices/device/lsa-remote-node: derived-from-or-self(../device-type/netconf/ned-id, 'ned:lsa-netconf')
+15-Jul-2020::18:56:02.140 result: /devices/device/lsa-remote-node: false
+15-Jul-2020::18:56:02.148 query 19: result: 2 nodes
+15-Jul-2020::18:56:02.150 evaluating: /devices/device/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::18:56:02.151 result: /devices/device/load-native-config: false
+15-Jul-2020::18:56:06.702 get_next(/devices/authgroups/group) = {default}
+15-Jul-2020::18:56:06.703 get_next(/devices/authgroups/group[name='default']) = false
+15-Jul-2020::18:56:06.708 get_next(/devices/profiles/profile) = false
+15-Jul-2020::18:56:06.713 get_next(/cluster/remote-node) = false
+15-Jul-2020::18:56:06.860 evaluating: /devices/device[name='Development_Access-SW01']/lsa-remote-node: derived-from-or-self(../device-type/netconf/ned-id, 'ned:lsa-netconf')
+15-Jul-2020::18:56:06.861 result: /devices/device[name='Development_Access-SW01']/lsa-remote-node: false
+15-Jul-2020::18:56:06.866 evaluating: /devices/device[name='Development_Access-SW01']/device-type/lsa-additional-ned-id: derived-from-or-self(../netconf/ned-id, 'ned:lsa-netconf')
+15-Jul-2020::18:56:06.870 result: /devices/device[name='Development_Access-SW01']/device-type/lsa-additional-ned-id: false
+15-Jul-2020::18:56:06.885 evaluating: /devices/device[name='Development_Access-SW01']/migrate/lsa-additional-ned-id: derived-from-or-self(../../device-type/netconf/ned-id, 'ned:lsa-netconf')
+15-Jul-2020::18:56:06.891 result: /devices/device[name='Development_Access-SW01']/migrate/lsa-additional-ned-id: false
+15-Jul-2020::18:56:06.898 evaluating: /devices/device[name='Development_Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::18:56:06.901 result: /devices/device[name='Development_Access-SW01']/load-native-config: false
+15-Jul-2020::18:56:07.747 get_next(/devices/profiles/profile) = false
+15-Jul-2020::18:56:07.754 get_next(/devices/authgroups/group) = {default}
+15-Jul-2020::18:56:07.757 get_next(/devices/authgroups/group[name='default']) = false
+15-Jul-2020::18:56:07.760 get_next(/cluster/remote-node) = false
+15-Jul-2020::18:58:08.825 evaluating: /devices/device/lsa-remote-node: derived-from-or-self(../device-type/netconf/ned-id, 'ned:lsa-netconf')
+15-Jul-2020::18:58:08.831 result: /devices/device/lsa-remote-node: false
+15-Jul-2020::18:58:08.836 evaluating: /devices/device/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::18:58:08.841 result: /devices/device/load-native-config: false
+15-Jul-2020::18:58:08.848 evaluating: /devices/disconnect/no-remote: /cluster/remote-node/name
+15-Jul-2020::18:58:08.848 get_next(/cluster/remote-node) = false
+15-Jul-2020::18:58:08.849 result: /devices/disconnect/no-remote: false
+15-Jul-2020::18:58:08.856 evaluating: /devices/clear-trace/no-remote: /cluster/remote-node/name
+15-Jul-2020::18:58:08.856 get_next(/cluster/remote-node) = false
+15-Jul-2020::18:58:08.856 result: /devices/clear-trace/no-remote: false
+15-Jul-2020::18:58:09.034 query 20: evaluating: device
+15-Jul-2020::18:58:09.034 query 20: selection: name
+15-Jul-2020::18:58:09.035 query 20: selection: address
+15-Jul-2020::18:58:09.035 query 20: selection: port
+15-Jul-2020::18:58:09.035 query 20: selection: device-type/*/ned-id
+15-Jul-2020::18:58:09.035 query 20: selection: count(./service-list)
+15-Jul-2020::18:58:09.035 query 20: selection: ./alarm-summary/criticals
+15-Jul-2020::18:58:09.035 query 20: selection: ./alarm-summary/majors
+15-Jul-2020::18:58:09.035 query 20: selection: ./alarm-summary/minors
+15-Jul-2020::18:58:09.036 query 20: selection: ./alarm-summary/warnings
+15-Jul-2020::18:58:09.036 query 20: selection: ./alarm-summary/indeterminates
+15-Jul-2020::18:58:09.039 query 20: result: 2 nodes
+15-Jul-2020::18:59:57.992 get_next(/devices/profiles/profile) = false
+15-Jul-2020::18:59:57.994 get_next(/cluster/remote-node) = false
+15-Jul-2020::18:59:57.994 get_next(/devices/authgroups/group) = {default}
+15-Jul-2020::18:59:58.004 get_next(/devices/authgroups/group[name='default']) = false
+15-Jul-2020::18:59:58.070 evaluating: /devices/device[name='Development_Access-SW01']/lsa-remote-node: derived-from-or-self(../device-type/netconf/ned-id, 'ned:lsa-netconf')
+15-Jul-2020::18:59:58.072 result: /devices/device[name='Development_Access-SW01']/lsa-remote-node: false
+15-Jul-2020::18:59:58.074 evaluating: /devices/device[name='Development_Access-SW01']/device-type/lsa-additional-ned-id: derived-from-or-self(../netconf/ned-id, 'ned:lsa-netconf')
+15-Jul-2020::18:59:58.074 result: /devices/device[name='Development_Access-SW01']/device-type/lsa-additional-ned-id: false
+15-Jul-2020::18:59:58.081 evaluating: /devices/device[name='Development_Access-SW01']/migrate/lsa-additional-ned-id: derived-from-or-self(../../device-type/netconf/ned-id, 'ned:lsa-netconf')
+15-Jul-2020::18:59:58.082 result: /devices/device[name='Development_Access-SW01']/migrate/lsa-additional-ned-id: false
+15-Jul-2020::18:59:58.090 evaluating: /devices/device[name='Development_Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::18:59:58.093 result: /devices/device[name='Development_Access-SW01']/load-native-config: false
+15-Jul-2020::18:59:59.094 get_next(/devices/authgroups/group) = {default}
+15-Jul-2020::18:59:59.096 get_next(/devices/authgroups/group[name='default']) = false
+15-Jul-2020::18:59:59.101 get_next(/devices/profiles/profile) = false
+15-Jul-2020::18:59:59.102 get_next(/cluster/remote-node) = false
+15-Jul-2020::19:00:13.149 evaluating: /devices/device[name='Development_Access-SW01']/lsa-remote-node: derived-from-or-self(../device-type/netconf/ned-id, 'ned:lsa-netconf')
+15-Jul-2020::19:00:13.150 result: /devices/device[name='Development_Access-SW01']/lsa-remote-node: false
+15-Jul-2020::19:00:13.153 evaluating: /devices/device[name='Development_Access-SW01']/device-type/lsa-additional-ned-id: derived-from-or-self(../netconf/ned-id, 'ned:lsa-netconf')
+15-Jul-2020::19:00:13.154 result: /devices/device[name='Development_Access-SW01']/device-type/lsa-additional-ned-id: false
+15-Jul-2020::19:00:13.162 evaluating: /devices/device[name='Development_Access-SW01']/migrate/lsa-additional-ned-id: derived-from-or-self(../../device-type/netconf/ned-id, 'ned:lsa-netconf')
+15-Jul-2020::19:00:13.162 result: /devices/device[name='Development_Access-SW01']/migrate/lsa-additional-ned-id: false
+15-Jul-2020::19:00:13.173 evaluating: /devices/device[name='Development_Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:00:13.176 result: /devices/device[name='Development_Access-SW01']/load-native-config: false
+15-Jul-2020::19:00:13.921 get_next(/devices/profiles/profile) = false
+15-Jul-2020::19:00:13.922 get_next(/devices/authgroups/group) = {default}
+15-Jul-2020::19:00:13.923 get_next(/devices/authgroups/group[name='default']) = false
+15-Jul-2020::19:00:13.935 get_next(/cluster/remote-node) = false
+15-Jul-2020::19:00:37.682 evaluating: /devices/device[name='Development_Access-SW01']/lsa-remote-node: derived-from-or-self(../device-type/netconf/ned-id, 'ned:lsa-netconf')
+15-Jul-2020::19:00:37.683 result: /devices/device[name='Development_Access-SW01']/lsa-remote-node: false
+15-Jul-2020::19:00:37.687 evaluating: /devices/device[name='Development_Access-SW01']/device-type/lsa-additional-ned-id: derived-from-or-self(../netconf/ned-id, 'ned:lsa-netconf')
+15-Jul-2020::19:00:37.688 result: /devices/device[name='Development_Access-SW01']/device-type/lsa-additional-ned-id: false
+15-Jul-2020::19:00:37.715 evaluating: /devices/device[name='Development_Access-SW01']/migrate/lsa-additional-ned-id: derived-from-or-self(../../device-type/netconf/ned-id, 'ned:lsa-netconf')
+15-Jul-2020::19:00:37.716 result: /devices/device[name='Development_Access-SW01']/migrate/lsa-additional-ned-id: false
+15-Jul-2020::19:00:37.728 evaluating: /devices/device[name='Development_Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:00:37.729 result: /devices/device[name='Development_Access-SW01']/load-native-config: false
+15-Jul-2020::19:00:38.638 get_next(/devices/profiles/profile) = false
+15-Jul-2020::19:00:38.641 get_next(/devices/authgroups/group) = {default}
+15-Jul-2020::19:00:38.649 get_next(/devices/authgroups/group[name='default']) = false
+15-Jul-2020::19:00:38.655 get_next(/cluster/remote-node) = false
+15-Jul-2020::19:01:05.439 evaluating: /devices/device/lsa-remote-node: derived-from-or-self(../device-type/netconf/ned-id, 'ned:lsa-netconf')
+15-Jul-2020::19:01:05.443 result: /devices/device/lsa-remote-node: false
+15-Jul-2020::19:01:05.453 evaluating: /devices/device/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:01:05.453 result: /devices/device/load-native-config: false
+15-Jul-2020::19:01:05.464 evaluating: /devices/disconnect/no-remote: /cluster/remote-node/name
+15-Jul-2020::19:01:05.467 get_next(/cluster/remote-node) = false
+15-Jul-2020::19:01:05.468 result: /devices/disconnect/no-remote: false
+15-Jul-2020::19:01:05.471 evaluating: /devices/clear-trace/no-remote: /cluster/remote-node/name
+15-Jul-2020::19:01:05.475 get_next(/cluster/remote-node) = false
+15-Jul-2020::19:01:05.475 result: /devices/clear-trace/no-remote: false
+15-Jul-2020::19:01:05.622 query 21: evaluating: device
+15-Jul-2020::19:01:05.622 query 21: selection: name
+15-Jul-2020::19:01:05.622 query 21: selection: address
+15-Jul-2020::19:01:05.622 query 21: selection: port
+15-Jul-2020::19:01:05.622 query 21: selection: device-type/*/ned-id
+15-Jul-2020::19:01:05.622 query 21: selection: count(./service-list)
+15-Jul-2020::19:01:05.623 query 21: selection: ./alarm-summary/criticals
+15-Jul-2020::19:01:05.623 query 21: selection: ./alarm-summary/majors
+15-Jul-2020::19:01:05.623 query 21: selection: ./alarm-summary/minors
+15-Jul-2020::19:01:05.623 query 21: selection: ./alarm-summary/warnings
+15-Jul-2020::19:01:05.623 query 21: selection: ./alarm-summary/indeterminates
+15-Jul-2020::19:01:05.626 query 21: result: 2 nodes
+15-Jul-2020::19:25:23.506 evaluating: /devices/device[name='Dev-Access-SW01']/lsa-remote-node: derived-from-or-self(../device-type/netconf/ned-id, 'ned:lsa-netconf')
+15-Jul-2020::19:25:23.507 result: /devices/device[name='Dev-Access-SW01']/lsa-remote-node: false
+15-Jul-2020::19:25:23.508 evaluating: /devices/device[name='Dev-Access-SW01']/device-type/lsa-additional-ned-id: derived-from-or-self(../netconf/ned-id, 'ned:lsa-netconf')
+15-Jul-2020::19:25:23.509 result: /devices/device[name='Dev-Access-SW01']/device-type/lsa-additional-ned-id: false
+15-Jul-2020::19:25:24.946 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:25:24.949 result: /devices/device[name='Dev-Access-SW01']/load-native-config: false
+15-Jul-2020::19:25:26.084 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:25:26.086 result: /devices/device[name='Dev-Access-SW01']/load-native-config: false
+15-Jul-2020::19:25:26.301 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:25:26.302 result: /devices/device[name='Dev-Access-SW01']/load-native-config: false
+15-Jul-2020::19:25:39.610 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:25:39.612 result: /devices/device[name='Dev-Access-SW01']/load-native-config: false
+15-Jul-2020::19:25:52.091 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:25:52.093 result: /devices/device[name='Dev-Access-SW01']/load-native-config: false
+15-Jul-2020::19:25:53.475 get_next(/devices/authgroups/group) = {default}
+15-Jul-2020::19:25:53.476 get_next(/devices/authgroups/group[name='default']) = {labadmin}
+15-Jul-2020::19:25:53.477 get_next(/devices/authgroups/group[name='labadmin']) = false
+15-Jul-2020::19:25:53.478 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:25:53.479 result: /devices/device[name='Dev-Access-SW01']/load-native-config: false
+15-Jul-2020::19:25:56.880 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:25:56.881 result: /devices/device[name='Dev-Access-SW01']/load-native-config: false
+15-Jul-2020::19:26:02.757 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:26:02.760 result: /devices/device[name='Dev-Access-SW01']/load-native-config: false
+15-Jul-2020::19:26:08.345 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:26:08.347 result: /devices/device[name='Dev-Access-SW01']/load-native-config: false
+15-Jul-2020::19:26:10.305 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:26:10.306 result: /devices/device[name='Dev-Access-SW01']/load-native-config: false
+15-Jul-2020::19:26:11.236 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:26:11.238 result: /devices/device[name='Dev-Access-SW01']/load-native-config: false
+15-Jul-2020::19:26:14.837 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:26:14.838 result: /devices/device[name='Dev-Access-SW01']/load-native-config: false
+15-Jul-2020::19:26:15.109 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:26:15.110 result: /devices/device[name='Dev-Access-SW01']/load-native-config: false
+15-Jul-2020::19:26:22.261 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:26:22.262 result: /devices/device[name='Dev-Access-SW01']/load-native-config: false
+15-Jul-2020::19:26:46.804 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:26:46.805 result: /devices/device[name='Dev-Access-SW01']/load-native-config: false
+15-Jul-2020::19:26:49.320 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:26:49.321 result: /devices/device[name='Dev-Access-SW01']/load-native-config: false
+15-Jul-2020::19:26:49.630 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:26:49.633 result: /devices/device[name='Dev-Access-SW01']/load-native-config: true
+15-Jul-2020::19:26:53.384 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:26:53.385 result: /devices/device[name='Dev-Access-SW01']/load-native-config: false
+15-Jul-2020::19:27:15.054 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:27:15.055 result: /devices/device[name='Dev-Access-SW01']/load-native-config: false
+15-Jul-2020::19:27:20.296 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:27:20.297 result: /devices/device[name='Dev-Access-SW01']/load-native-config: false
+15-Jul-2020::19:27:26.981 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:27:26.982 result: /devices/device[name='Dev-Access-SW01']/load-native-config: true
+15-Jul-2020::19:27:29.114 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:27:29.116 result: /devices/device[name='Dev-Access-SW01']/load-native-config: true
+15-Jul-2020::19:27:30.675 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:27:30.677 result: /devices/device[name='Dev-Access-SW01']/load-native-config: true
+15-Jul-2020::19:27:32.360 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:27:32.361 result: /devices/device[name='Dev-Access-SW01']/load-native-config: true
+15-Jul-2020::19:27:33.990 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:27:33.991 result: /devices/device[name='Dev-Access-SW01']/load-native-config: true
+15-Jul-2020::19:27:35.850 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:27:35.852 result: /devices/device[name='Dev-Access-SW01']/load-native-config: true
+15-Jul-2020::19:27:37.027 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:27:37.028 result: /devices/device[name='Dev-Access-SW01']/load-native-config: true
+15-Jul-2020::19:27:39.526 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:27:39.527 result: /devices/device[name='Dev-Access-SW01']/load-native-config: true
+15-Jul-2020::19:27:42.812 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:27:42.813 result: /devices/device[name='Dev-Access-SW01']/load-native-config: true
+15-Jul-2020::19:27:42.881 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:27:42.882 result: /devices/device[name='Dev-Access-SW01']/load-native-config: true
+15-Jul-2020::19:27:43.168 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:27:43.168 result: /devices/device[name='Dev-Access-SW01']/load-native-config: true
+15-Jul-2020::19:27:47.835 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:27:47.835 result: /devices/device[name='Dev-Access-SW01']/load-native-config: true
+15-Jul-2020::19:27:49.010 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:27:49.011 result: /devices/device[name='Dev-Access-SW01']/load-native-config: true
+15-Jul-2020::19:27:53.323 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:27:53.324 result: /devices/device[name='Dev-Access-SW01']/load-native-config: true
+15-Jul-2020::19:27:54.261 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:27:54.263 result: /devices/device[name='Dev-Access-SW01']/load-native-config: true
+15-Jul-2020::19:27:56.024 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:27:56.026 result: /devices/device[name='Dev-Access-SW01']/load-native-config: true
+15-Jul-2020::19:27:58.433 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:27:58.434 result: /devices/device[name='Dev-Access-SW01']/load-native-config: true
+15-Jul-2020::19:28:00.363 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:28:00.364 result: /devices/device[name='Dev-Access-SW01']/load-native-config: true
+15-Jul-2020::19:28:03.839 evaluating: /devices/device[name='Dev-Access-SW01']: remote-node or address or lsa-remote-node or ./state/admin-state = 'call-home'
+15-Jul-2020::19:28:03.840 get_elem(/devices/device[name='Dev-Access-SW01']/remote-node) = not_found
+15-Jul-2020::19:28:03.841 get_elem(/devices/device[name='Dev-Access-SW01']/address) = 192.168.0.2
+15-Jul-2020::19:28:03.841 result: /devices/device[name='Dev-Access-SW01']: true
+15-Jul-2020::19:28:03.841 evaluating: /devices/device[name='Dev-Access-SW01']/authgroup: /devices/authgroups/group/name
+15-Jul-2020::19:28:03.842 get_elem(/devices/device[name='Dev-Access-SW01']/authgroup) = labadmin
+15-Jul-2020::19:28:03.842 exists(/devices/authgroups/group[name='labadmin']) = true
+15-Jul-2020::19:28:03.842 get_elem(/devices/device[name='Dev-Access-SW01']/authgroup) = labadmin
+15-Jul-2020::19:28:03.843 result: /devices/device[name='Dev-Access-SW01']/authgroup: true
+15-Jul-2020::19:28:03.843 evaluating: /devices/device[name='Dev-Access-SW01']/state/admin-state: (. = 'call-home' and ../../local-user and ../../device-type/netconf) or (. != 'call-home')
+15-Jul-2020::19:28:03.844 get_elem(/devices/device[name='Dev-Access-SW01']/state/admin-state) = southbound-locked
+15-Jul-2020::19:28:03.844 get_elem(/devices/device[name='Dev-Access-SW01']/state/admin-state) = southbound-locked
+15-Jul-2020::19:28:03.844 result: /devices/device[name='Dev-Access-SW01']/state/admin-state: true
+15-Jul-2020::19:28:03.845 evaluating: /devices/device[name='Dev-Access-SW01']/device-type: ../remote-node or netconf or generic or cli or snmp
+15-Jul-2020::19:28:03.845 get_elem(/devices/device[name='Dev-Access-SW01']/remote-node) = not_found
+15-Jul-2020::19:28:03.846 result: /devices/device[name='Dev-Access-SW01']/device-type: true
+15-Jul-2020::19:28:03.846 evaluating: /devices/device[name='Dev-Access-SW01']/device-type: not(boolean(../remote-node) and boolean(./*/ned-id))
+15-Jul-2020::19:28:03.847 get_elem(/devices/device[name='Dev-Access-SW01']/remote-node) = not_found
+15-Jul-2020::19:28:03.848 result: /devices/device[name='Dev-Access-SW01']/device-type: true
+15-Jul-2020::19:28:03.848 evaluating: /devices/device[name='Dev-Access-SW01']/device-type/cli: ../../authgroup
+15-Jul-2020::19:28:03.849 get_elem(/devices/device[name='Dev-Access-SW01']/authgroup) = labadmin
+15-Jul-2020::19:28:03.849 result: /devices/device[name='Dev-Access-SW01']/device-type/cli: true
+15-Jul-2020::19:28:33.536 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:28:33.537 result: /devices/device[name='Dev-Access-SW01']/load-native-config: true
+15-Jul-2020::19:28:48.711 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:28:48.719 result: /devices/device[name='Dev-Access-SW01']/load-native-config: true
+15-Jul-2020::19:28:49.402 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:28:49.403 result: /devices/device[name='Dev-Access-SW01']/load-native-config: true
+15-Jul-2020::19:28:50.288 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:28:50.289 result: /devices/device[name='Dev-Access-SW01']/load-native-config: true
+15-Jul-2020::19:28:50.778 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:28:50.779 result: /devices/device[name='Dev-Access-SW01']/load-native-config: true
+15-Jul-2020::19:28:54.633 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:28:54.634 result: /devices/device[name='Dev-Access-SW01']/load-native-config: true
+15-Jul-2020::19:28:55.745 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:28:55.746 result: /devices/device[name='Dev-Access-SW01']/load-native-config: true
+15-Jul-2020::19:28:56.026 evaluating: /devices/device[name='Dev-Access-SW01']: remote-node or address or lsa-remote-node or ./state/admin-state = 'call-home'
+15-Jul-2020::19:28:56.026 get_elem(/devices/device[name='Dev-Access-SW01']/remote-node) = not_found
+15-Jul-2020::19:28:56.027 get_elem(/devices/device[name='Dev-Access-SW01']/address) = 192.168.0.2
+15-Jul-2020::19:28:56.027 result: /devices/device[name='Dev-Access-SW01']: true
+15-Jul-2020::19:28:56.027 evaluating: /devices/device[name='Dev-Access-SW01']/state/admin-state: (. = 'call-home' and ../../local-user and ../../device-type/netconf) or (. != 'call-home')
+15-Jul-2020::19:28:56.028 get_elem(/devices/device[name='Dev-Access-SW01']/state/admin-state) = unlocked
+15-Jul-2020::19:28:56.028 get_elem(/devices/device[name='Dev-Access-SW01']/state/admin-state) = unlocked
+15-Jul-2020::19:28:56.028 result: /devices/device[name='Dev-Access-SW01']/state/admin-state: true
+15-Jul-2020::19:28:56.028 evaluating: /devices/device[name='Dev-Access-SW01']/device-type: ../remote-node or netconf or generic or cli or snmp
+15-Jul-2020::19:28:56.029 get_elem(/devices/device[name='Dev-Access-SW01']/remote-node) = not_found
+15-Jul-2020::19:28:56.029 result: /devices/device[name='Dev-Access-SW01']/device-type: true
+15-Jul-2020::19:28:56.029 evaluating: /devices/device[name='Dev-Access-SW01']/device-type: not(boolean(../remote-node) and boolean(./*/ned-id))
+15-Jul-2020::19:28:56.030 get_elem(/devices/device[name='Dev-Access-SW01']/remote-node) = not_found
+15-Jul-2020::19:28:56.030 result: /devices/device[name='Dev-Access-SW01']/device-type: true
+15-Jul-2020::19:28:56.030 evaluating: /devices/device[name='Dev-Access-SW01']/device-type/cli: ../../authgroup
+15-Jul-2020::19:28:56.031 get_elem(/devices/device[name='Dev-Access-SW01']/authgroup) = labadmin
+15-Jul-2020::19:28:56.031 result: /devices/device[name='Dev-Access-SW01']/device-type/cli: true
+15-Jul-2020::19:29:07.840 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:29:07.841 result: /devices/device[name='Dev-Access-SW01']/load-native-config: true
+15-Jul-2020::19:29:08.294 evaluating: /devices/device[name='Dev-Access-SW01']/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:29:08.301 result: /devices/device[name='Dev-Access-SW01']/load-native-config: true
+15-Jul-2020::19:29:08.497 evaluating: /devices/device/lsa-remote-node: derived-from-or-self(../device-type/netconf/ned-id, 'ned:lsa-netconf')
+15-Jul-2020::19:29:08.498 result: /devices/device/lsa-remote-node: false
+15-Jul-2020::19:29:08.502 evaluating: /devices/device/load-native-config: ../device-type/cli or ../device-type/generic or ../device-type/netconf
+15-Jul-2020::19:29:08.503 result: /devices/device/load-native-config: false
+15-Jul-2020::19:29:08.506 evaluating: /devices/disconnect/no-remote: /cluster/remote-node/name
+15-Jul-2020::19:29:08.507 get_next(/cluster/remote-node) = false
+15-Jul-2020::19:29:08.507 result: /devices/disconnect/no-remote: false
+15-Jul-2020::19:29:08.509 evaluating: /devices/clear-trace/no-remote: /cluster/remote-node/name
+15-Jul-2020::19:29:08.509 get_next(/cluster/remote-node) = false
+15-Jul-2020::19:29:08.509 result: /devices/clear-trace/no-remote: false
+15-Jul-2020::19:29:08.659 query 22: evaluating: device
+15-Jul-2020::19:29:08.659 query 22: selection: name
+15-Jul-2020::19:29:08.659 query 22: selection: address
+15-Jul-2020::19:29:08.659 query 22: selection: port
+15-Jul-2020::19:29:08.659 query 22: selection: device-type/*/ned-id
+15-Jul-2020::19:29:08.659 query 22: selection: count(./service-list)
+15-Jul-2020::19:29:08.660 query 22: selection: ./alarm-summary/criticals
+15-Jul-2020::19:29:08.660 query 22: selection: ./alarm-summary/majors
+15-Jul-2020::19:29:08.660 query 22: selection: ./alarm-summary/minors
+15-Jul-2020::19:29:08.660 query 22: selection: ./alarm-summary/warnings
+15-Jul-2020::19:29:08.660 query 22: selection: ./alarm-summary/indeterminates
+15-Jul-2020::19:29:08.676 query 22: result: 3 nodes
+15-Jul-2020::19:46:12.498 evaluating: /devices/device[name='Dev-Access-SW01']/live-status/nm:netconf: not(../../ncs:capability) or ../../ncs:capability[ncs:uri='urn:ietf:params:netconf:capability:notification:1.0']
+15-Jul-2020::19:46:12.501 get_next(/devices/device[name='Dev-Access-SW01']/capability) = false
+15-Jul-2020::19:46:12.501 result: /devices/device[name='Dev-Access-SW01']/live-status/nm:netconf: true
+15-Jul-2020::19:46:12.537 evaluating: /devices/device[name='Dev-Access-SW01']/lsa-remote-node: derived-from-or-self(../device-type/netconf/ned-id, 'ned:lsa-netconf')
+15-Jul-2020::19:46:12.538 result: /devices/device[name='Dev-Access-SW01']/lsa-remote-node: false
+15-Jul-2020::19:46:35.969 evaluating: /devices/device[name='Dev-Access-SW01']/live-status/nm:netconf: not(../../ncs:capability) or ../../ncs:capability[ncs:uri='urn:ietf:params:netconf:capability:notification:1.0']
+15-Jul-2020::19:46:35.971 get_next(/devices/device[name='Dev-Access-SW01']/capability) = false
+15-Jul-2020::19:46:35.971 result: /devices/device[name='Dev-Access-SW01']/live-status/nm:netconf: true
+15-Jul-2020::19:46:35.990 evaluating: /devices/device[name='Dev-Access-SW01']/lsa-remote-node: derived-from-or-self(../device-type/netconf/ned-id, 'ned:lsa-netconf')
+15-Jul-2020::19:46:35.991 result: /devices/device[name='Dev-Access-SW01']/lsa-remote-node: false
